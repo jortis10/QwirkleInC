@@ -1,6 +1,6 @@
 # QwirkleInC
 
-Jeu Qwirkle en langage C.
+Jeu Qwirkle en langage C réalisé dans le cadre d'un projet avec un groupe de 4 personnes.
 
 Le jeu  Qwirkle se compose de 108 tuiles. Les tuiles peuvent être de plusieurs couleurs et formes différentes.
 Les couleurs sont le rouge, l'orange, le jaune, le vert, le bleu et le violet.
