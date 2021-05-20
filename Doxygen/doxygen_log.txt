@@ -1,0 +1,1274 @@
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching INPUT for files to process...
+Searching for files in directory /home/lea/Desktop/QwirkleInC/Qwirkle
+Searching for files in directory /home/lea/Desktop/QwirkleInC/Qwirkle/bin
+Searching for files in directory /home/lea/Desktop/QwirkleInC/Qwirkle/bin/Debug
+Searching for files in directory /home/lea/Desktop/QwirkleInC/Qwirkle/Controleur
+Searching for files in directory /home/lea/Desktop/QwirkleInC/Qwirkle/fonts
+Searching for files in directory /home/lea/Desktop/QwirkleInC/Qwirkle/Modele
+Searching for files in directory /home/lea/Desktop/QwirkleInC/Qwirkle/obj
+Searching for files in directory /home/lea/Desktop/QwirkleInC/Qwirkle/obj/Debug
+Searching for files in directory /home/lea/Desktop/QwirkleInC/Qwirkle/obj/Debug/Controleur
+Searching for files in directory /home/lea/Desktop/QwirkleInC/Qwirkle/obj/Debug/Modele
+Searching for files in directory /home/lea/Desktop/QwirkleInC/Qwirkle/obj/Debug/Vue
+Searching for files in directory /home/lea/Desktop/QwirkleInC/Qwirkle/res
+Searching for files in directory /home/lea/Desktop/QwirkleInC/Qwirkle/Vue
+Reading and parsing tag files
+Parsing files
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.h...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.h...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.h...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.h...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.h...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.h...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/main.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/main.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.h...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.h...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.h...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.h...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.h...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.h...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.h...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.h...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.h...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.h...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test.h...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test.h...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test_gestionSac.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test_gestionSac.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test_joueur.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test_joueur.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test_partie.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test_partie.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test_plateau.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test_plateau.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test_regle.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test_regle.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test_score.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test_score.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test_tuile.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test_tuile.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/tuile.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/tuile.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/tuile.h...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Modele/tuile.h...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_plateau.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_plateau.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_plateau.h...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_plateau.h...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c...
+Preprocessing /home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h...
+Parsing file /home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/test_regle.c:2: warning: the name `test_regles.c' supplied as the second argument in the \file statement is not an input file
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:2: warning: the name `affichage.h' supplied as the second argument in the \file statement is not an input file
+Building class list...
+Associating documentation with classes...
+Computing nesting relations for classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:66: warning: documented symbol `void modifierZonedeJeu' was not declared or defined.
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1096: warning: documented symbol `void afficheJoueurCourant' was not declared or defined.
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1134: warning: documented symbol `void afficheJoueurCourant_demo' was not declared or defined.
+Creating members for template instances...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Freeing entry tree
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Computing dependencies between directories...
+Generating citations page...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating code for file Controleur/controleur.h...
+Generating code for file Controleur/message.h...
+Generating code for file Controleur/respectRegles.h...
+Generating code for file Modele/joueur.h...
+Generating code for file Modele/partie.h...
+Generating code for file Modele/plateau.h...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:102: warning: End of list marker found without any preceding list items
+Generating code for file Modele/regle.h...
+Generating code for file Modele/score.h...
+Generating code for file Modele/test.h...
+Generating code for file Modele/tuile.h...
+Generating code for file Vue/affichage_plateau.h...
+Generating code for file Vue/affichage_sdl.h...
+Generating file documentation...
+Generating docs for file Controleur/controleur.c...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:58: warning: argument 'Partie' of command @param is not found in the argument list of action_joueur(Partie *partie, SDL_Renderer *renderer, Input *input)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:65: warning: The following parameters of action_joueur(Partie *partie, SDL_Renderer *renderer, Input *input) are not documented:
+  parameter 'partie'
+  parameter 'renderer'
+  parameter 'input'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:220: warning: argument 'Partie' of command @param is not found in the argument list of action_piocher_tuiles(Partie *partie, SDL_Renderer *renderer, Input *input, int *xoffset, int *yoffset)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:227: warning: The following parameters of action_piocher_tuiles(Partie *partie, SDL_Renderer *renderer, Input *input, int *xoffset, int *yoffset) are not documented:
+  parameter 'partie'
+  parameter 'renderer'
+  parameter 'input'
+  parameter 'xoffset'
+  parameter 'yoffset'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:381: warning: argument 'Partie' of command @param is not found in the argument list of action_poser_tuiles(Partie *partie, SDL_Renderer *renderer, Input *input, int *xoffset, int *yoffset)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:387: warning: The following parameters of action_poser_tuiles(Partie *partie, SDL_Renderer *renderer, Input *input, int *xoffset, int *yoffset) are not documented:
+  parameter 'partie'
+  parameter 'renderer'
+  parameter 'input'
+  parameter 'xoffset'
+  parameter 'yoffset'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:721: warning: argument 'Partie' of command @param is not found in the argument list of action_quitter_partie(Partie *partie, SDL_Window *window, SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:728: warning: The following parameters of action_quitter_partie(Partie *partie, SDL_Window *window, SDL_Renderer *renderer) are not documented:
+  parameter 'partie'
+  parameter 'window'
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:785: warning: argument 'Partie' of command @param is not found in the argument list of arrows_rezising_plateau(Partie *partie, SDL_Renderer *renderer, Input *input, int *xoffset, int *yoffset)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:785: warning: argument 'none' of command @param is not found in the argument list of arrows_rezising_plateau(Partie *partie, SDL_Renderer *renderer, Input *input, int *xoffset, int *yoffset)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:790: warning: The following parameters of arrows_rezising_plateau(Partie *partie, SDL_Renderer *renderer, Input *input, int *xoffset, int *yoffset) are not documented:
+  parameter 'partie'
+  parameter 'renderer'
+  parameter 'input'
+  parameter 'xoffset'
+  parameter 'yoffset'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:839: warning: argument 'Partie' of command @param is not found in the argument list of arrows_rezising_posertuiles(Partie *partie, SDL_Renderer *renderer, Input *input, int tabtuilesposees[6], int *xoffset, int *yoffset)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:839: warning: argument 'none' of command @param is not found in the argument list of arrows_rezising_posertuiles(Partie *partie, SDL_Renderer *renderer, Input *input, int tabtuilesposees[6], int *xoffset, int *yoffset)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:845: warning: The following parameters of arrows_rezising_posertuiles(Partie *partie, SDL_Renderer *renderer, Input *input, int tabtuilesposees[6], int *xoffset, int *yoffset) are not documented:
+  parameter 'partie'
+  parameter 'renderer'
+  parameter 'input'
+  parameter 'tabtuilesposees'
+  parameter 'xoffset'
+  parameter 'yoffset'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:1010: warning: argument 'Partie' of command @param is not found in the argument list of fin_partie(Partie *partie, SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:1016: warning: The following parameters of fin_partie(Partie *partie, SDL_Renderer *renderer) are not documented:
+  parameter 'partie'
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:749: warning: argument 'Input' of command @param is not found in the argument list of init_input()
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:41: warning: argument 'un' of command @param is not found in the argument list of init_renderer(SDL_Window *window)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:41: warning: argument 'un' of command @param is not found in the argument list of init_renderer(SDL_Window *window)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:47: warning: The following parameters of init_renderer(SDL_Window *window) are not documented:
+  parameter 'window'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:24: warning: argument 'un' of command @param is not found in the argument list of init_window()
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:902: warning: argument 'Partie' of command @param is not found in the argument list of rules_check(Partie *partie, SDL_Renderer *renderer, int tabtuilesposees[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:902: warning: argument 'regleok' of command @param is not found in the argument list of rules_check(Partie *partie, SDL_Renderer *renderer, int tabtuilesposees[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:902: warning: argument '1' of command @param is not found in the argument list of rules_check(Partie *partie, SDL_Renderer *renderer, int tabtuilesposees[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:909: warning: The following parameters of rules_check(Partie *partie, SDL_Renderer *renderer, int tabtuilesposees[6]) are not documented:
+  parameter 'partie'
+  parameter 'renderer'
+  parameter 'tabtuilesposees'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:972: warning: argument 'Input' of command @param is not found in the argument list of updateEvent(Input *input)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:979: warning: The following parameters of updateEvent(Input *input) are not documented:
+  parameter 'input'
+Generating docs for file Controleur/controleur.h...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:58: warning: argument 'Partie' of command @param is not found in the argument list of action_joueur(Partie *partie, SDL_Renderer *renderer, Input *input)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.h:33: warning: The following parameters of action_joueur(Partie *partie, SDL_Renderer *renderer, Input *input) are not documented:
+  parameter 'partie'
+  parameter 'renderer'
+  parameter 'input'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:220: warning: argument 'Partie' of command @param is not found in the argument list of action_piocher_tuiles(Partie *partie, SDL_Renderer *renderer, Input *input, int *xoffset, int *yoffset)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.h:34: warning: The following parameters of action_piocher_tuiles(Partie *partie, SDL_Renderer *renderer, Input *input, int *xoffset, int *yoffset) are not documented:
+  parameter 'partie'
+  parameter 'renderer'
+  parameter 'input'
+  parameter 'xoffset'
+  parameter 'yoffset'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:381: warning: argument 'Partie' of command @param is not found in the argument list of action_poser_tuiles(Partie *partie, SDL_Renderer *renderer, Input *input, int *xoffset, int *yoffset)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.h:35: warning: The following parameters of action_poser_tuiles(Partie *partie, SDL_Renderer *renderer, Input *input, int *xoffset, int *yoffset) are not documented:
+  parameter 'partie'
+  parameter 'renderer'
+  parameter 'input'
+  parameter 'xoffset'
+  parameter 'yoffset'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:721: warning: argument 'Partie' of command @param is not found in the argument list of action_quitter_partie(Partie *partie, SDL_Window *window, SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.h:36: warning: The following parameters of action_quitter_partie(Partie *partie, SDL_Window *window, SDL_Renderer *renderer) are not documented:
+  parameter 'partie'
+  parameter 'window'
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:785: warning: argument 'Partie' of command @param is not found in the argument list of arrows_rezising_plateau(Partie *partie, SDL_Renderer *renderer, Input *input, int *xoffset, int *yoffset)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:785: warning: argument 'none' of command @param is not found in the argument list of arrows_rezising_plateau(Partie *partie, SDL_Renderer *renderer, Input *input, int *xoffset, int *yoffset)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.h:41: warning: The following parameters of arrows_rezising_plateau(Partie *partie, SDL_Renderer *renderer, Input *input, int *xoffset, int *yoffset) are not documented:
+  parameter 'partie'
+  parameter 'renderer'
+  parameter 'input'
+  parameter 'xoffset'
+  parameter 'yoffset'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:839: warning: argument 'Partie' of command @param is not found in the argument list of arrows_rezising_posertuiles(Partie *partie, SDL_Renderer *renderer, Input *input, int tabtuilesposees[6], int *xoffset, int *yoffset)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:839: warning: argument 'none' of command @param is not found in the argument list of arrows_rezising_posertuiles(Partie *partie, SDL_Renderer *renderer, Input *input, int tabtuilesposees[6], int *xoffset, int *yoffset)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.h:42: warning: The following parameters of arrows_rezising_posertuiles(Partie *partie, SDL_Renderer *renderer, Input *input, int tabtuilesposees[6], int *xoffset, int *yoffset) are not documented:
+  parameter 'partie'
+  parameter 'renderer'
+  parameter 'input'
+  parameter 'tabtuilesposees'
+  parameter 'xoffset'
+  parameter 'yoffset'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:1010: warning: argument 'Partie' of command @param is not found in the argument list of fin_partie(Partie *partie, SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.h:37: warning: The following parameters of fin_partie(Partie *partie, SDL_Renderer *renderer) are not documented:
+  parameter 'partie'
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:749: warning: argument 'Input' of command @param is not found in the argument list of init_input()
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:41: warning: argument 'un' of command @param is not found in the argument list of init_renderer(SDL_Window *window)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:41: warning: argument 'un' of command @param is not found in the argument list of init_renderer(SDL_Window *window)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.h:31: warning: The following parameters of init_renderer(SDL_Window *window) are not documented:
+  parameter 'window'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:24: warning: argument 'un' of command @param is not found in the argument list of init_window()
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:902: warning: argument 'Partie' of command @param is not found in the argument list of rules_check(Partie *partie, SDL_Renderer *renderer, int tabtuilesposees[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:902: warning: argument 'regleok' of command @param is not found in the argument list of rules_check(Partie *partie, SDL_Renderer *renderer, int tabtuilesposees[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:902: warning: argument '1' of command @param is not found in the argument list of rules_check(Partie *partie, SDL_Renderer *renderer, int tabtuilesposees[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.h:43: warning: The following parameters of rules_check(Partie *partie, SDL_Renderer *renderer, int tabtuilesposees[6]) are not documented:
+  parameter 'partie'
+  parameter 'renderer'
+  parameter 'tabtuilesposees'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.c:972: warning: argument 'Input' of command @param is not found in the argument list of updateEvent(Input *input)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/controleur.h:39: warning: The following parameters of updateEvent(Input *input) are not documented:
+  parameter 'input'
+Generating docs for file Controleur/message.c...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.c:36: warning: argument 'Partie' of command @param is not found in the argument list of message_action_joueur(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.c:42: warning: The following parameters of message_action_joueur(Partie *p) are not documented:
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.c:234: warning: argument 'Partie' of command @param is not found in the argument list of message_fin_de_partie(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.c:243: warning: The following parameters of message_fin_de_partie(Partie *p) are not documented:
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.c:92: warning: argument 'Partie' of command @param is not found in the argument list of message_piocher_tuiles(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.c:99: warning: The following parameters of message_piocher_tuiles(Partie *p) are not documented:
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.c:139: warning: argument 'Partie' of command @param is not found in the argument list of message_poser_tuiles(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.c:145: warning: The following parameters of message_poser_tuiles(Partie *p) are not documented:
+  parameter 'p'
+Generating docs for file Controleur/message.h...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.c:36: warning: argument 'Partie' of command @param is not found in the argument list of message_action_joueur(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.h:21: warning: The following parameters of message_action_joueur(Partie *p) are not documented:
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.c:234: warning: argument 'Partie' of command @param is not found in the argument list of message_fin_de_partie(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.h:25: warning: The following parameters of message_fin_de_partie(Partie *p) are not documented:
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.c:92: warning: argument 'Partie' of command @param is not found in the argument list of message_piocher_tuiles(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.h:23: warning: The following parameters of message_piocher_tuiles(Partie *p) are not documented:
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.c:139: warning: argument 'Partie' of command @param is not found in the argument list of message_poser_tuiles(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/message.h:22: warning: The following parameters of message_poser_tuiles(Partie *p) are not documented:
+  parameter 'p'
+Generating docs for file Controleur/respectRegles.c...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:272: warning: argument 'int' of command @param is not found in the argument list of istabtuilesVide(int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:272: warning: argument 'retourne' of command @param is not found in the argument list of istabtuilesVide(int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:278: warning: The following parameters of istabtuilesVide(int tabtuiles[6]) are not documented:
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:20: warning: argument 'Partie' of command @param is not found in the argument list of isTuileCorrect(Partie *p, int tabtuiles[6], int indextuilecourante)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:20: warning: argument 'int' of command @param is not found in the argument list of isTuileCorrect(Partie *p, int tabtuiles[6], int indextuilecourante)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:20: warning: argument 'int' of command @param is not found in the argument list of isTuileCorrect(Partie *p, int tabtuiles[6], int indextuilecourante)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:20: warning: argument 'retourne' of command @param is not found in the argument list of isTuileCorrect(Partie *p, int tabtuiles[6], int indextuilecourante)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:37: warning: The following parameters of isTuileCorrect(Partie *p, int tabtuiles[6], int indextuilecourante) are not documented:
+  parameter 'p'
+  parameter 'tabtuiles'
+  parameter 'indextuilecourante'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:133: warning: argument 'Partie' of command @param is not found in the argument list of isTuileCorrect2(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:133: warning: argument 'int' of command @param is not found in the argument list of isTuileCorrect2(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:133: warning: argument 'int' of command @param is not found in the argument list of isTuileCorrect2(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:133: warning: argument 'retourne' of command @param is not found in the argument list of isTuileCorrect2(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:142: warning: The following parameters of isTuileCorrect2(Partie *p, int tabtuiles[6]) are not documented:
+  parameter 'p'
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:216: warning: argument 'Partie' of command @param is not found in the argument list of isWordCorrect(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:216: warning: argument 'retourne' of command @param is not found in the argument list of isWordCorrect(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:221: warning: The following parameters of isWordCorrect(Partie *p, int tabtuiles[6]) are not documented:
+  parameter 'p'
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:81: warning: argument 'Partie' of command @param is not found in the argument list of linkedtotherest(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:81: warning: argument 'int' of command @param is not found in the argument list of linkedtotherest(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:81: warning: argument 'int' of command @param is not found in the argument list of linkedtotherest(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:81: warning: argument '1' of command @param is not found in the argument list of linkedtotherest(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:89: warning: The following parameters of linkedtotherest(Partie *p, int tabtuiles[6]) are not documented:
+  parameter 'p'
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:64: warning: argument 'int' of command @param is not found in the argument list of nbrtuilesposee(int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:64: warning: argument 'renvoie' of command @param is not found in the argument list of nbrtuilesposee(int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:69: warning: The following parameters of nbrtuilesposee(int tabtuiles[6]) are not documented:
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:176: warning: argument 'Partie' of command @param is not found in the argument list of stillawordXy(Partie *p, Tuile *tuilemin, int nbrtuiles, int xory)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:176: warning: argument 'Tuile' of command @param is not found in the argument list of stillawordXy(Partie *p, Tuile *tuilemin, int nbrtuiles, int xory)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:176: warning: argument 'int' of command @param is not found in the argument list of stillawordXy(Partie *p, Tuile *tuilemin, int nbrtuiles, int xory)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:176: warning: argument 'int' of command @param is not found in the argument list of stillawordXy(Partie *p, Tuile *tuilemin, int nbrtuiles, int xory)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:176: warning: argument 'si' of command @param is not found in the argument list of stillawordXy(Partie *p, Tuile *tuilemin, int nbrtuiles, int xory)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:184: warning: The following parameters of stillawordXy(Partie *p, Tuile *tuilemin, int nbrtuiles, int xory) are not documented:
+  parameter 'p'
+  parameter 'tuilemin'
+  parameter 'nbrtuiles'
+  parameter 'xory'
+Generating docs for file Controleur/respectRegles.h...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:272: warning: argument 'int' of command @param is not found in the argument list of istabtuilesVide(int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:272: warning: argument 'retourne' of command @param is not found in the argument list of istabtuilesVide(int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.h:23: warning: The following parameters of istabtuilesVide(int tabtuiles[6]) are not documented:
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:20: warning: argument 'Partie' of command @param is not found in the argument list of isTuileCorrect(Partie *p, int tabtuiles[6], int indextuilecourante)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:20: warning: argument 'int' of command @param is not found in the argument list of isTuileCorrect(Partie *p, int tabtuiles[6], int indextuilecourante)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:20: warning: argument 'int' of command @param is not found in the argument list of isTuileCorrect(Partie *p, int tabtuiles[6], int indextuilecourante)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:20: warning: argument 'retourne' of command @param is not found in the argument list of isTuileCorrect(Partie *p, int tabtuiles[6], int indextuilecourante)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.h:20: warning: The following parameters of isTuileCorrect(Partie *p, int tabtuiles[6], int indextuilecourante) are not documented:
+  parameter 'p'
+  parameter 'tabtuiles'
+  parameter 'indextuilecourante'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:133: warning: argument 'Partie' of command @param is not found in the argument list of isTuileCorrect2(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:133: warning: argument 'int' of command @param is not found in the argument list of isTuileCorrect2(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:133: warning: argument 'int' of command @param is not found in the argument list of isTuileCorrect2(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:133: warning: argument 'retourne' of command @param is not found in the argument list of isTuileCorrect2(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.h:21: warning: The following parameters of isTuileCorrect2(Partie *p, int tabtuiles[6]) are not documented:
+  parameter 'p'
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:216: warning: argument 'Partie' of command @param is not found in the argument list of isWordCorrect(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:216: warning: argument 'retourne' of command @param is not found in the argument list of isWordCorrect(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.h:22: warning: The following parameters of isWordCorrect(Partie *p, int tabtuiles[6]) are not documented:
+  parameter 'p'
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:81: warning: argument 'Partie' of command @param is not found in the argument list of linkedtotherest(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:81: warning: argument 'int' of command @param is not found in the argument list of linkedtotherest(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:81: warning: argument 'int' of command @param is not found in the argument list of linkedtotherest(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:81: warning: argument '1' of command @param is not found in the argument list of linkedtotherest(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.h:24: warning: The following parameters of linkedtotherest(Partie *p, int tabtuiles[6]) are not documented:
+  parameter 'p'
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:64: warning: argument 'int' of command @param is not found in the argument list of nbrtuilesposee(int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:64: warning: argument 'renvoie' of command @param is not found in the argument list of nbrtuilesposee(int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.h:26: warning: The following parameters of nbrtuilesposee(int tabtuiles[6]) are not documented:
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:176: warning: argument 'Partie' of command @param is not found in the argument list of stillawordXy(Partie *p, Tuile *tuilemin, int nbrtuiles, int xory)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:176: warning: argument 'Tuile' of command @param is not found in the argument list of stillawordXy(Partie *p, Tuile *tuilemin, int nbrtuiles, int xory)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:176: warning: argument 'int' of command @param is not found in the argument list of stillawordXy(Partie *p, Tuile *tuilemin, int nbrtuiles, int xory)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:176: warning: argument 'int' of command @param is not found in the argument list of stillawordXy(Partie *p, Tuile *tuilemin, int nbrtuiles, int xory)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.c:176: warning: argument 'si' of command @param is not found in the argument list of stillawordXy(Partie *p, Tuile *tuilemin, int nbrtuiles, int xory)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Controleur/respectRegles.h:25: warning: The following parameters of stillawordXy(Partie *p, Tuile *tuilemin, int nbrtuiles, int xory) are not documented:
+  parameter 'p'
+  parameter 'tuilemin'
+  parameter 'nbrtuiles'
+  parameter 'xory'
+Generating docs for file main.c...
+Generating docs for file Modele/gestionSac.c...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:226: warning: argument 'pointeur' of command @param is not found in the argument list of action_piocher(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:226: warning: argument 'tab' of command @param is not found in the argument list of action_piocher(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:226: warning: argument 'tableau' of command @param is not found in the argument list of action_piocher(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:232: warning: The following parameters of action_piocher(Partie *p, int tabtuiles[6]) are not documented:
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:44: warning: argument 'pointeur' of command @param is not found in the argument list of genererTuileSac(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:20: warning: argument 'pointeur' of command @param is not found in the argument list of mettreTuilesdanslot(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:135: warning: argument 'pointeur' of command @param is not found in the argument list of piocherSac(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:135: warning: argument 'Tuile' of command @param is not found in the argument list of piocherSac(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:164: warning: argument 'pointeur' of command @param is not found in the argument list of piocherTuiles(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:185: warning: argument 'pointeur' of command @param is not found in the argument list of retournerTuileSac(Partie *p, Tuile *tab[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:185: warning: argument 'tableau' of command @param is not found in the argument list of retournerTuileSac(Partie *p, Tuile *tab[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:96: warning: argument 'sac' of command @param is not found in the argument list of verifDoublonsSac(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:96: warning: argument 'retourne' of command @param is not found in the argument list of verifDoublonsSac(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:101: warning: The following parameters of verifDoublonsSac(Partie *p) are not documented:
+  parameter 'p'
+Generating docs for file Modele/joueur.c...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:60: warning: argument 'int' of command @param is not found in the argument list of ajouterPoints(int a, Joueur *j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:60: warning: argument 'Joueur' of command @param is not found in the argument list of ajouterPoints(int a, Joueur *j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:67: warning: The following parameters of ajouterPoints(int a, Joueur *j) are not documented:
+  parameter 'a'
+  parameter 'j'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:75: warning: argument 'char' of command @param is not found in the argument list of creationJoueur(char *n)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:75: warning: argument 'Joueur' of command @param is not found in the argument list of creationJoueur(char *n)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:84: warning: The following parameters of creationJoueur(char *n) are not documented:
+  parameter 'n'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:109: warning: argument 'Joueur' of command @param is not found in the argument list of freeJoueur(Joueur *j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:116: warning: The following parameters of freeJoueur(Joueur *j) are not documented:
+  parameter 'j'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:22: warning: argument 'Joueur' of command @param is not found in the argument list of getPoints(Joueur *j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:22: warning: argument 'int' of command @param is not found in the argument list of getPoints(Joueur *j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:28: warning: The following parameters of getPoints(Joueur *j) are not documented:
+  parameter 'j'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:38: warning: argument 'Joueur' of command @param is not found in the argument list of initPoints(Joueur *j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:38: warning: argument 'int' of command @param is not found in the argument list of initPoints(Joueur *j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:45: warning: The following parameters of initPoints(Joueur *j) are not documented:
+  parameter 'j'
+Generating docs for file Modele/joueur.h...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:60: warning: argument 'int' of command @param is not found in the argument list of ajouterPoints(int a, Joueur *j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:60: warning: argument 'Joueur' of command @param is not found in the argument list of ajouterPoints(int a, Joueur *j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.h:42: warning: The following parameters of ajouterPoints(int a, Joueur *j) are not documented:
+  parameter 'a'
+  parameter 'j'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:75: warning: argument 'char' of command @param is not found in the argument list of creationJoueur(char *n)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:75: warning: argument 'Joueur' of command @param is not found in the argument list of creationJoueur(char *n)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.h:40: warning: The following parameters of creationJoueur(char *n) are not documented:
+  parameter 'n'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:109: warning: argument 'Joueur' of command @param is not found in the argument list of freeJoueur(Joueur *j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.h:44: warning: The following parameters of freeJoueur(Joueur *j) are not documented:
+  parameter 'j'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:22: warning: argument 'Joueur' of command @param is not found in the argument list of getPoints(Joueur *j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:22: warning: argument 'int' of command @param is not found in the argument list of getPoints(Joueur *j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.h:43: warning: The following parameters of getPoints(Joueur *j) are not documented:
+  parameter 'j'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:38: warning: argument 'Joueur' of command @param is not found in the argument list of initPoints(Joueur *j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.c:38: warning: argument 'int' of command @param is not found in the argument list of initPoints(Joueur *j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/joueur.h:41: warning: The following parameters of initPoints(Joueur *j) are not documented:
+  parameter 'j'
+Generating docs for file Modele/partie.c...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:23: warning: argument 'int' of command @param is not found in the argument list of CommencerPartie(int nbjoueurs)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:23: warning: argument 'Partie' of command @param is not found in the argument list of CommencerPartie(int nbjoueurs)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:31: warning: The following parameters of CommencerPartie(int nbjoueurs) are not documented:
+  parameter 'nbjoueurs'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:56: warning: argument 'int' of command @param is not found in the argument list of creationPartie(int nbjoueurs)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:56: warning: argument 'Partie' of command @param is not found in the argument list of creationPartie(int nbjoueurs)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:62: warning: The following parameters of creationPartie(int nbjoueurs) are not documented:
+  parameter 'nbjoueurs'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:81: warning: argument 'pointeur' of command @param is not found in the argument list of distibutionInit(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:120: warning: argument 'Partie' of command @param is not found in the argument list of getJoueurCourant(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:120: warning: argument 'Joueur' of command @param is not found in the argument list of getJoueurCourant(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:125: warning: The following parameters of getJoueurCourant(Partie *p) are not documented:
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:99: warning: argument 'pointeur' of command @param is not found in the argument list of joueurSuivant(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:143: warning: argument 'Partie' of command @param is not found in the argument list of placerTuileMilieu(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:148: warning: The following parameters of placerTuileMilieu(Partie *p) are not documented:
+  parameter 'p'
+Generating docs for file Modele/partie.h...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:226: warning: argument 'pointeur' of command @param is not found in the argument list of action_piocher(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:226: warning: argument 'tab' of command @param is not found in the argument list of action_piocher(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:226: warning: argument 'tableau' of command @param is not found in the argument list of action_piocher(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.h:65: warning: The following parameters of action_piocher(Partie *p, int tabtuiles[6]) are not documented:
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:23: warning: argument 'int' of command @param is not found in the argument list of CommencerPartie(int nbjoueurs)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:23: warning: argument 'Partie' of command @param is not found in the argument list of CommencerPartie(int nbjoueurs)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.h:68: warning: The following parameters of CommencerPartie(int nbjoueurs) are not documented:
+  parameter 'nbjoueurs'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:56: warning: argument 'int' of command @param is not found in the argument list of creationPartie(int nbjoueurs)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:56: warning: argument 'Partie' of command @param is not found in the argument list of creationPartie(int nbjoueurs)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.h:70: warning: The following parameters of creationPartie(int nbjoueurs) are not documented:
+  parameter 'nbjoueurs'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:81: warning: argument 'pointeur' of command @param is not found in the argument list of distibutionInit(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:44: warning: argument 'pointeur' of command @param is not found in the argument list of genererTuileSac(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:120: warning: argument 'Partie' of command @param is not found in the argument list of getJoueurCourant(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:120: warning: argument 'Joueur' of command @param is not found in the argument list of getJoueurCourant(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.h:72: warning: The following parameters of getJoueurCourant(Partie *p) are not documented:
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:99: warning: argument 'pointeur' of command @param is not found in the argument list of joueurSuivant(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:20: warning: argument 'pointeur' of command @param is not found in the argument list of mettreTuilesdanslot(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:135: warning: argument 'pointeur' of command @param is not found in the argument list of piocherSac(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:135: warning: argument 'Tuile' of command @param is not found in the argument list of piocherSac(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:164: warning: argument 'pointeur' of command @param is not found in the argument list of piocherTuiles(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.c:143: warning: argument 'Partie' of command @param is not found in the argument list of placerTuileMilieu(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.h:73: warning: The following parameters of placerTuileMilieu(Partie *p) are not documented:
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:185: warning: argument 'pointeur' of command @param is not found in the argument list of retournerTuileSac(Partie *p, Tuile *tab[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:185: warning: argument 'tableau' of command @param is not found in the argument list of retournerTuileSac(Partie *p, Tuile *tab[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:96: warning: argument 'sac' of command @param is not found in the argument list of verifDoublonsSac(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/gestionSac.c:96: warning: argument 'retourne' of command @param is not found in the argument list of verifDoublonsSac(Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/partie.h:60: warning: The following parameters of verifDoublonsSac(Partie *p) are not documented:
+  parameter 'p'
+Generating docs for file Modele/plateau.c...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:102: warning: End of list marker found without any preceding list items
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:50: warning: argument 'Plateau' of command @param is not found in the argument list of freePlateau(Plateau *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:56: warning: The following parameters of freePlateau(Plateau *p) are not documented:
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:19: warning: argument 'Plateau' of command @param is not found in the argument list of initPlateau()
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:123: warning: argument 'Plateau' of command @param is not found in the argument list of iscaseEmpty(Plateau *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:123: warning: argument 'int' of command @param is not found in the argument list of iscaseEmpty(Plateau *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:123: warning: argument 'int' of command @param is not found in the argument list of iscaseEmpty(Plateau *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:123: warning: argument 'int' of command @param is not found in the argument list of iscaseEmpty(Plateau *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:131: warning: The following parameters of iscaseEmpty(Plateau *p, int x, int y) are not documented:
+  parameter 'p'
+  parameter 'x'
+  parameter 'y'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:102: warning: End of list marker found without any preceding list items
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:100: warning: argument 'Plateau' of command @param is not found in the argument list of poserTuile(Plateau *p, Tuile *t, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:100: warning: argument 'int' of command @param is not found in the argument list of poserTuile(Plateau *p, Tuile *t, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:100: warning: argument 'int' of command @param is not found in the argument list of poserTuile(Plateau *p, Tuile *t, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:100: warning: argument 'Tuile' of command @param is not found in the argument list of poserTuile(Plateau *p, Tuile *t, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:110: warning: The following parameters of poserTuile(Plateau *p, Tuile *t, int x, int y) are not documented:
+  parameter 'p'
+  parameter 't'
+  parameter 'x'
+  parameter 'y'
+Generating docs for file Modele/plateau.h...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:102: warning: End of list marker found without any preceding list items
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:50: warning: argument 'Plateau' of command @param is not found in the argument list of freePlateau(Plateau *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.h:40: warning: The following parameters of freePlateau(Plateau *p) are not documented:
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:19: warning: argument 'Plateau' of command @param is not found in the argument list of initPlateau()
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:123: warning: argument 'Plateau' of command @param is not found in the argument list of iscaseEmpty(Plateau *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:123: warning: argument 'int' of command @param is not found in the argument list of iscaseEmpty(Plateau *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:123: warning: argument 'int' of command @param is not found in the argument list of iscaseEmpty(Plateau *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:123: warning: argument 'int' of command @param is not found in the argument list of iscaseEmpty(Plateau *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.h:45: warning: The following parameters of iscaseEmpty(Plateau *p, int x, int y) are not documented:
+  parameter 'p'
+  parameter 'x'
+  parameter 'y'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:102: warning: End of list marker found without any preceding list items
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:100: warning: argument 'Plateau' of command @param is not found in the argument list of poserTuile(Plateau *p, Tuile *t, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:100: warning: argument 'int' of command @param is not found in the argument list of poserTuile(Plateau *p, Tuile *t, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:100: warning: argument 'int' of command @param is not found in the argument list of poserTuile(Plateau *p, Tuile *t, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.c:100: warning: argument 'Tuile' of command @param is not found in the argument list of poserTuile(Plateau *p, Tuile *t, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/plateau.h:43: warning: The following parameters of poserTuile(Plateau *p, Tuile *t, int x, int y) are not documented:
+  parameter 'p'
+  parameter 't'
+  parameter 'x'
+  parameter 'y'
+Generating docs for file Modele/regle.c...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:260: warning: argument 'Tuile' of command @param is not found in the argument list of compareCouleur(Tuile *t1, Tuile *t2)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:260: warning: argument 'Tuile' of command @param is not found in the argument list of compareCouleur(Tuile *t1, Tuile *t2)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:260: warning: argument 'retourne' of command @param is not found in the argument list of compareCouleur(Tuile *t1, Tuile *t2)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:267: warning: The following parameters of compareCouleur(Tuile *t1, Tuile *t2) are not documented:
+  parameter 't1'
+  parameter 't2'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:273: warning: argument 'Tuile' of command @param is not found in the argument list of compareForme(Tuile *t1, Tuile *t2)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:273: warning: argument 'Tuile' of command @param is not found in the argument list of compareForme(Tuile *t1, Tuile *t2)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:273: warning: argument 'retourne' of command @param is not found in the argument list of compareForme(Tuile *t1, Tuile *t2)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:280: warning: The following parameters of compareForme(Tuile *t1, Tuile *t2) are not documented:
+  parameter 't1'
+  parameter 't2'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:117: warning: argument 'Partie' of command @param is not found in the argument list of critereCouleurForme(Partie *p, Direction d, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:117: warning: argument 'Direction' of command @param is not found in the argument list of critereCouleurForme(Partie *p, Direction d, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:117: warning: argument 'Tuile' of command @param is not found in the argument list of critereCouleurForme(Partie *p, Direction d, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:117: warning: argument 'retourne' of command @param is not found in the argument list of critereCouleurForme(Partie *p, Direction d, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:117: warning: argument 'retourne' of command @param is not found in the argument list of critereCouleurForme(Partie *p, Direction d, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:117: warning: argument 'retroune' of command @param is not found in the argument list of critereCouleurForme(Partie *p, Direction d, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:125: warning: The following parameters of critereCouleurForme(Partie *p, Direction d, Tuile *tj) are not documented:
+  parameter 'p'
+  parameter 'd'
+  parameter 'tj'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:190: warning: argument 'Partie' of command @param is not found in the argument list of dejaPosee(Partie *p, Tuile *tj, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:190: warning: argument 'Direction' of command @param is not found in the argument list of dejaPosee(Partie *p, Tuile *tj, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:190: warning: argument 'Tuile' of command @param is not found in the argument list of dejaPosee(Partie *p, Tuile *tj, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:190: warning: argument 'retourne' of command @param is not found in the argument list of dejaPosee(Partie *p, Tuile *tj, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:196: warning: The following parameters of dejaPosee(Partie *p, Tuile *tj, Direction d) are not documented:
+  parameter 'p'
+  parameter 'tj'
+  parameter 'd'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:21: warning: argument 'Partie' of command @param is not found in the argument list of getTuileplateau(Partie *p, Direction d, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:21: warning: argument 'Direction' of command @param is not found in the argument list of getTuileplateau(Partie *p, Direction d, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:21: warning: argument 'int' of command @param is not found in the argument list of getTuileplateau(Partie *p, Direction d, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:21: warning: argument 'Tuile' of command @param is not found in the argument list of getTuileplateau(Partie *p, Direction d, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:28: warning: The following parameters of getTuileplateau(Partie *p, Direction d, int x, int y) are not documented:
+  parameter 'p'
+  parameter 'd'
+  parameter 'x'
+  parameter 'y'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:95: warning: argument 'Partie' of command @param is not found in the argument list of hasvoisinTuile(Partie *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:95: warning: argument 'int' of command @param is not found in the argument list of hasvoisinTuile(Partie *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:95: warning: argument 'retourne' of command @param is not found in the argument list of hasvoisinTuile(Partie *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:100: warning: The following parameters of hasvoisinTuile(Partie *p, int x, int y) are not documented:
+  parameter 'p'
+  parameter 'x'
+  parameter 'y'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:216: warning: argument 'Partie' of command @param is not found in the argument list of isColorFormeCorrect(Partie *p, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:216: warning: argument 'Tuile' of command @param is not found in the argument list of isColorFormeCorrect(Partie *p, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:216: warning: argument 'retourne' of command @param is not found in the argument list of isColorFormeCorrect(Partie *p, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:221: warning: The following parameters of isColorFormeCorrect(Partie *p, Tuile *tj) are not documented:
+  parameter 'p'
+  parameter 'tj'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:61: warning: argument 'int' of command @param is not found in the argument list of nextDir(int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:61: warning: argument 'Retourne' of command @param is not found in the argument list of nextDir(int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:66: warning: The following parameters of nextDir(int i) are not documented:
+  parameter 'i'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:153: warning: argument 'Partie' of command @param is not found in the argument list of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:153: warning: argument 'Direction' of command @param is not found in the argument list of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:153: warning: argument 'Tuile' of command @param is not found in the argument list of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:153: warning: argument 'Tuile' of command @param is not found in the argument list of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:153: warning: argument 'retourne' of command @param is not found in the argument list of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:153: warning: argument 'retourne' of command @param is not found in the argument list of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:153: warning: argument 'retroune' of command @param is not found in the argument list of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:162: warning: The following parameters of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d) are not documented:
+  parameter 'p'
+  parameter 'tj'
+  parameter 'td'
+  parameter 'd'
+Generating docs for file Modele/regle.h...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:260: warning: argument 'Tuile' of command @param is not found in the argument list of compareCouleur(Tuile *t1, Tuile *t2)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:260: warning: argument 'Tuile' of command @param is not found in the argument list of compareCouleur(Tuile *t1, Tuile *t2)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:260: warning: argument 'retourne' of command @param is not found in the argument list of compareCouleur(Tuile *t1, Tuile *t2)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.h:35: warning: The following parameters of compareCouleur(Tuile *t1, Tuile *t2) are not documented:
+  parameter 't1'
+  parameter 't2'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:273: warning: argument 'Tuile' of command @param is not found in the argument list of compareForme(Tuile *t1, Tuile *t2)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:273: warning: argument 'Tuile' of command @param is not found in the argument list of compareForme(Tuile *t1, Tuile *t2)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:273: warning: argument 'retourne' of command @param is not found in the argument list of compareForme(Tuile *t1, Tuile *t2)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.h:36: warning: The following parameters of compareForme(Tuile *t1, Tuile *t2) are not documented:
+  parameter 't1'
+  parameter 't2'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:117: warning: argument 'Partie' of command @param is not found in the argument list of critereCouleurForme(Partie *p, Direction d, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:117: warning: argument 'Direction' of command @param is not found in the argument list of critereCouleurForme(Partie *p, Direction d, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:117: warning: argument 'Tuile' of command @param is not found in the argument list of critereCouleurForme(Partie *p, Direction d, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:117: warning: argument 'retourne' of command @param is not found in the argument list of critereCouleurForme(Partie *p, Direction d, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:117: warning: argument 'retourne' of command @param is not found in the argument list of critereCouleurForme(Partie *p, Direction d, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:117: warning: argument 'retroune' of command @param is not found in the argument list of critereCouleurForme(Partie *p, Direction d, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.h:26: warning: The following parameters of critereCouleurForme(Partie *p, Direction d, Tuile *tj) are not documented:
+  parameter 'p'
+  parameter 'd'
+  parameter 'tj'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:190: warning: argument 'Partie' of command @param is not found in the argument list of dejaPosee(Partie *p, Tuile *tj, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:190: warning: argument 'Direction' of command @param is not found in the argument list of dejaPosee(Partie *p, Tuile *tj, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:190: warning: argument 'Tuile' of command @param is not found in the argument list of dejaPosee(Partie *p, Tuile *tj, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:190: warning: argument 'retourne' of command @param is not found in the argument list of dejaPosee(Partie *p, Tuile *tj, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.h:28: warning: The following parameters of dejaPosee(Partie *p, Tuile *tj, Direction d) are not documented:
+  parameter 'p'
+  parameter 'tj'
+  parameter 'd'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:21: warning: argument 'Partie' of command @param is not found in the argument list of getTuileplateau(Partie *p, Direction d, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:21: warning: argument 'Direction' of command @param is not found in the argument list of getTuileplateau(Partie *p, Direction d, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:21: warning: argument 'int' of command @param is not found in the argument list of getTuileplateau(Partie *p, Direction d, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:21: warning: argument 'Tuile' of command @param is not found in the argument list of getTuileplateau(Partie *p, Direction d, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.h:31: warning: The following parameters of getTuileplateau(Partie *p, Direction d, int x, int y) are not documented:
+  parameter 'p'
+  parameter 'd'
+  parameter 'x'
+  parameter 'y'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:95: warning: argument 'Partie' of command @param is not found in the argument list of hasvoisinTuile(Partie *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:95: warning: argument 'int' of command @param is not found in the argument list of hasvoisinTuile(Partie *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:95: warning: argument 'retourne' of command @param is not found in the argument list of hasvoisinTuile(Partie *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.h:30: warning: The following parameters of hasvoisinTuile(Partie *p, int x, int y) are not documented:
+  parameter 'p'
+  parameter 'x'
+  parameter 'y'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:216: warning: argument 'Partie' of command @param is not found in the argument list of isColorFormeCorrect(Partie *p, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:216: warning: argument 'Tuile' of command @param is not found in the argument list of isColorFormeCorrect(Partie *p, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:216: warning: argument 'retourne' of command @param is not found in the argument list of isColorFormeCorrect(Partie *p, Tuile *tj)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.h:25: warning: The following parameters of isColorFormeCorrect(Partie *p, Tuile *tj) are not documented:
+  parameter 'p'
+  parameter 'tj'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:61: warning: argument 'int' of command @param is not found in the argument list of nextDir(int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:61: warning: argument 'Retourne' of command @param is not found in the argument list of nextDir(int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.h:33: warning: The following parameters of nextDir(int i) are not documented:
+  parameter 'i'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:153: warning: argument 'Partie' of command @param is not found in the argument list of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:153: warning: argument 'Direction' of command @param is not found in the argument list of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:153: warning: argument 'Tuile' of command @param is not found in the argument list of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:153: warning: argument 'Tuile' of command @param is not found in the argument list of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:153: warning: argument 'retourne' of command @param is not found in the argument list of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:153: warning: argument 'retourne' of command @param is not found in the argument list of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.c:153: warning: argument 'retroune' of command @param is not found in the argument list of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/regle.h:27: warning: The following parameters of respectcriterePose(Partie *p, Tuile *tj, Tuile *td, Direction d) are not documented:
+  parameter 'p'
+  parameter 'tj'
+  parameter 'td'
+  parameter 'd'
+Generating docs for file Modele/score.c...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:161: warning: argument 'int' of command @param is not found in the argument list of appartient2lignes(Partie *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:161: warning: argument 'int' of command @param is not found in the argument list of appartient2lignes(Partie *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:161: warning: argument 'Partie' of command @param is not found in the argument list of appartient2lignes(Partie *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:161: warning: argument 'int' of command @param is not found in the argument list of appartient2lignes(Partie *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:168: warning: The following parameters of appartient2lignes(Partie *p, int x, int y) are not documented:
+  parameter 'p'
+  parameter 'x'
+  parameter 'y'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:86: warning: argument 'int' of command @param is not found in the argument list of getPosX(Partie *p, int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:86: warning: argument 'Partie' of command @param is not found in the argument list of getPosX(Partie *p, int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:86: warning: argument 'int' of command @param is not found in the argument list of getPosX(Partie *p, int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:93: warning: The following parameters of getPosX(Partie *p, int i) are not documented:
+  parameter 'p'
+  parameter 'i'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:100: warning: argument 'int' of command @param is not found in the argument list of getPosY(Partie *p, int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:100: warning: argument 'Partie' of command @param is not found in the argument list of getPosY(Partie *p, int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:100: warning: argument 'int' of command @param is not found in the argument list of getPosY(Partie *p, int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:106: warning: The following parameters of getPosY(Partie *p, int i) are not documented:
+  parameter 'p'
+  parameter 'i'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:113: warning: argument 'int' of command @param is not found in the argument list of isDejaComptee(int dejaComptee[50][2], Tuile *t)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:113: warning: argument 'Tuile' of command @param is not found in the argument list of isDejaComptee(int dejaComptee[50][2], Tuile *t)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:113: warning: argument 'int' of command @param is not found in the argument list of isDejaComptee(int dejaComptee[50][2], Tuile *t)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:119: warning: The following parameters of isDejaComptee(int dejaComptee[50][2], Tuile *t) are not documented:
+  parameter 'dejaComptee'
+  parameter 't'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:23: warning: argument 'int' of command @param is not found in the argument list of majPoints(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:23: warning: argument 'Partie' of command @param is not found in the argument list of majPoints(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:33: warning: The following parameters of majPoints(Partie *p, int tabtuiles[6]) are not documented:
+  parameter 'p'
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:136: warning: argument 'int' of command @param is not found in the argument list of majPointsV0(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:136: warning: argument 'Partie' of command @param is not found in the argument list of majPointsV0(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:143: warning: The following parameters of majPointsV0(Partie *p, int tabtuiles[6]) are not documented:
+  parameter 'p'
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:184: warning: argument 'int' of command @param is not found in the argument list of poseTuilevirtuel(int tabtuiles[6], Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:184: warning: argument 'Partie' of command @param is not found in the argument list of poseTuilevirtuel(int tabtuiles[6], Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:190: warning: The following parameters of poseTuilevirtuel(int tabtuiles[6], Partie *p) are not documented:
+  parameter 'tabtuiles'
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:206: warning: argument 'int' of command @param is not found in the argument list of supprTuileVirtuel(int tabtuiles[6], Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:206: warning: argument 'Partie' of command @param is not found in the argument list of supprTuileVirtuel(int tabtuiles[6], Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:212: warning: The following parameters of supprTuileVirtuel(int tabtuiles[6], Partie *p) are not documented:
+  parameter 'tabtuiles'
+  parameter 'p'
+Generating docs for file Modele/score.h...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:161: warning: argument 'int' of command @param is not found in the argument list of appartient2lignes(Partie *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:161: warning: argument 'int' of command @param is not found in the argument list of appartient2lignes(Partie *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:161: warning: argument 'Partie' of command @param is not found in the argument list of appartient2lignes(Partie *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:161: warning: argument 'int' of command @param is not found in the argument list of appartient2lignes(Partie *p, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.h:25: warning: The following parameters of appartient2lignes(Partie *p, int x, int y) are not documented:
+  parameter 'p'
+  parameter 'x'
+  parameter 'y'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:86: warning: argument 'int' of command @param is not found in the argument list of getPosX(Partie *p, int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:86: warning: argument 'Partie' of command @param is not found in the argument list of getPosX(Partie *p, int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:86: warning: argument 'int' of command @param is not found in the argument list of getPosX(Partie *p, int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.h:22: warning: The following parameters of getPosX(Partie *p, int i) are not documented:
+  parameter 'p'
+  parameter 'i'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:100: warning: argument 'int' of command @param is not found in the argument list of getPosY(Partie *p, int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:100: warning: argument 'Partie' of command @param is not found in the argument list of getPosY(Partie *p, int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:100: warning: argument 'int' of command @param is not found in the argument list of getPosY(Partie *p, int i)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.h:23: warning: The following parameters of getPosY(Partie *p, int i) are not documented:
+  parameter 'p'
+  parameter 'i'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:113: warning: argument 'int' of command @param is not found in the argument list of isDejaComptee(int dejaComptee[50][2], Tuile *t)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:113: warning: argument 'Tuile' of command @param is not found in the argument list of isDejaComptee(int dejaComptee[50][2], Tuile *t)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:113: warning: argument 'int' of command @param is not found in the argument list of isDejaComptee(int dejaComptee[50][2], Tuile *t)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.h:24: warning: The following parameters of isDejaComptee(int dejaComptee[50][2], Tuile *t) are not documented:
+  parameter 'dejaComptee'
+  parameter 't'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:23: warning: argument 'int' of command @param is not found in the argument list of majPoints(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:23: warning: argument 'Partie' of command @param is not found in the argument list of majPoints(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.h:19: warning: The following parameters of majPoints(Partie *p, int tabtuiles[6]) are not documented:
+  parameter 'p'
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:136: warning: argument 'int' of command @param is not found in the argument list of majPointsV0(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:136: warning: argument 'Partie' of command @param is not found in the argument list of majPointsV0(Partie *p, int tabtuiles[6])
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.h:20: warning: The following parameters of majPointsV0(Partie *p, int tabtuiles[6]) are not documented:
+  parameter 'p'
+  parameter 'tabtuiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:184: warning: argument 'int' of command @param is not found in the argument list of poseTuilevirtuel(int tabtuiles[6], Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:184: warning: argument 'Partie' of command @param is not found in the argument list of poseTuilevirtuel(int tabtuiles[6], Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.h:27: warning: The following parameters of poseTuilevirtuel(int tabtuiles[6], Partie *p) are not documented:
+  parameter 'tabtuiles'
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:206: warning: argument 'int' of command @param is not found in the argument list of supprTuileVirtuel(int tabtuiles[6], Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.c:206: warning: argument 'Partie' of command @param is not found in the argument list of supprTuileVirtuel(int tabtuiles[6], Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/score.h:26: warning: The following parameters of supprTuileVirtuel(int tabtuiles[6], Partie *p) are not documented:
+  parameter 'tabtuiles'
+  parameter 'p'
+Generating docs for file Modele/test.h...
+Generating docs for file Modele/test_gestionSac.c...
+Generating docs for file Modele/test_joueur.c...
+Generating docs for file Modele/test_partie.c...
+Generating docs for file Modele/test_plateau.c...
+Generating docs for file Modele/test_regle.c...
+Generating docs for file Modele/test_score.c...
+Generating docs for file Modele/test_tuile.c...
+Generating docs for file Modele/tuile.c...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/tuile.c:18: warning: argument 'Tuile' of command @param is not found in the argument list of createTuile(Couleur c, Forme f)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/tuile.c:39: warning: argument 'pointeur' of command @param is not found in the argument list of getCouleur(Tuile *t)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/tuile.c:39: warning: argument 'Couleur' of command @param is not found in the argument list of getCouleur(Tuile *t)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/tuile.c:51: warning: argument 'pointeur' of command @param is not found in the argument list of getForme(Tuile *t)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/tuile.c:51: warning: argument 'Forme' of command @param is not found in the argument list of getForme(Tuile *t)
+Generating docs for file Modele/tuile.h...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/tuile.c:18: warning: argument 'Tuile' of command @param is not found in the argument list of createTuile(Couleur c, Forme f)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/tuile.c:39: warning: argument 'pointeur' of command @param is not found in the argument list of getCouleur(Tuile *t)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/tuile.c:39: warning: argument 'Couleur' of command @param is not found in the argument list of getCouleur(Tuile *t)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/tuile.c:51: warning: argument 'pointeur' of command @param is not found in the argument list of getForme(Tuile *t)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Modele/tuile.c:51: warning: argument 'Forme' of command @param is not found in the argument list of getForme(Tuile *t)
+Generating docs for file Vue/affichage_plateau.c...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_plateau.c:105: warning: argument 'Pointeur' of command @param is not found in the argument list of affiche_plateau(Plateau *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_plateau.c:112: warning: The following parameters of affiche_plateau(Plateau *p) are not documented:
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_plateau.c:76: warning: The following parameters of affiche_plateau_vide(int x, int y) are not documented:
+  parameter 'y'
+Generating docs for file Vue/affichage_plateau.h...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_plateau.c:105: warning: argument 'Pointeur' of command @param is not found in the argument list of affiche_plateau(Plateau *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_plateau.h:28: warning: The following parameters of affiche_plateau(Plateau *p) are not documented:
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_plateau.h:20: warning: The following parameters of affiche_plateau_vide(int x, int y) are not documented:
+  parameter 'y'
+Generating docs for file Vue/affichage_sdl.c...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1062: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichage_fleches_plateau(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1062: warning: argument 'none' of command @param is not found in the argument list of affichage_fleches_plateau(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1068: warning: The following parameters of affichage_fleches_plateau(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:21: warning: argument 'int' of command @param is not found in the argument list of affichage_init(int flag)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:21: warning: argument 'int' of command @param is not found in the argument list of affichage_init(int flag)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:27: warning: The following parameters of affichage_init(int flag) are not documented:
+  parameter 'flag'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:535: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichage_isregleok(SDL_Renderer *renderer, SDL_bool regleok, SDL_bool showmessage)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:535: warning: argument 'none' of command @param is not found in the argument list of affichage_isregleok(SDL_Renderer *renderer, SDL_bool regleok, SDL_bool showmessage)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:541: warning: The following parameters of affichage_isregleok(SDL_Renderer *renderer, SDL_bool regleok, SDL_bool showmessage) are not documented:
+  parameter 'renderer'
+  parameter 'regleok'
+  parameter 'showmessage'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:405: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichage_message(SDL_Renderer *renderer, SDL_Color couleur, SDL_Rect *background, char *message)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:405: warning: argument 'none' of command @param is not found in the argument list of affichage_message(SDL_Renderer *renderer, SDL_Color couleur, SDL_Rect *background, char *message)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:411: warning: The following parameters of affichage_message(SDL_Renderer *renderer, SDL_Color couleur, SDL_Rect *background, char *message) are not documented:
+  parameter 'renderer'
+  parameter 'couleur'
+  parameter 'background'
+  parameter 'message'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:115: warning: argument 'int' of command @param is not found in the argument list of affichage_pause(int delay)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:115: warning: argument 'none' of command @param is not found in the argument list of affichage_pause(int delay)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:121: warning: The following parameters of affichage_pause(int delay) are not documented:
+  parameter 'delay'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:571: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichage_sac(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:571: warning: argument 'none' of command @param is not found in the argument list of affichage_sac(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:577: warning: The following parameters of affichage_sac(SDL_Renderer *renderer, Partie *p) are not documented:
+  parameter 'renderer'
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1174: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichage_selection_tuiles(SDL_Renderer *renderer, int j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1174: warning: argument 'none' of command @param is not found in the argument list of affichage_selection_tuiles(SDL_Renderer *renderer, int j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1184: warning: The following parameters of affichage_selection_tuiles(SDL_Renderer *renderer, int j) are not documented:
+  parameter 'renderer'
+  parameter 'j'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1218: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichage_selection_tuiles_finales(SDL_Renderer *renderer, int j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1218: warning: argument 'none' of command @param is not found in the argument list of affichage_selection_tuiles_finales(SDL_Renderer *renderer, int j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1228: warning: The following parameters of affichage_selection_tuiles_finales(SDL_Renderer *renderer, int j) are not documented:
+  parameter 'renderer'
+  parameter 'j'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:503: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichage_trackingerror(SDL_Renderer *renderer, SDL_bool iswordokaligned, SDL_bool showmessage)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:503: warning: argument 'none' of command @param is not found in the argument list of affichage_trackingerror(SDL_Renderer *renderer, SDL_bool iswordokaligned, SDL_bool showmessage)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:509: warning: The following parameters of affichage_trackingerror(SDL_Renderer *renderer, SDL_bool iswordokaligned, SDL_bool showmessage) are not documented:
+  parameter 'renderer'
+  parameter 'iswordokaligned'
+  parameter 'showmessage'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:209: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichageEcran(SDL_Renderer *renderer, char *imagedefond)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:209: warning: argument 'none' of command @param is not found in the argument list of affichageEcran(SDL_Renderer *renderer, char *imagedefond)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:215: warning: The following parameters of affichageEcran(SDL_Renderer *renderer, char *imagedefond) are not documented:
+  parameter 'renderer'
+  parameter 'imagedefond'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1240: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichageFin(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1240: warning: argument 'none' of command @param is not found in the argument list of affichageFin(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1249: warning: The following parameters of affichageFin(SDL_Renderer *renderer, Partie *p) are not documented:
+  parameter 'renderer'
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:332: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichageScore(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:332: warning: argument 'none' of command @param is not found in the argument list of affichageScore(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:338: warning: The following parameters of affichageScore(SDL_Renderer *renderer, Partie *p) are not documented:
+  parameter 'renderer'
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:369: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichageScore_demo(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:369: warning: argument 'none' of command @param is not found in the argument list of affichageScore_demo(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:375: warning: The following parameters of affichageScore_demo(SDL_Renderer *renderer, Partie *p) are not documented:
+  parameter 'renderer'
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:893: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_bouton_fin_du_tour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:893: warning: argument 'none' of command @param is not found in the argument list of affiche_bouton_fin_du_tour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:899: warning: The following parameters of affiche_bouton_fin_du_tour(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:848: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_bouton_OK(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:848: warning: argument 'none' of command @param is not found in the argument list of affiche_bouton_OK(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:854: warning: The following parameters of affiche_bouton_OK(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:947: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_bouton_retour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:947: warning: argument 'none' of command @param is not found in the argument list of affiche_bouton_retour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:954: warning: The following parameters of affiche_bouton_retour(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:819: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_main_joueur_courant(SDL_Renderer *renderer, Partie *partie)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:835: warning: The following parameters of affiche_main_joueur_courant(SDL_Renderer *renderer, Partie *partie) are not documented:
+  parameter 'renderer'
+  parameter 'partie'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1003: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_passer_son_tour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1003: warning: argument 'none' of command @param is not found in the argument list of affiche_passer_son_tour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1009: warning: The following parameters of affiche_passer_son_tour(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:985: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_piocher(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:985: warning: argument 'none' of command @param is not found in the argument list of affiche_piocher(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:991: warning: The following parameters of affiche_piocher(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:700: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_plateau_17x17(SDL_Renderer *renderer, Partie *partie, int xoff, int yoff, SDL_bool clearTiles)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:718: warning: The following parameters of affiche_plateau_17x17(SDL_Renderer *renderer, Partie *partie, int xoff, int yoff, SDL_bool clearTiles) are not documented:
+  parameter 'renderer'
+  parameter 'partie'
+  parameter 'xoff'
+  parameter 'yoff'
+  parameter 'clearTiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:929: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_poser(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:929: warning: argument 'none' of command @param is not found in the argument list of affiche_poser(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:935: warning: The following parameters of affiche_poser(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:450: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_Tisok_message(SDL_Renderer *renderer, int i, SDL_bool clearmessage)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:450: warning: argument 'none' of command @param is not found in the argument list of affiche_Tisok_message(SDL_Renderer *renderer, int i, SDL_bool clearmessage)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:456: warning: The following parameters of affiche_Tisok_message(SDL_Renderer *renderer, int i, SDL_bool clearmessage) are not documented:
+  parameter 'renderer'
+  parameter 'i'
+  parameter 'clearmessage'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:749: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_tuiles_provisoires_17x17(SDL_Renderer *renderer, Partie *partie, int tabtuilesprovisoires[6], int xoff, int yoff, SDL_bool clearTiles)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:768: warning: The following parameters of affiche_tuiles_provisoires_17x17(SDL_Renderer *renderer, Partie *partie, int tabtuilesprovisoires[6], int xoff, int yoff, SDL_bool clearTiles) are not documented:
+  parameter 'renderer'
+  parameter 'partie'
+  parameter 'tabtuilesprovisoires'
+  parameter 'xoff'
+  parameter 'yoff'
+  parameter 'clearTiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:188: warning: argument 'int' of command @param is not found in the argument list of createFraming(int width, int height, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:188: warning: argument 'SDL_Rect' of command @param is not found in the argument list of createFraming(int width, int height, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:195: warning: The following parameters of createFraming(int width, int height, int x, int y) are not documented:
+  parameter 'width'
+  parameter 'height'
+  parameter 'x'
+  parameter 'y'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:92: warning: argument 'SDL_Window' of command @param is not found in the argument list of createRenderer(SDL_Window *window, int index, int flag)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:92: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of createRenderer(SDL_Window *window, int index, int flag)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:98: warning: The following parameters of createRenderer(SDL_Window *window, int index, int flag) are not documented:
+  parameter 'window'
+  parameter 'index'
+  parameter 'flag'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:130: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of createTexture(SDL_Renderer *renderer, SDL_Surface *surface)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:130: warning: argument 'SDL_Texture' of command @param is not found in the argument list of createTexture(SDL_Renderer *renderer, SDL_Surface *surface)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:136: warning: The following parameters of createTexture(SDL_Renderer *renderer, SDL_Surface *surface) are not documented:
+  parameter 'renderer'
+  parameter 'surface'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:68: warning: argument 'char' of command @param is not found in the argument list of createWindow(char *titre, int flag1, int flag2, int largeur, int hauteur, int flag3)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:68: warning: argument 'SDL_Window' of command @param is not found in the argument list of createWindow(char *titre, int flag1, int flag2, int largeur, int hauteur, int flag3)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:74: warning: The following parameters of createWindow(char *titre, int flag1, int flag2, int largeur, int hauteur, int flag3) are not documented:
+  parameter 'titre'
+  parameter 'flag1'
+  parameter 'flag2'
+  parameter 'largeur'
+  parameter 'hauteur'
+  parameter 'flag3'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:45: warning: argument 'none' of command @param is not found in the argument list of initialisation_TTF(void)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:45: warning: argument 'int' of command @param is not found in the argument list of initialisation_TTF(void)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:158: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of loadImage(SDL_Renderer *renderer, char *image)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:158: warning: argument 'SDL_Texture' of command @param is not found in the argument list of loadImage(SDL_Renderer *renderer, char *image)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:164: warning: The following parameters of loadImage(SDL_Renderer *renderer, char *image) are not documented:
+  parameter 'renderer'
+  parameter 'image'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:600: warning: argument 'Tuile' of command @param is not found in the argument list of loadTuilefromData(Tuile *t, int x, int y, int taille, SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:600: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of loadTuilefromData(Tuile *t, int x, int y, int taille, SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:606: warning: The following parameters of loadTuilefromData(Tuile *t, int x, int y, int taille, SDL_Renderer *renderer) are not documented:
+  parameter 't'
+  parameter 'x'
+  parameter 'y'
+  parameter 'taille'
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:268: warning: argument 'char' of command @param is not found in the argument list of setPolice(char *font, int tailledepolice)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:268: warning: argument 'TTF_Font' of command @param is not found in the argument list of setPolice(char *font, int tailledepolice)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:275: warning: The following parameters of setPolice(char *font, int tailledepolice) are not documented:
+  parameter 'font'
+  parameter 'tailledepolice'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:230: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of splashscreen(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:230: warning: argument 'none' of command @param is not found in the argument list of splashscreen(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:236: warning: The following parameters of splashscreen(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:911: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of supprime_bouton_fin_du_tour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:911: warning: argument 'none' of command @param is not found in the argument list of supprime_bouton_fin_du_tour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:917: warning: The following parameters of supprime_bouton_fin_du_tour(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:875: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of supprime_bouton_OK(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:875: warning: argument 'none' of command @param is not found in the argument list of supprime_bouton_OK(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:881: warning: The following parameters of supprime_bouton_OK(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:966: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of supprime_bouton_retour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:966: warning: argument 'none' of command @param is not found in the argument list of supprime_bouton_retour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:973: warning: The following parameters of supprime_bouton_retour(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1042: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of supprime_piocher(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1042: warning: argument 'none' of command @param is not found in the argument list of supprime_piocher(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1048: warning: The following parameters of supprime_piocher(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1021: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of supprime_poser(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1021: warning: argument 'none' of command @param is not found in the argument list of supprime_poser(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1028: warning: The following parameters of supprime_poser(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1196: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of supprime_selection_tuiles(SDL_Renderer *renderer, int j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1196: warning: argument 'none' of command @param is not found in the argument list of supprime_selection_tuiles(SDL_Renderer *renderer, int j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1206: warning: The following parameters of supprime_selection_tuiles(SDL_Renderer *renderer, int j) are not documented:
+  parameter 'renderer'
+  parameter 'j'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:431: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of supprime_zonemessage(SDL_Renderer *renderer, SDL_Rect *background)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:431: warning: argument 'none' of command @param is not found in the argument list of supprime_zonemessage(SDL_Renderer *renderer, SDL_Rect *background)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:437: warning: The following parameters of supprime_zonemessage(SDL_Renderer *renderer, SDL_Rect *background) are not documented:
+  parameter 'renderer'
+  parameter 'background'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:295: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:295: warning: argument 'SDL_Texture' of command @param is not found in the argument list of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:295: warning: argument 'TTF_Font' of command @param is not found in the argument list of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:295: warning: argument 'char' of command @param is not found in the argument list of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:295: warning: argument 'SDL_Color' of command @param is not found in the argument list of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:295: warning: argument 'SDL_Rect' of command @param is not found in the argument list of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:295: warning: argument 'int' of command @param is not found in the argument list of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:307: warning: The following parameters of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte) are not documented:
+  parameter 'renderer'
+  parameter 'textureTexte'
+  parameter 'police'
+  parameter 'texte'
+  parameter 'couleurTexte'
+  parameter 'encadrementtexte'
+Generating docs for file Vue/affichage_sdl.h...
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1062: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichage_fleches_plateau(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1062: warning: argument 'none' of command @param is not found in the argument list of affichage_fleches_plateau(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:72: warning: The following parameters of affichage_fleches_plateau(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:21: warning: argument 'int' of command @param is not found in the argument list of affichage_init(int flag)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:21: warning: argument 'int' of command @param is not found in the argument list of affichage_init(int flag)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:29: warning: The following parameters of affichage_init(int flag) are not documented:
+  parameter 'flag'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:535: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichage_isregleok(SDL_Renderer *renderer, SDL_bool regleok, SDL_bool showmessage)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:535: warning: argument 'none' of command @param is not found in the argument list of affichage_isregleok(SDL_Renderer *renderer, SDL_bool regleok, SDL_bool showmessage)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:76: warning: The following parameters of affichage_isregleok(SDL_Renderer *renderer, SDL_bool regleok, SDL_bool showmessage) are not documented:
+  parameter 'renderer'
+  parameter 'regleok'
+  parameter 'showmessage'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:405: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichage_message(SDL_Renderer *renderer, SDL_Color couleur, SDL_Rect *background, char *message)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:405: warning: argument 'none' of command @param is not found in the argument list of affichage_message(SDL_Renderer *renderer, SDL_Color couleur, SDL_Rect *background, char *message)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:79: warning: The following parameters of affichage_message(SDL_Renderer *renderer, SDL_Color couleur, SDL_Rect *background, char *message) are not documented:
+  parameter 'renderer'
+  parameter 'couleur'
+  parameter 'background'
+  parameter 'message'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:115: warning: argument 'int' of command @param is not found in the argument list of affichage_pause(int delay)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:115: warning: argument 'none' of command @param is not found in the argument list of affichage_pause(int delay)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:32: warning: The following parameters of affichage_pause(int delay) are not documented:
+  parameter 'delay'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:571: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichage_sac(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:571: warning: argument 'none' of command @param is not found in the argument list of affichage_sac(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:45: warning: The following parameters of affichage_sac(SDL_Renderer *renderer, Partie *p) are not documented:
+  parameter 'renderer'
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1174: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichage_selection_tuiles(SDL_Renderer *renderer, int j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1174: warning: argument 'none' of command @param is not found in the argument list of affichage_selection_tuiles(SDL_Renderer *renderer, int j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:67: warning: The following parameters of affichage_selection_tuiles(SDL_Renderer *renderer, int j) are not documented:
+  parameter 'renderer'
+  parameter 'j'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1218: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichage_selection_tuiles_finales(SDL_Renderer *renderer, int j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1218: warning: argument 'none' of command @param is not found in the argument list of affichage_selection_tuiles_finales(SDL_Renderer *renderer, int j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:68: warning: The following parameters of affichage_selection_tuiles_finales(SDL_Renderer *renderer, int j) are not documented:
+  parameter 'renderer'
+  parameter 'j'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:503: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichage_trackingerror(SDL_Renderer *renderer, SDL_bool iswordokaligned, SDL_bool showmessage)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:503: warning: argument 'none' of command @param is not found in the argument list of affichage_trackingerror(SDL_Renderer *renderer, SDL_bool iswordokaligned, SDL_bool showmessage)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:78: warning: The following parameters of affichage_trackingerror(SDL_Renderer *renderer, SDL_bool iswordokaligned, SDL_bool showmessage) are not documented:
+  parameter 'renderer'
+  parameter 'iswordokaligned'
+  parameter 'showmessage'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:209: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichageEcran(SDL_Renderer *renderer, char *imagedefond)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:209: warning: argument 'none' of command @param is not found in the argument list of affichageEcran(SDL_Renderer *renderer, char *imagedefond)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:44: warning: The following parameters of affichageEcran(SDL_Renderer *renderer, char *imagedefond) are not documented:
+  parameter 'renderer'
+  parameter 'imagedefond'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1240: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichageFin(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1240: warning: argument 'none' of command @param is not found in the argument list of affichageFin(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:51: warning: The following parameters of affichageFin(SDL_Renderer *renderer, Partie *p) are not documented:
+  parameter 'renderer'
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:332: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichageScore(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:332: warning: argument 'none' of command @param is not found in the argument list of affichageScore(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:42: warning: The following parameters of affichageScore(SDL_Renderer *renderer, Partie *p) are not documented:
+  parameter 'renderer'
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:369: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affichageScore_demo(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:369: warning: argument 'none' of command @param is not found in the argument list of affichageScore_demo(SDL_Renderer *renderer, Partie *p)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:43: warning: The following parameters of affichageScore_demo(SDL_Renderer *renderer, Partie *p) are not documented:
+  parameter 'renderer'
+  parameter 'p'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:893: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_bouton_fin_du_tour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:893: warning: argument 'none' of command @param is not found in the argument list of affiche_bouton_fin_du_tour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:57: warning: The following parameters of affiche_bouton_fin_du_tour(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:848: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_bouton_OK(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:848: warning: argument 'none' of command @param is not found in the argument list of affiche_bouton_OK(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:55: warning: The following parameters of affiche_bouton_OK(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:947: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_bouton_retour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:947: warning: argument 'none' of command @param is not found in the argument list of affiche_bouton_retour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:59: warning: The following parameters of affiche_bouton_retour(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:819: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_main_joueur_courant(SDL_Renderer *renderer, Partie *partie)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:48: warning: The following parameters of affiche_main_joueur_courant(SDL_Renderer *renderer, Partie *partie) are not documented:
+  parameter 'renderer'
+  parameter 'partie'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1003: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_passer_son_tour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1003: warning: argument 'none' of command @param is not found in the argument list of affiche_passer_son_tour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:65: warning: The following parameters of affiche_passer_son_tour(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:985: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_piocher(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:985: warning: argument 'none' of command @param is not found in the argument list of affiche_piocher(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:62: warning: The following parameters of affiche_piocher(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:700: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_plateau_17x17(SDL_Renderer *renderer, Partie *partie, int xoff, int yoff, SDL_bool clearTiles)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:46: warning: The following parameters of affiche_plateau_17x17(SDL_Renderer *renderer, Partie *partie, int xoff, int yoff, SDL_bool clearTiles) are not documented:
+  parameter 'renderer'
+  parameter 'partie'
+  parameter 'xoff'
+  parameter 'yoff'
+  parameter 'clearTiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:929: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_poser(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:929: warning: argument 'none' of command @param is not found in the argument list of affiche_poser(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:61: warning: The following parameters of affiche_poser(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:450: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_Tisok_message(SDL_Renderer *renderer, int i, SDL_bool showmessage)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:450: warning: argument 'none' of command @param is not found in the argument list of affiche_Tisok_message(SDL_Renderer *renderer, int i, SDL_bool showmessage)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:77: warning: The following parameters of affiche_Tisok_message(SDL_Renderer *renderer, int i, SDL_bool showmessage) are not documented:
+  parameter 'renderer'
+  parameter 'i'
+  parameter 'showmessage'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:749: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of affiche_tuiles_provisoires_17x17(SDL_Renderer *renderer, Partie *partie, int tabtuilesprovisoires[6], int xoff, int yoff, SDL_bool clearTiles)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:47: warning: The following parameters of affiche_tuiles_provisoires_17x17(SDL_Renderer *renderer, Partie *partie, int tabtuilesprovisoires[6], int xoff, int yoff, SDL_bool clearTiles) are not documented:
+  parameter 'renderer'
+  parameter 'partie'
+  parameter 'tabtuilesprovisoires'
+  parameter 'xoff'
+  parameter 'yoff'
+  parameter 'clearTiles'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:188: warning: argument 'int' of command @param is not found in the argument list of createFraming(int width, int height, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:188: warning: argument 'SDL_Rect' of command @param is not found in the argument list of createFraming(int width, int height, int x, int y)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:40: warning: The following parameters of createFraming(int width, int height, int x, int y) are not documented:
+  parameter 'width'
+  parameter 'height'
+  parameter 'x'
+  parameter 'y'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:92: warning: argument 'SDL_Window' of command @param is not found in the argument list of createRenderer(SDL_Window *window, int index, int flag)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:92: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of createRenderer(SDL_Window *window, int index, int flag)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:31: warning: The following parameters of createRenderer(SDL_Window *window, int index, int flag) are not documented:
+  parameter 'window'
+  parameter 'index'
+  parameter 'flag'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:130: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of createTexture(SDL_Renderer *renderer, SDL_Surface *surface)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:130: warning: argument 'SDL_Texture' of command @param is not found in the argument list of createTexture(SDL_Renderer *renderer, SDL_Surface *surface)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:37: warning: The following parameters of createTexture(SDL_Renderer *renderer, SDL_Surface *surface) are not documented:
+  parameter 'renderer'
+  parameter 'surface'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:68: warning: argument 'char' of command @param is not found in the argument list of createWindow(char *titre, int flag1, int flag2, int largeur, int hauteur, int flag3)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:68: warning: argument 'SDL_Window' of command @param is not found in the argument list of createWindow(char *titre, int flag1, int flag2, int largeur, int hauteur, int flag3)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:30: warning: The following parameters of createWindow(char *titre, int flag1, int flag2, int largeur, int hauteur, int flag3) are not documented:
+  parameter 'titre'
+  parameter 'flag1'
+  parameter 'flag2'
+  parameter 'largeur'
+  parameter 'hauteur'
+  parameter 'flag3'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:45: warning: argument 'none' of command @param is not found in the argument list of initialisation_TTF(void)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:45: warning: argument 'int' of command @param is not found in the argument list of initialisation_TTF(void)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:158: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of loadImage(SDL_Renderer *renderer, char *image)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:158: warning: argument 'SDL_Texture' of command @param is not found in the argument list of loadImage(SDL_Renderer *renderer, char *image)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:33: warning: The following parameters of loadImage(SDL_Renderer *renderer, char *image) are not documented:
+  parameter 'renderer'
+  parameter 'image'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:600: warning: argument 'Tuile' of command @param is not found in the argument list of loadTuilefromData(Tuile *t, int x, int y, int taille, SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:600: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of loadTuilefromData(Tuile *t, int x, int y, int taille, SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:34: warning: The following parameters of loadTuilefromData(Tuile *t, int x, int y, int taille, SDL_Renderer *renderer) are not documented:
+  parameter 't'
+  parameter 'x'
+  parameter 'y'
+  parameter 'taille'
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:268: warning: argument 'char' of command @param is not found in the argument list of setPolice(char *font, int tailledepolice)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:268: warning: argument 'TTF_Font' of command @param is not found in the argument list of setPolice(char *font, int tailledepolice)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:38: warning: The following parameters of setPolice(char *font, int tailledepolice) are not documented:
+  parameter 'font'
+  parameter 'tailledepolice'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:230: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of splashscreen(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:230: warning: argument 'none' of command @param is not found in the argument list of splashscreen(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:35: warning: The following parameters of splashscreen(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:911: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of supprime_bouton_fin_du_tour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:911: warning: argument 'none' of command @param is not found in the argument list of supprime_bouton_fin_du_tour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:58: warning: The following parameters of supprime_bouton_fin_du_tour(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:875: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of supprime_bouton_OK(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:875: warning: argument 'none' of command @param is not found in the argument list of supprime_bouton_OK(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:56: warning: The following parameters of supprime_bouton_OK(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:966: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of supprime_bouton_retour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:966: warning: argument 'none' of command @param is not found in the argument list of supprime_bouton_retour(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:60: warning: The following parameters of supprime_bouton_retour(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1042: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of supprime_piocher(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1042: warning: argument 'none' of command @param is not found in the argument list of supprime_piocher(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:63: warning: The following parameters of supprime_piocher(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1021: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of supprime_poser(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1021: warning: argument 'none' of command @param is not found in the argument list of supprime_poser(SDL_Renderer *renderer)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:64: warning: The following parameters of supprime_poser(SDL_Renderer *renderer) are not documented:
+  parameter 'renderer'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1196: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of supprime_selection_tuiles(SDL_Renderer *renderer, int j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:1196: warning: argument 'none' of command @param is not found in the argument list of supprime_selection_tuiles(SDL_Renderer *renderer, int j)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:69: warning: The following parameters of supprime_selection_tuiles(SDL_Renderer *renderer, int j) are not documented:
+  parameter 'renderer'
+  parameter 'j'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:431: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of supprime_zonemessage(SDL_Renderer *renderer, SDL_Rect *background)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:431: warning: argument 'none' of command @param is not found in the argument list of supprime_zonemessage(SDL_Renderer *renderer, SDL_Rect *background)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:80: warning: The following parameters of supprime_zonemessage(SDL_Renderer *renderer, SDL_Rect *background) are not documented:
+  parameter 'renderer'
+  parameter 'background'
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:295: warning: argument 'SDL_Renderer' of command @param is not found in the argument list of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:295: warning: argument 'SDL_Texture' of command @param is not found in the argument list of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:295: warning: argument 'TTF_Font' of command @param is not found in the argument list of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:295: warning: argument 'char' of command @param is not found in the argument list of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:295: warning: argument 'SDL_Color' of command @param is not found in the argument list of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:295: warning: argument 'SDL_Rect' of command @param is not found in the argument list of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.c:295: warning: argument 'int' of command @param is not found in the argument list of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte)
+/home/lea/Desktop/QwirkleInC/Qwirkle/Vue/affichage_sdl.h:39: warning: The following parameters of writeThis(SDL_Renderer *renderer, SDL_Texture *textureTexte, TTF_Font *police, char *texte, SDL_Color couleurTexte, SDL_Rect *encadrementtexte) are not documented:
+  parameter 'renderer'
+  parameter 'textureTexte'
+  parameter 'police'
+  parameter 'texte'
+  parameter 'couleurTexte'
+  parameter 'encadrementtexte'
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound Input...
+Generating docs for compound Joueur...
+Generating docs for compound Partie...
+Generating docs for compound Plateau...
+Generating docs for compound Tuile...
+Generating namespace index...
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+writing tag file...
+lookup cache used 220/65536 hits=1772 misses=226
+finished...
+*** Doxygen has finished

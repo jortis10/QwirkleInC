@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['carre',['CARRE',['../tuile_8h.html#abf972f580534ee49cba97102b6615a59ac69f333da03fc7dbc59f3a7e72aac0d6',1,'tuile.h']]],
+  ['cercle',['CERCLE',['../tuile_8h.html#abf972f580534ee49cba97102b6615a59abcaa0644a60d3e413e905e97a4a7878c',1,'tuile.h']]],
+  ['changepositiontuile',['changePositionTuile',['../tuile_8h.html#ae8ad298a344ee7d5a01312424baaf3ec',1,'tuile.h']]],
+  ['clear_5fconsole',['clear_console',['../affichage__plateau_8c.html#a3cffe15b7e5d10a108f1734a9640a2c7',1,'clear_console():&#160;affichage_plateau.c'],['../affichage__plateau_8h.html#a3cffe15b7e5d10a108f1734a9640a2c7',1,'clear_console():&#160;affichage_plateau.c']]],
+  ['commencerpartie',['CommencerPartie',['../partie_8c.html#a1ca8911e7dea4e5aac969f50802ab836',1,'CommencerPartie(int nbjoueurs):&#160;partie.c'],['../partie_8h.html#a5e35eff08c83c7cf20e278909be7f59c',1,'CommencerPartie(int nbjoueurs):&#160;partie.c']]],
+  ['comparecouleur',['compareCouleur',['../regle_8c.html#a9d4dc38d5e96efe3422c986bc1eacee2',1,'compareCouleur(Tuile *t1, Tuile *t2):&#160;regle.c'],['../regle_8h.html#a9d4dc38d5e96efe3422c986bc1eacee2',1,'compareCouleur(Tuile *t1, Tuile *t2):&#160;regle.c']]],
+  ['compareforme',['compareForme',['../regle_8c.html#a204bdfb03dd8d8f5029d5965a7c41ed8',1,'compareForme(Tuile *t1, Tuile *t2):&#160;regle.c'],['../regle_8h.html#a204bdfb03dd8d8f5029d5965a7c41ed8',1,'compareForme(Tuile *t1, Tuile *t2):&#160;regle.c']]],
+  ['controleur_2ec',['controleur.c',['../controleur_8c.html',1,'']]],
+  ['controleur_2eh',['controleur.h',['../controleur_8h.html',1,'']]],
+  ['couleur',['couleur',['../struct_tuile.html#af0e152d09c13944935e00bef7a3c5111',1,'Tuile::couleur()'],['../regle_8h.html#a136050e7ce45669c7d288cb9e9fb0160a9234388b0bc0317c4a1346d2939a59fc',1,'COULEUR():&#160;regle.h'],['../tuile_8h.html#aa304d0ca681f782b1d7735da33037dd7',1,'Couleur():&#160;tuile.h']]],
+  ['createframing',['createFraming',['../affichage__sdl_8c.html#a094646d4cf3644fd7e54ad3adf7c0e8e',1,'createFraming(int width, int height, int x, int y):&#160;affichage_sdl.c'],['../affichage__sdl_8h.html#a094646d4cf3644fd7e54ad3adf7c0e8e',1,'createFraming(int width, int height, int x, int y):&#160;affichage_sdl.c']]],
+  ['createrenderer',['createRenderer',['../affichage__sdl_8c.html#a3899094d5ef75fd1d4ec3f7659bcefbe',1,'createRenderer(SDL_Window *window, int index, int flag):&#160;affichage_sdl.c'],['../affichage__sdl_8h.html#a9ce38107c976e4b8df0b0e6306726234',1,'createRenderer(SDL_Window *window, int index, int flag):&#160;affichage_sdl.c']]],
+  ['createtexture',['createTexture',['../affichage__sdl_8c.html#af0ea5d801bab7640c9b0298ced73ba21',1,'createTexture(SDL_Renderer *renderer, SDL_Surface *surface):&#160;affichage_sdl.c'],['../affichage__sdl_8h.html#a1569b2746e1da52856fd9ed53a96b992',1,'createTexture(SDL_Renderer *renderer, SDL_Surface *surface):&#160;affichage_sdl.c']]],
+  ['createtuile',['createTuile',['../tuile_8c.html#a698654a512d52c72f38224d613e8e72f',1,'createTuile(Couleur c, Forme f):&#160;tuile.c'],['../tuile_8h.html#a698654a512d52c72f38224d613e8e72f',1,'createTuile(Couleur c, Forme f):&#160;tuile.c']]],
+  ['createwindow',['createWindow',['../affichage__sdl_8c.html#af3d5485c241daacbfe05bd99bad9462e',1,'createWindow(char *titre, int flag1, int flag2, int largeur, int hauteur, int flag3):&#160;affichage_sdl.c'],['../affichage__sdl_8h.html#a7bf9c08bf87f3002c1627116ce10b8ad',1,'createWindow(char *titre, int flag1, int flag2, int hauteur, int largeur, int flag3):&#160;affichage_sdl.c']]],
+  ['creationjoueur',['creationJoueur',['../joueur_8c.html#aaf8a9dea0d948d76bb75e43fd6174ee9',1,'creationJoueur(char *n):&#160;joueur.c'],['../joueur_8h.html#ae1285b54280a4329ee917c4f4bb6b5a3',1,'creationJoueur(char *n):&#160;joueur.c']]],
+  ['creationpartie',['creationPartie',['../partie_8c.html#a537d222592c766d8fb1348e14b91e287',1,'creationPartie(int nbjoueurs):&#160;partie.c'],['../partie_8h.html#a9b597ae0e550784fbc13e044425ecf17',1,'creationPartie(int nbjoueurs):&#160;partie.c']]],
+  ['criterecouleurforme',['critereCouleurForme',['../regle_8c.html#a479dfb47c01a5d97e06a2fc03bec3b72',1,'critereCouleurForme(Partie *p, Direction d, Tuile *tj):&#160;regle.c'],['../regle_8h.html#a479dfb47c01a5d97e06a2fc03bec3b72',1,'critereCouleurForme(Partie *p, Direction d, Tuile *tj):&#160;regle.c']]],
+  ['croix',['CROIX',['../tuile_8h.html#abf972f580534ee49cba97102b6615a59adc514eb010522b2ad800b8fca05add81',1,'tuile.h']]]
+];

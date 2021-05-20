@@ -1,0 +1,5 @@
+*.o
+Qwirkle/bin
+Qwirkle/obj
+Qwirkle/Qwirkle.depend
+Qwirkle/Qwirkle.layout

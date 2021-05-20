@@ -1,0 +1,322 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage.info - Qwirkle/Modele/gestionSac.c</title>
+  <link rel="stylesheet" type="text/css" href="../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../index.html">top level</a> - <a href="index.html">Qwirkle/Modele</a> - gestionSac.c<span style="font-size: 80%;"> (source / <a href="gestionSac.c.func-sort-c.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">81</td>
+            <td class="headerCovTableEntry">86</td>
+            <td class="headerCovTableEntryHi">94.2 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2020-05-23 15:53:10</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">9</td>
+            <td class="headerCovTableEntry">9</td>
+            <td class="headerCovTableEntryHi">100.0 %</td>
+          </tr>
+          <tr><td><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : /*!</a>
+<span class="lineNum">       2 </span>            : * \file gestionSac.c
+<span class="lineNum">       3 </span>            : * \brief Fichier contenant les fonctions pour la gestion du Sac de Tuile dont
+<span class="lineNum">       4 </span>            : *
+<span class="lineNum">       5 </span>            : * \author Léa VIAUD et SOW Aicha
+<span class="lineNum">       6 </span>            : * \version 2.0
+<span class="lineNum">       7 </span>            : * \date 07/03/2020
+<span class="lineNum">       8 </span>            : *
+<span class="lineNum">       9 </span>            : * Dans ce fichier ce trouve les fonctions nécessaires à la manipulation du Sac de Tuile
+<span class="lineNum">      10 </span>            : */
+<span class="lineNum">      11 </span>            : 
+<span class="lineNum">      12 </span>            : #include &lt;stdio.h&gt;
+<span class="lineNum">      13 </span>            : #include &lt;stdlib.h&gt;
+<span class="lineNum">      14 </span>            : #include &quot;joueur.h&quot;
+<span class="lineNum">      15 </span>            : #include &quot;tuile.h&quot;
+<span class="lineNum">      16 </span>            : #include &quot;partie.h&quot;
+<span class="lineNum">      17 </span>            : 
+<span class="lineNum">      18 </span>            : /*!
+<span class="lineNum">      19 </span>            : * \fn void mettreTuilesdanslot(Partie *p)
+<span class="lineNum">      20 </span>            : * \brief  Met les tuiles crées avec la fonction createTuile dans le tableau statique lotTuiles de la partie
+<span class="lineNum">      21 </span>            : * Génération dans l'ordre de toutes les Tuiles
+<a name="22"><span class="lineNum">      22 </span>            : * \param[in]  p , pointeur sur une partie</a>
+<span class="lineNum">      23 </span>            : */
+<span class="lineNum">      24 </span><span class="lineCov">         75 : void mettreTuilesdanslot(Partie *p)</span>
+<span class="lineNum">      25 </span>            : {
+<span class="lineNum">      26 </span>            : 
+<span class="lineNum">      27 </span><span class="lineCov">         75 :     int j=0,k=0;  /*! k représente les formes et j la couleur */</span>
+<span class="lineNum">      28 </span><span class="lineCov">         75 :     int i=0;</span>
+<span class="lineNum">      29 </span><span class="lineCov">        525 :     for(j=0; j&lt;6; j++)</span>
+<span class="lineNum">      30 </span>            :     {
+<span class="lineNum">      31 </span><span class="lineCov">       3150 :         for(k=0; k&lt;6; k++)</span>
+<span class="lineNum">      32 </span>            :         {
+<span class="lineNum">      33 </span><span class="lineCov">       2700 :             p-&gt;lotTuiles[i]=createTuile(j,k);</span>
+<span class="lineNum">      34 </span><span class="lineCov">       2700 :             p-&gt;lotTuiles[i+1]=createTuile(j,k);</span>
+<span class="lineNum">      35 </span><span class="lineCov">       2700 :             p-&gt;lotTuiles[i+2]=createTuile(j,k);</span>
+<span class="lineNum">      36 </span><span class="lineCov">       2700 :             i=i+3;</span>
+<span class="lineNum">      37 </span>            :         }
+<span class="lineNum">      38 </span>            :     }
+<span class="lineNum">      39 </span>            : 
+<span class="lineNum">      40 </span><span class="lineCov">         75 : }</span>
+<span class="lineNum">      41 </span>            : 
+<span class="lineNum">      42 </span>            : /*!
+<span class="lineNum">      43 </span>            : * \fn void genererTuileSac(Partie *p)
+<span class="lineNum">      44 </span>            : * \brief  génère le sac de Tuile pour le début d'une partie
+<span class="lineNum">      45 </span>            : * la fonction prend les tuiles statiques du lotTuiles de la partie pour mettre leur adresse dans le sac de Tuile en incrémentant le nombre de Tuile du sac à chaque tuile ajoutée
+<span class="lineNum">      46 </span>            : *
+<a name="47"><span class="lineNum">      47 </span>            : * \param[in]  p , pointeur sur une partie</a>
+<span class="lineNum">      48 </span>            : */
+<span class="lineNum">      49 </span><span class="lineCov">         72 : void genererTuileSac(Partie *p)</span>
+<span class="lineNum">      50 </span>            : {
+<span class="lineNum">      51 </span><span class="lineCov">         72 :     int i=0;</span>
+<span class="lineNum">      52 </span><span class="lineCov">       7848 :     for(i=0; i&lt;NBTUILESSACMAX; i++)</span>
+<span class="lineNum">      53 </span>            :     {
+<span class="lineNum">      54 </span>            : 
+<span class="lineNum">      55 </span><span class="lineCov">       7776 :         p-&gt;sac[i]=&amp;(p-&gt;lotTuiles[i]);</span>
+<span class="lineNum">      56 </span><span class="lineCov">       7776 :         p-&gt;nbTuilesSac++;</span>
+<span class="lineNum">      57 </span>            :     }
+<span class="lineNum">      58 </span><span class="lineCov">         72 : }</span>
+<span class="lineNum">      59 </span>            : 
+<span class="lineNum">      60 </span>            : 
+<span class="lineNum">      61 </span>            : /*!
+<span class="lineNum">      62 </span>            : * \fn void melangerSac(Partie *p)
+<span class="lineNum">      63 </span>            : * \brief  mélange le sac de Tuile pour le début d'une partie
+<span class="lineNum">      64 </span>            : * Mélange de manière aléatoire les pièces initialement ordonnées à la génération du sac
+<span class="lineNum">      65 </span>            : * si k=0 : mélange aléatoirement
+<span class="lineNum">      66 </span>            : * si k!=0 : mélange avec la même seed (srand(1))
+<span class="lineNum">      67 </span>            : *
+<span class="lineNum">      68 </span>            : * \param[in] p , pointeur sur une partie
+<span class="lineNum">      69 </span>            : * \param[in] k , int
+<a name="70"><span class="lineNum">      70 </span>            : *</a>
+<span class="lineNum">      71 </span>            : */
+<span class="lineNum">      72 </span><span class="lineCov">         69 : void melangerSac(Partie *p,int k)</span>
+<span class="lineNum">      73 </span>            : {
+<span class="lineNum">      74 </span><span class="lineCov">         69 :     if(k==0)</span>
+<span class="lineNum">      75 </span>            :     {
+<span class="lineNum">      76 </span><span class="lineCov">         63 :         srand(time(NULL));</span>
+<span class="lineNum">      77 </span>            :     }else
+<span class="lineNum">      78 </span>            :     {
+<span class="lineNum">      79 </span><span class="lineCov">          6 :         srand(1);</span>
+<span class="lineNum">      80 </span>            :     }
+<span class="lineNum">      81 </span>            : 
+<span class="lineNum">      82 </span><span class="lineCov">         69 :     int i=0,j=0,n=p-&gt;nbTuilesSac;</span>
+<span class="lineNum">      83 </span><span class="lineCov">         69 :     Tuile *temp=NULL;</span>
+<span class="lineNum">      84 </span>            : 
+<span class="lineNum">      85 </span><span class="lineCov">       7431 :     for(i=0; i&lt;n-1; i++)</span>
+<span class="lineNum">      86 </span>            :     {
+<span class="lineNum">      87 </span><span class="lineCov">       7362 :         j=i+rand()/(RAND_MAX /(n-i)+1);</span>
+<span class="lineNum">      88 </span><span class="lineCov">       7362 :         temp= p-&gt;sac[j];</span>
+<span class="lineNum">      89 </span><span class="lineCov">       7362 :         p-&gt;sac[j]= p-&gt;sac[i];</span>
+<span class="lineNum">      90 </span><span class="lineCov">       7362 :         p-&gt;sac[i]=temp;</span>
+<span class="lineNum">      91 </span>            :     }
+<span class="lineNum">      92 </span><span class="lineCov">         69 : }</span>
+<span class="lineNum">      93 </span>            : 
+<span class="lineNum">      94 </span>            : /*!
+<span class="lineNum">      95 </span>            : * \fn int verifDoublonsSac(Partie *p)
+<span class="lineNum">      96 </span>            : * \brief  Fonction verifiant qu'il n'y a pas de doublons dans le sac apres le melange de ce dernier
+<span class="lineNum">      97 </span>            : *
+<span class="lineNum">      98 </span>            : * \param[in] sac
+<a name="99"><span class="lineNum">      99 </span>            : * \param[out] retourne 1 si pas de doublons(pas d'erreur de recopie), retourne 0 si doublon(s).</a>
+<span class="lineNum">     100 </span>            : */
+<span class="lineNum">     101 </span><span class="lineCov">          3 : int verifDoublonsSac(Partie *p)</span>
+<span class="lineNum">     102 </span>            : {
+<span class="lineNum">     103 </span><span class="lineCov">          3 :     int doublons=0;</span>
+<span class="lineNum">     104 </span><span class="lineCov">          3 :     int tabverifsac[6][6]= {{0},{0}};</span>
+<span class="lineNum">     105 </span><span class="lineCov">          3 :     int i=0,c=0,f=0;</span>
+<span class="lineNum">     106 </span><span class="lineCov">        327 :     for(i=0; i&lt;NBTUILESSACMAX; i++)</span>
+<span class="lineNum">     107 </span>            :     {
+<span class="lineNum">     108 </span><span class="lineCov">        648 :         for(c=0; c&lt;6; c++)</span>
+<span class="lineNum">     109 </span>            :         {
+<span class="lineNum">     110 </span><span class="lineCov">        324 :             if(p-&gt;sac[i]-&gt;couleur==c)</span>
+<span class="lineNum">     111 </span>            :             {
+<span class="lineNum">     112 </span><span class="lineCov">        243 :                 for(f=0; f&lt;6; f++)</span>
+<span class="lineNum">     113 </span>            :                 {
+<span class="lineNum">     114 </span><span class="lineCov">        189 :                     if(p-&gt;sac[i]-&gt;forme==f)</span>
+<span class="lineNum">     115 </span>            :                     {
+<span class="lineNum">     116 </span><span class="lineCov">         54 :                         tabverifsac[c][f]+=1;</span>
+<span class="lineNum">     117 </span><span class="lineCov">         54 :                         f=6;</span>
+<span class="lineNum">     118 </span><span class="lineCov">         54 :                         if(tabverifsac[c][f]&gt;3)</span>
+<span class="lineNum">     119 </span>            :                         {
+<span class="lineNum">     120 </span><span class="lineNoCov">          0 :                             doublons=1;</span>
+<span class="lineNum">     121 </span>            :                         }
+<span class="lineNum">     122 </span>            :                     }
+<span class="lineNum">     123 </span>            :                 }
+<span class="lineNum">     124 </span>            :             }
+<span class="lineNum">     125 </span><span class="lineCov">        324 :             c=6;</span>
+<span class="lineNum">     126 </span>            :         }
+<span class="lineNum">     127 </span>            :     }
+<span class="lineNum">     128 </span><span class="lineCov">          3 :     return (doublons==0);</span>
+<span class="lineNum">     129 </span>            : 
+<span class="lineNum">     130 </span>            : }
+<span class="lineNum">     131 </span>            : 
+<span class="lineNum">     132 </span>            : 
+<span class="lineNum">     133 </span>            : /**
+<span class="lineNum">     134 </span>            : * \fn  Tuile * piocherSac(Partie *p)
+<span class="lineNum">     135 </span>            : * \brief permet la piocher la dernière tuile du sac, décrémente le nombre de tuile du sac et met à jour le sac
+<span class="lineNum">     136 </span>            : *
+<span class="lineNum">     137 </span>            : * \param[in] p , pointeur sur une partie
+<a name="138"><span class="lineNum">     138 </span>            : * \param[out] Tuile : la tuile du sac qui vient d'être piochée</a>
+<span class="lineNum">     139 </span>            : */
+<span class="lineNum">     140 </span><span class="lineCov">        876 : Tuile *piocherSac(Partie *p)</span>
+<span class="lineNum">     141 </span>            : {
+<span class="lineNum">     142 </span><span class="lineCov">        876 :     if(p==NULL)</span>
+<span class="lineNum">     143 </span>            :     {
+<span class="lineNum">     144 </span><span class="lineNoCov">          0 :         fprintf(stderr,&quot;Partie nulle mise en paramètres de la fonction piocherSac&quot;);</span>
+<span class="lineNum">     145 </span><span class="lineNoCov">          0 :         return  NULL;</span>
+<span class="lineNum">     146 </span>            :     }
+<span class="lineNum">     147 </span><span class="lineCov">        876 :     if(p-&gt;nbTuilesSac&lt;=0)</span>
+<span class="lineNum">     148 </span>            :     {
+<span class="lineNum">     149 </span><span class="lineNoCov">          0 :         fprintf(stderr,&quot;Sac vide on ne peut plus piocher dans sac&quot;);</span>
+<span class="lineNum">     150 </span><span class="lineNoCov">          0 :         return NULL;</span>
+<span class="lineNum">     151 </span>            :     }
+<span class="lineNum">     152 </span><span class="lineCov">        876 :     int nbsac=p-&gt;nbTuilesSac;</span>
+<span class="lineNum">     153 </span><span class="lineCov">        876 :     p-&gt;nbTuilesSac--;</span>
+<span class="lineNum">     154 </span>            : 
+<span class="lineNum">     155 </span><span class="lineCov">        876 :     Tuile *pioche = p-&gt;sac[nbsac-1];</span>
+<span class="lineNum">     156 </span>            : 
+<span class="lineNum">     157 </span><span class="lineCov">        876 :     p-&gt;sac[nbsac-1]=NULL;</span>
+<span class="lineNum">     158 </span><span class="lineCov">        876 :     return pioche;</span>
+<span class="lineNum">     159 </span>            : }
+<span class="lineNum">     160 </span>            : 
+<span class="lineNum">     161 </span>            : 
+<span class="lineNum">     162 </span>            : /**
+<span class="lineNum">     163 </span>            : * \fn void piocherTuiles(Partie *p)
+<span class="lineNum">     164 </span>            : * \brief permet à un joueur de piocher des tuiles du sac
+<span class="lineNum">     165 </span>            : *
+<span class="lineNum">     166 </span>            : * La fonction permet au joueur courant de piocher le nombre de tuiles manquantes pour avoir 6 tuiles dans sa main
+<span class="lineNum">     167 </span>            : 
+<a name="168"><span class="lineNum">     168 </span>            : * \param[in] p , pointeur sur une partie</a>
+<span class="lineNum">     169 </span>            : */
+<span class="lineNum">     170 </span><span class="lineCov">        138 : void piocherTuiles(Partie *p)</span>
+<span class="lineNum">     171 </span>            : {
+<span class="lineNum">     172 </span><span class="lineCov">        138 :     int i=0;</span>
+<span class="lineNum">     173 </span><span class="lineCov">        966 :     for (i=0; i&lt;NBTUILESMAX; i++)</span>
+<span class="lineNum">     174 </span>            :     {
+<span class="lineNum">     175 </span><span class="lineCov">        828 :         if(getJoueurCourant(p)-&gt;tuilesJoueur[i]==NULL)</span>
+<span class="lineNum">     176 </span>            :         {
+<span class="lineNum">     177 </span><span class="lineCov">        810 :             if(p-&gt;nbTuilesSac!=0)</span>
+<span class="lineNum">     178 </span><span class="lineCov">        810 :                 getJoueurCourant(p)-&gt;tuilesJoueur[i]=piocherSac(p);</span>
+<span class="lineNum">     179 </span>            :         }
+<span class="lineNum">     180 </span>            :     }
+<span class="lineNum">     181 </span><span class="lineCov">        138 : }</span>
+<span class="lineNum">     182 </span>            : 
+<span class="lineNum">     183 </span>            : /**
+<span class="lineNum">     184 </span>            : * \fn void retournerTuileSac(Partie *p, Tuile * tab[6])
+<span class="lineNum">     185 </span>            : * \brief permet de retourner dans le sac les tuiles que le joueur voulait échanger et qui sont stockées dans un tableau de tuile
+<span class="lineNum">     186 </span>            : *
+<span class="lineNum">     187 </span>            : * \param[in] p , pointeur sur une partie
+<a name="188"><span class="lineNum">     188 </span>            : * \param[in] tab, tableau de tuile que le joueur veut échanger</a>
+<span class="lineNum">     189 </span>            : */
+<span class="lineNum">     190 </span><span class="lineCov">          6 : void retournerTuileSac(Partie *p, Tuile* tab[6])</span>
+<span class="lineNum">     191 </span>            : {
+<span class="lineNum">     192 </span><span class="lineCov">          6 :     int i=0;</span>
+<span class="lineNum">     193 </span><span class="lineCov">         42 :     for(i=0;i&lt;6;i++)</span>
+<span class="lineNum">     194 </span>            :     {
+<span class="lineNum">     195 </span><span class="lineCov">         36 :         if(tab[i]!=NULL)</span>
+<span class="lineNum">     196 </span>            :         {
+<span class="lineNum">     197 </span><span class="lineCov">         30 :             p-&gt;nbTuilesSac++;</span>
+<span class="lineNum">     198 </span><span class="lineCov">         30 :             int nbSac =p-&gt;nbTuilesSac;</span>
+<span class="lineNum">     199 </span><span class="lineCov">         30 :             p-&gt;sac[nbSac-1]=tab[i];</span>
+<span class="lineNum">     200 </span>            :         }
+<span class="lineNum">     201 </span>            :     }
+<span class="lineNum">     202 </span><span class="lineCov">          6 : }</span>
+<span class="lineNum">     203 </span>            : 
+<span class="lineNum">     204 </span>            : /**
+<span class="lineNum">     205 </span>            : * \fn void retournerTuileTab(Partie *p, Tuile * tab[6])
+<span class="lineNum">     206 </span>            : * \brief permet au joueur courant de mettre les tuiles qu'il veut échanger dans un tableau de tuile passé en paramètre
+<span class="lineNum">     207 </span>            : *
+<span class="lineNum">     208 </span>            : * La fonction permet au joueur courant de échanger une de ces tuiles (index_tuile). Le joueur a donc une tuile en moins après cette fonction.
+<span class="lineNum">     209 </span>            : * Cette Tuile est stockée dans le tableau de tuile passé en paramètre
+<span class="lineNum">     210 </span>            : * \param[in] p , pointeur sur une partie
+<span class="lineNum">     211 </span>            : * \param[in] index_tuile , int du numéro de la tuile que le joueur veut échanger
+<a name="212"><span class="lineNum">     212 </span>            : * \param[in] tab, tableau de tuile que le joueur veut échanger</a>
+<span class="lineNum">     213 </span>            : */
+<span class="lineNum">     214 </span><span class="lineCov">         12 : void retournerTuileTab(Partie *p, int index_tuile,Tuile * tab[6])</span>
+<span class="lineNum">     215 </span>            : {
+<span class="lineNum">     216 </span><span class="lineCov">         12 :     Joueur * j=getJoueurCourant(p);</span>
+<span class="lineNum">     217 </span><span class="lineCov">         12 :     int nbSac =p-&gt;nbTuilesSac;</span>
+<span class="lineNum">     218 </span><span class="lineCov">         12 :     nbSac++;</span>
+<span class="lineNum">     219 </span><span class="lineCov">         12 :     tab[index_tuile-1]=j-&gt;tuilesJoueur[index_tuile-1];</span>
+<span class="lineNum">     220 </span><span class="lineCov">         12 :     j-&gt;tuilesJoueur[index_tuile-1]=NULL;</span>
+<span class="lineNum">     221 </span>            : 
+<span class="lineNum">     222 </span><span class="lineCov">         12 : }</span>
+<span class="lineNum">     223 </span>            : 
+<span class="lineNum">     224 </span>            : /**
+<span class="lineNum">     225 </span>            : * \fn void action_piocher(Partie *p, int tabtuiles[6])
+<span class="lineNum">     226 </span>            : * \brief permet au joueur courant d'échanger des tuiles de sa main avec des tuiles du sac
+<span class="lineNum">     227 </span>            : *
+<span class="lineNum">     228 </span>            : *   Le joueur met les tuiles qu'il veut changer dans un tableau de tuile, il pioche des tuiles dans le sac pour compléter sa main et il retourne dans le sac les tuiles du tableau qu'il voulait échanger
+<span class="lineNum">     229 </span>            : * \param[in] p , pointeur sur une partie
+<a name="230"><span class="lineNum">     230 </span>            : * \param[in] tab, tableau de tuile que le joueur veut échanger</a>
+<span class="lineNum">     231 </span>            : */
+<span class="lineNum">     232 </span><span class="lineCov">          3 : void action_piocher(Partie *p, int tabtuiles[6])</span>
+<span class="lineNum">     233 </span>            : {
+<span class="lineNum">     234 </span>            :     int i;
+<span class="lineNum">     235 </span><span class="lineCov">          3 :     Tuile * tab[6]={NULL};</span>
+<span class="lineNum">     236 </span><span class="lineCov">         21 :     for(i=0; i&lt;6; i++)</span>
+<span class="lineNum">     237 </span>            :     {
+<span class="lineNum">     238 </span><span class="lineCov">         18 :         if(tabtuiles[i]!=0)</span>
+<span class="lineNum">     239 </span>            :         {
+<span class="lineNum">     240 </span><span class="lineCov">         12 :             retournerTuileTab(p,i+1,tab);</span>
+<span class="lineNum">     241 </span>            :         }
+<span class="lineNum">     242 </span>            :     }
+<span class="lineNum">     243 </span><span class="lineCov">          3 :     piocherTuiles(p);</span>
+<span class="lineNum">     244 </span><span class="lineCov">          3 :     retournerTuileSac(p,tab);</span>
+<span class="lineNum">     245 </span><span class="lineCov">          3 :     melangerSac(p,0);</span>
+<span class="lineNum">     246 </span><span class="lineCov">          3 : }</span>
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.13</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

@@ -1,0 +1,896 @@
+The system is: Linux - 5.3.0-28-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a69ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a69ad.dir/build.make CMakeFiles/cmTC_a69ad.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_a69ad.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a69ad.dir/testCCompiler.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a69ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a69ad.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a69ad.dir/testCCompiler.c.o  -o cmTC_a69ad 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c871b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c871b.dir/build.make CMakeFiles/cmTC_c871b.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_c871b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c871b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_c871b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c871b.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_c871b.dir/CMakeCCompilerABI.c.o  -o cmTC_c871b 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c871b' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1x7hY5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c871b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c871b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c871b' '-mtune=generic' '-march=x86-64'
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c871b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c871b.dir/build.make CMakeFiles/cmTC_c871b.dir/build]
+  ignore line: [make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »]
+  ignore line: [Building C object CMakeFiles/cmTC_c871b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_c871b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_c871b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c871b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_c871b.dir/CMakeCCompilerABI.c.o  -o cmTC_c871b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c871b' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1x7hY5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c871b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c871b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1x7hY5.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c871b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_c871b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8400f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8400f.dir/build.make CMakeFiles/cmTC_8400f.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_8400f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_8400f.dir/feature_tests.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8400f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8400f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8400f.dir/feature_tests.c.o  -o cmTC_8400f 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89bfd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89bfd.dir/build.make CMakeFiles/cmTC_89bfd.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_89bfd.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_89bfd.dir/feature_tests.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_89bfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89bfd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_89bfd.dir/feature_tests.c.o  -o cmTC_89bfd 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3912b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3912b.dir/build.make CMakeFiles/cmTC_3912b.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_3912b.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_3912b.dir/feature_tests.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3912b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3912b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3912b.dir/feature_tests.c.o  -o cmTC_3912b 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test WITH_FPIC succeeded with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ffd5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ffd5.dir/build.make CMakeFiles/cmTC_3ffd5.dir/build
+make[1]: Entering directory '/home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ffd5.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -DWITH_FPIC   -fPIC -o CMakeFiles/cmTC_3ffd5.dir/src.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3ffd5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ffd5.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -DWITH_FPIC    -rdynamic CMakeFiles/cmTC_3ffd5.dir/src.c.o  -o cmTC_3ffd5 
+make[1]: Leaving directory '/home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_STACK_PROTECTOR succeeded with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc64a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc64a.dir/build.make CMakeFiles/cmTC_cc64a.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_cc64a.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -DWITH_STACK_PROTECTOR   -fstack-protector -o CMakeFiles/cmTC_cc64a.dir/src.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/src.c
+/home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/src.c:1:27: warning: unused parameter ‘argv’ [-Wunused-parameter]
+ int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
+                           ^~~~
+Linking C executable cmTC_cc64a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc64a.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -DWITH_STACK_PROTECTOR    -rdynamic CMakeFiles/cmTC_cc64a.dir/src.c.o  -o cmTC_cc64a 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+Source file was:
+int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
+Performing C SOURCE FILE Test WITH_VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_900bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_900bc.dir/build.make CMakeFiles/cmTC_900bc.dir/build
+make[1]: Entering directory '/home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_900bc.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DWITH_VISIBILITY_HIDDEN   -fvisibility=hidden -o CMakeFiles/cmTC_900bc.dir/src.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_900bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_900bc.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DWITH_VISIBILITY_HIDDEN    -rdynamic CMakeFiles/cmTC_900bc.dir/src.c.o  -o cmTC_900bc 
+make[1]: Leaving directory '/home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_868bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_868bd.dir/build.make CMakeFiles/cmTC_868bd.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_868bd.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_868bd.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_868bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_868bd.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_868bd.dir/CheckIncludeFile.c.o  -o cmTC_868bd 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_879f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_879f8.dir/build.make CMakeFiles/cmTC_879f8.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_879f8.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_879f8.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_879f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_879f8.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_879f8.dir/CheckIncludeFile.c.o  -o cmTC_879f8 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_699b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_699b9.dir/build.make CMakeFiles/cmTC_699b9.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_699b9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_699b9.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_699b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_699b9.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_699b9.dir/CheckIncludeFile.c.o  -o cmTC_699b9 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61f9c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61f9c.dir/build.make CMakeFiles/cmTC_61f9c.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_61f9c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_61f9c.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_61f9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61f9c.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_61f9c.dir/CheckIncludeFile.c.o  -o cmTC_61f9c 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file setjmp.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2e22a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e22a.dir/build.make CMakeFiles/cmTC_2e22a.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_2e22a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_2e22a.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2e22a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e22a.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_2e22a.dir/CheckIncludeFile.c.o  -o cmTC_2e22a 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45ab6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45ab6.dir/build.make CMakeFiles/cmTC_45ab6.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_45ab6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_45ab6.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_45ab6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45ab6.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_45ab6.dir/CheckIncludeFile.c.o  -o cmTC_45ab6 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6ce4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6ce4.dir/build.make CMakeFiles/cmTC_e6ce4.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_e6ce4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_e6ce4.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e6ce4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6ce4.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_e6ce4.dir/CheckIncludeFile.c.o  -o cmTC_e6ce4 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31463/fast"
+/usr/bin/make -f CMakeFiles/cmTC_31463.dir/build.make CMakeFiles/cmTC_31463.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_31463.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_31463.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_31463
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31463.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_31463.dir/CheckIncludeFile.c.o  -o cmTC_31463 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fc4ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fc4ba.dir/build.make CMakeFiles/cmTC_fc4ba.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_fc4ba.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_fc4ba.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fc4ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc4ba.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_fc4ba.dir/CheckIncludeFile.c.o  -o cmTC_fc4ba 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_089d2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_089d2.dir/build.make CMakeFiles/cmTC_089d2.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_089d2.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_089d2.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_089d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_089d2.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_089d2.dir/CheckIncludeFile.c.o  -o cmTC_089d2 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dde51/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dde51.dir/build.make CMakeFiles/cmTC_dde51.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_dde51.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_dde51.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dde51
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dde51.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_dde51.dir/CheckIncludeFile.c.o  -o cmTC_dde51 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d0d9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d0d9.dir/build.make CMakeFiles/cmTC_5d0d9.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_5d0d9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_5d0d9.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5d0d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d0d9.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_5d0d9.dir/CheckIncludeFile.c.o  -o cmTC_5d0d9 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04e4c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04e4c.dir/build.make CMakeFiles/cmTC_04e4c.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_04e4c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_04e4c.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_04e4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04e4c.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_04e4c.dir/CheckIncludeFile.c.o  -o cmTC_04e4c 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0da6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0da6.dir/build.make CMakeFiles/cmTC_a0da6.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_a0da6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_a0da6.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a0da6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0da6.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_a0da6.dir/CheckIncludeFile.c.o  -o cmTC_a0da6 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f80af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f80af.dir/build.make CMakeFiles/cmTC_f80af.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_f80af.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_f80af.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f80af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f80af.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_f80af.dir/CheckIncludeFile.c.o  -o cmTC_f80af 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90dca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90dca.dir/build.make CMakeFiles/cmTC_90dca.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_90dca.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_90dca.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_90dca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90dca.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_90dca.dir/CheckIncludeFile.c.o  -o cmTC_90dca 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6b472/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6b472.dir/build.make CMakeFiles/cmTC_6b472.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_6b472.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_6b472.dir/CheckIncludeFile.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6b472
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b472.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_6b472.dir/CheckIncludeFile.c.o  -o cmTC_6b472 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMESPEC succeeded with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dd7a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd7a9.dir/build.make CMakeFiles/cmTC_dd7a9.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_dd7a9.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_STRUCT_TIMESPEC   -o CMakeFiles/cmTC_dd7a9.dir/src.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/src.c
+/home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
+Linking C executable cmTC_dd7a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd7a9.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_STRUCT_TIMESPEC    -rdynamic CMakeFiles/cmTC_dd7a9.dir/src.c.o  -o cmTC_dd7a9 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+   (void)sizeof(((struct timespec *)0)->tv_sec);
+   return 0;
+}
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_284ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_284ae.dir/build.make CMakeFiles/cmTC_284ae.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_284ae.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=calloc   -o CMakeFiles/cmTC_284ae.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘calloc’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_284ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_284ae.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=calloc    -rdynamic CMakeFiles/cmTC_284ae.dir/CheckFunctionExists.c.o  -o cmTC_284ae 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function exit exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b9a06/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9a06.dir/build.make CMakeFiles/cmTC_b9a06.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_b9a06.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=exit   -o CMakeFiles/cmTC_b9a06.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_b9a06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9a06.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=exit    -rdynamic CMakeFiles/cmTC_b9a06.dir/CheckFunctionExists.c.o  -o cmTC_b9a06 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function fprintf exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_817a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_817a9.dir/build.make CMakeFiles/cmTC_817a9.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_817a9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=fprintf   -o CMakeFiles/cmTC_817a9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fprintf’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_817a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_817a9.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=fprintf    -rdynamic CMakeFiles/cmTC_817a9.dir/CheckFunctionExists.c.o  -o cmTC_817a9 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb351/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb351.dir/build.make CMakeFiles/cmTC_eb351.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_eb351.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=free   -o CMakeFiles/cmTC_eb351.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘free’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_eb351
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb351.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=free    -rdynamic CMakeFiles/cmTC_eb351.dir/CheckFunctionExists.c.o  -o cmTC_eb351 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function longjmp exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_86d78/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86d78.dir/build.make CMakeFiles/cmTC_86d78.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_86d78.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=longjmp   -o CMakeFiles/cmTC_86d78.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_86d78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86d78.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=longjmp    -rdynamic CMakeFiles/cmTC_86d78.dir/CheckFunctionExists.c.o  -o cmTC_86d78 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function siglongjmp exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ee68/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ee68.dir/build.make CMakeFiles/cmTC_2ee68.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_2ee68.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=siglongjmp   -o CMakeFiles/cmTC_2ee68.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2ee68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ee68.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=siglongjmp    -rdynamic CMakeFiles/cmTC_2ee68.dir/CheckFunctionExists.c.o  -o cmTC_2ee68 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57169/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57169.dir/build.make CMakeFiles/cmTC_57169.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_57169.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTC_57169.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘malloc’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_57169
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57169.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=malloc    -rdynamic CMakeFiles/cmTC_57169.dir/CheckFunctionExists.c.o  -o cmTC_57169 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5d8b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5d8b.dir/build.make CMakeFiles/cmTC_c5d8b.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_c5d8b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memcpy   -o CMakeFiles/cmTC_c5d8b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memcpy’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_c5d8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5d8b.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memcpy    -rdynamic CMakeFiles/cmTC_c5d8b.dir/CheckFunctionExists.c.o  -o cmTC_c5d8b 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2afc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2afc.dir/build.make CMakeFiles/cmTC_e2afc.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_e2afc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTC_e2afc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_e2afc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2afc.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memset    -rdynamic CMakeFiles/cmTC_e2afc.dir/CheckFunctionExists.c.o  -o cmTC_e2afc 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function printf exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25322/fast"
+/usr/bin/make -f CMakeFiles/cmTC_25322.dir/build.make CMakeFiles/cmTC_25322.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_25322.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=printf   -o CMakeFiles/cmTC_25322.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_25322
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25322.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=printf    -rdynamic CMakeFiles/cmTC_25322.dir/CheckFunctionExists.c.o  -o cmTC_25322 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc320/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc320.dir/build.make CMakeFiles/cmTC_cc320.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_cc320.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTC_cc320.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cc320
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc320.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=setjmp    -rdynamic CMakeFiles/cmTC_cc320.dir/CheckFunctionExists.c.o  -o cmTC_cc320 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d50bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d50bb.dir/build.make CMakeFiles/cmTC_d50bb.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_d50bb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=signal   -o CMakeFiles/cmTC_d50bb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d50bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d50bb.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=signal    -rdynamic CMakeFiles/cmTC_d50bb.dir/CheckFunctionExists.c.o  -o cmTC_d50bb 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function strsignal exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3208a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3208a.dir/build.make CMakeFiles/cmTC_3208a.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_3208a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strsignal   -o CMakeFiles/cmTC_3208a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3208a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3208a.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strsignal    -rdynamic CMakeFiles/cmTC_3208a.dir/CheckFunctionExists.c.o  -o cmTC_3208a 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fed3a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fed3a.dir/build.make CMakeFiles/cmTC_fed3a.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_fed3a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strcmp   -o CMakeFiles/cmTC_fed3a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcmp’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_fed3a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fed3a.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strcmp    -rdynamic CMakeFiles/cmTC_fed3a.dir/CheckFunctionExists.c.o  -o cmTC_fed3a 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7998/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7998.dir/build.make CMakeFiles/cmTC_e7998.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_e7998.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_e7998.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e7998
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7998.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=clock_gettime    -rdynamic CMakeFiles/cmTC_e7998.dir/CheckFunctionExists.c.o  -o cmTC_e7998 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function sprintf exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67262/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67262.dir/build.make CMakeFiles/cmTC_67262.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_67262.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=sprintf   -o CMakeFiles/cmTC_67262.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sprintf’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_67262
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67262.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=sprintf    -rdynamic CMakeFiles/cmTC_67262.dir/CheckFunctionExists.c.o  -o cmTC_67262 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97e6c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97e6c.dir/build.make CMakeFiles/cmTC_97e6c.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_97e6c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_97e6c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vsnprintf’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_97e6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97e6c.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=vsnprintf    -rdynamic CMakeFiles/cmTC_97e6c.dir/CheckFunctionExists.c.o  -o cmTC_97e6c 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Performing C SOURCE FILE Test HAVE_GCC_THREAD_LOCAL_STORAGE succeeded with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25fe7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_25fe7.dir/build.make CMakeFiles/cmTC_25fe7.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_25fe7.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_GCC_THREAD_LOCAL_STORAGE   -o CMakeFiles/cmTC_25fe7.dir/src.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_25fe7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25fe7.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_GCC_THREAD_LOCAL_STORAGE    -rdynamic CMakeFiles/cmTC_25fe7.dir/src.c.o  -o cmTC_25fe7 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+Source file was:
+
+__thread int tls;
+
+int main(void) {
+    return 0;
+}
+Performing C SOURCE FILE Test HAVE_CLOCK_REALTIME succeeded with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63ca6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63ca6.dir/build.make CMakeFiles/cmTC_63ca6.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_63ca6.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_CLOCK_REALTIME   -o CMakeFiles/cmTC_63ca6.dir/src.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_63ca6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63ca6.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_CLOCK_REALTIME    -rdynamic CMakeFiles/cmTC_63ca6.dir/src.c.o  -o cmTC_63ca6 /usr/lib/x86_64-linux-gnu/librt.so 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+Source file was:
+
+#include <time.h>
+
+int main(void) {
+    struct timespec ts;
+
+    clock_gettime(CLOCK_REALTIME, &ts);
+
+    return 0;
+}
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55e76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55e76.dir/build.make CMakeFiles/cmTC_55e76.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_55e76.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_55e76.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_55e76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55e76.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_55e76.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_55e76 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20f99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20f99.dir/build.make CMakeFiles/cmTC_20f99.dir/build
+make[1] : on entre dans le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_20f99.dir/TestEndianess.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_20f99.dir/TestEndianess.c.o   -c /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_20f99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20f99.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     -rdynamic CMakeFiles/cmTC_20f99.dir/TestEndianess.c.o  -o cmTC_20f99 
+make[1] : on quitte le répertoire « /home/thibaud/Bureau/QwirkleInC/Qwirkle/CMocka/cmocka-build/CMakeFiles/CMakeTmp »
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+

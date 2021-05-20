@@ -1,0 +1,1100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage.info - Controleur/controleur.c</title>
+  <link rel="stylesheet" type="text/css" href="../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../index.html">top level</a> - <a href="index.html">Controleur</a> - controleur.c<span style="font-size: 80%;"> (source / <a href="controleur.c.func-sort-c.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">307</td>
+            <td class="headerCovTableEntry">433</td>
+            <td class="headerCovTableEntryLo">70.9 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2020-05-23 15:44:41</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">11</td>
+            <td class="headerCovTableEntry">12</td>
+            <td class="headerCovTableEntryHi">91.7 %</td>
+          </tr>
+          <tr><td><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : /**</a>
+<span class="lineNum">       2 </span>            : * \file controleur.c
+<span class="lineNum">       3 </span>            : *
+<span class="lineNum">       4 </span>            : * \brief Fichier contenant le code nécessaire à la gestion du déroulement de la partie
+<span class="lineNum">       5 </span>            : *
+<span class="lineNum">       6 </span>            : * \author DA LAGE Alexis
+<span class="lineNum">       7 </span>            : * \version 1.0
+<span class="lineNum">       8 </span>            : * \date 07/04/2020
+<span class="lineNum">       9 </span>            : *
+<span class="lineNum">      10 </span>            : * Dans ce fichier ce trouve l'implémentation des fonctions permettant le déroulement d'une partie
+<span class="lineNum">      11 </span>            : */
+<span class="lineNum">      12 </span>            : 
+<span class="lineNum">      13 </span>            : 
+<span class="lineNum">      14 </span>            : #include &lt;stdio.h&gt;
+<span class="lineNum">      15 </span>            : #include &lt;stdlib.h&gt;
+<span class="lineNum">      16 </span>            : #include &lt;string.h&gt;
+<span class="lineNum">      17 </span>            : #include &quot;controleur.h&quot;
+<span class="lineNum">      18 </span>            : #include &quot;../Vue/affichage_sdl.h&quot;
+<span class="lineNum">      19 </span>            : #include &quot;../Modele/score.h&quot;
+<span class="lineNum">      20 </span>            : #include &quot;respectRegles.h&quot;
+<span class="lineNum">      21 </span>            : 
+<span class="lineNum">      22 </span>            : /**
+<span class="lineNum">      23 </span>            : * \fn SDL_Window * init_window()
+<span class="lineNum">      24 </span>            : * \brief
+<span class="lineNum">      25 </span>            : * Initialise une fenetre de taille 1280x1024
+<span class="lineNum">      26 </span>            : *
+<a name="27"><span class="lineNum">      27 </span>            : * \param[out] un pointeur sur une SDL_Window initialisée</a>
+<span class="lineNum">      28 </span>            : */
+<span class="lineNum">      29 </span><span class="lineCov">          2 : SDL_Window * init_window()</span>
+<span class="lineNum">      30 </span>            : {
+<span class="lineNum">      31 </span><span class="lineCov">          2 :     affichage_init(SDL_INIT_VIDEO | SDL_INIT_EVENTS); //! Initialise la SDL2</span>
+<span class="lineNum">      32 </span><span class="lineCov">          2 :     initialisation_TTF(); //! Initialise l'écriture du texte</span>
+<span class="lineNum">      33 </span>            : 
+<span class="lineNum">      34 </span>            : 
+<span class="lineNum">      35 </span><span class="lineCov">          2 :     return createWindow(&quot;Qwirkle game&quot;,SDL_WINDOWPOS_CENTERED,0,WIDTH,HEIGHT,SDL_WINDOW_SHOWN);</span>
+<span class="lineNum">      36 </span>            : }
+<span class="lineNum">      37 </span>            : 
+<span class="lineNum">      38 </span>            : 
+<span class="lineNum">      39 </span>            : /**
+<span class="lineNum">      40 </span>            : * \fn SDL_Renderer * init_renderer(SDL_Window* window)
+<span class="lineNum">      41 </span>            : * \brief
+<span class="lineNum">      42 </span>            : * Initialise le renderer associé à la fenetre window et affiche l'écran d'accueil pendant 2 secondes
+<span class="lineNum">      43 </span>            : *
+<span class="lineNum">      44 </span>            : * \param[in] un pointeur sur une SDL_Window initialisée
+<a name="45"><span class="lineNum">      45 </span>            : * \param[out] un pointeur sur un SDL_Renderer initialisé</a>
+<span class="lineNum">      46 </span>            : */
+<span class="lineNum">      47 </span><span class="lineCov">          2 : SDL_Renderer * init_renderer(SDL_Window* window)</span>
+<span class="lineNum">      48 </span>            : {
+<span class="lineNum">      49 </span><span class="lineCov">          2 :     SDL_Renderer * renderer = createRenderer(window,-1,SDL_RENDERER_ACCELERATED);</span>
+<span class="lineNum">      50 </span><span class="lineCov">          2 :     splashscreen(renderer); //! affiche l'écran d'accueil pendant 2 secondes</span>
+<span class="lineNum">      51 </span><span class="lineCov">          2 :     affichageEcran(renderer,&quot;res/main.bmp&quot;); //! affiche l'écran du jeu</span>
+<span class="lineNum">      52 </span>            : 
+<span class="lineNum">      53 </span><span class="lineCov">          2 :     return renderer;</span>
+<span class="lineNum">      54 </span>            : }
+<span class="lineNum">      55 </span>            : 
+<span class="lineNum">      56 </span>            : /**
+<span class="lineNum">      57 </span>            : * \fn void action_joueur(Partie *partie, SDL_Renderer * renderer,Input *input)
+<span class="lineNum">      58 </span>            : * \brief
+<span class="lineNum">      59 </span>            : *
+<span class="lineNum">      60 </span>            : * \param[in] Partie *partie, SDL_Renderer *renderer Input *input
+<span class="lineNum">      61 </span>            : *
+<span class="lineNum">      62 </span>            : */
+<a name="63"><span class="lineNum">      63 </span>            : </a>
+<span class="lineNum">      64 </span>            : 
+<span class="lineNum">      65 </span><span class="lineCov">         15 : void action_joueur(Partie *partie, SDL_Renderer * renderer,Input *input)</span>
+<span class="lineNum">      66 </span>            : {
+<span class="lineNum">      67 </span><span class="lineCov">         15 :     int xoffset=0,yoffset=0;</span>
+<span class="lineNum">      68 </span><span class="lineCov">         15 :     int boutonpassertourdispo=0;</span>
+<span class="lineNum">      69 </span><span class="lineCov">         15 :     int findepartie=0;</span>
+<span class="lineNum">      70 </span><span class="lineCov">         15 :     SDL_Rect textsheet=createFraming(250,24,915,50);</span>
+<span class="lineNum">      71 </span><span class="lineCov">         15 :     SDL_Color black= {0,0,0};</span>
+<span class="lineNum">      72 </span>            : 
+<span class="lineNum">      73 </span>            :     /*! mettre à jour les scores de joueurs affiche_points() rafraichir à chaque fois (attention à ne pas réécrire par dessus + affiche_sac()*/
+<span class="lineNum">      74 </span>            :     //affichageScore(renderer,partie);
+<span class="lineNum">      75 </span><span class="lineCov">         15 :     affichageScore_demo(renderer,partie);</span>
+<span class="lineNum">      76 </span><span class="lineCov">         15 :     affichage_sac(renderer,partie);</span>
+<span class="lineNum">      77 </span>            : 
+<span class="lineNum">      78 </span>            :     /*! affichage de la flêche à côté du joueur courant*/
+<span class="lineNum">      79 </span>            :     //affichageJoueurCourant(renderer,partie);
+<span class="lineNum">      80 </span><span class="lineCov">         15 :     affichageJoueurCourant_demo(renderer,partie);</span>
+<span class="lineNum">      81 </span>            :     /*! affichage du message &quot;C'est au tour de ...&quot;*/
+<span class="lineNum">      82 </span><span class="lineCov">         15 :     char * message=(char*)malloc(50*sizeof(char));</span>
+<span class="lineNum">      83 </span><span class="lineCov">         15 :     strcpy(message,&quot;C'est au tour de &quot;);</span>
+<span class="lineNum">      84 </span><span class="lineCov">         15 :     strcat(message,getJoueurCourant(partie)-&gt;nom);</span>
+<span class="lineNum">      85 </span><span class="lineCov">         15 :     strcat(message,&quot; de jouer&quot;);</span>
+<span class="lineNum">      86 </span><span class="lineCov">         15 :     affichage_message(renderer,black,&amp;textsheet,message);</span>
+<span class="lineNum">      87 </span>            :     /*! affichage des fleches de deplacement du plateau */
+<span class="lineNum">      88 </span><span class="lineCov">         15 :     affichage_fleches_plateau(renderer);</span>
+<span class="lineNum">      89 </span>            : 
+<span class="lineNum">      90 </span>            :     /*! Maj du plateau */
+<span class="lineNum">      91 </span><span class="lineCov">         15 :     affiche_plateau_17x17(renderer,partie,0,0,SDL_FALSE);</span>
+<span class="lineNum">      92 </span>            : 
+<span class="lineNum">      93 </span>            :     /*! affiche_main(getJoueurCourant(p));*/
+<span class="lineNum">      94 </span><span class="lineCov">         15 :     affiche_main_joueur_courant(renderer,partie);</span>
+<span class="lineNum">      95 </span>            : 
+<span class="lineNum">      96 </span>            :     /*! mise a jour de l'affichage des boutons pour piocher tuiles, poser tuiles ou passer son tour */
+<span class="lineNum">      97 </span><span class="lineCov">         15 :     affiche_poser(renderer);</span>
+<span class="lineNum">      98 </span><span class="lineCov">         15 :     if(partie-&gt;nbTuilesSac!=0)</span>
+<span class="lineNum">      99 </span>            :     {
+<span class="lineNum">     100 </span><span class="lineCov">         15 :         affiche_piocher(renderer);</span>
+<span class="lineNum">     101 </span>            :     }
+<span class="lineNum">     102 </span>            :     else
+<span class="lineNum">     103 </span>            :     {
+<span class="lineNum">     104 </span><span class="lineNoCov">          0 :         affiche_passer_son_tour(renderer);</span>
+<span class="lineNum">     105 </span><span class="lineNoCov">          0 :         boutonpassertourdispo=1;</span>
+<span class="lineNum">     106 </span>            :     }
+<span class="lineNum">     107 </span>            :     /*!Début de la boucle de gestion des Evenements*/
+<span class="lineNum">     108 </span><span class="lineCov">         15 :     SDL_bool choixAction = SDL_FALSE;</span>
+<span class="lineNum">     109 </span><span class="lineCov">       3997 :     while(!choixAction)</span>
+<span class="lineNum">     110 </span>            :     {
+<span class="lineNum">     111 </span>            :         /*! récupère informations de l'état des périphériques */
+<span class="lineNum">     112 </span><span class="lineCov">       3969 :         updateEvent(input);</span>
+<span class="lineNum">     113 </span>            : 
+<span class="lineNum">     114 </span>            : 
+<span class="lineNum">     115 </span>            :         /*! Action si on souhaite quitter le programme en appuyant sur la croix ou échap*/
+<span class="lineNum">     116 </span><span class="lineCov">       3969 :         if(input-&gt;key[SDL_SCANCODE_ESCAPE]==SDL_TRUE || input-&gt;quit==SDL_TRUE)</span>
+<span class="lineNum">     117 </span>            :         {
+<span class="lineNum">     118 </span><span class="lineCov">          2 :             input-&gt;key[SDL_SCANCODE_ESCAPE]=SDL_FALSE;</span>
+<span class="lineNum">     119 </span><span class="lineCov">          2 :             input-&gt;quit=SDL_FALSE;</span>
+<span class="lineNum">     120 </span><span class="lineCov">          4 :             return;   /*! On sort de la boucle action_joueur et on libère la mémoire avant de quitter le programme */</span>
+<span class="lineNum">     121 </span>            :         }
+<span class="lineNum">     122 </span>            : 
+<span class="lineNum">     123 </span>            : 
+<span class="lineNum">     124 </span>            : 
+<span class="lineNum">     125 </span>            :         /*! Action si l'utilisateur clique sur le bouton poser_tuile situé en (1155,505) de taille(100,60)*/
+<span class="lineNum">     126 </span>            : 
+<span class="lineNum">     127 </span><span class="lineCov">       3967 :         if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;1155&amp;&amp;input-&gt;x&lt;1155+100&amp;&amp;input-&gt;y&gt;505&amp;&amp;input-&gt;y&lt;505+60)</span>
+<span class="lineNum">     128 </span>            :         {
+<span class="lineNum">     129 </span><span class="lineCov">         11 :             input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     130 </span><span class="lineCov">         11 :             choixAction = SDL_TRUE;</span>
+<span class="lineNum">     131 </span>            : 
+<span class="lineNum">     132 </span><span class="lineCov">         11 :             action_poser_tuiles(partie, renderer,input,&amp;xoffset,&amp;yoffset);</span>
+<span class="lineNum">     133 </span>            :         }
+<span class="lineNum">     134 </span>            : 
+<span class="lineNum">     135 </span>            : 
+<span class="lineNum">     136 </span>            :         /*! Action si l'utilisateur clique sur le bouton piocher_tuile ou passer_son_tour situé en (1155,595) de taille(100,60)*/
+<span class="lineNum">     137 </span>            : 
+<span class="lineNum">     138 </span><span class="lineCov">       3967 :         if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;1155&amp;&amp;input-&gt;x&lt;1155+100&amp;&amp;input-&gt;y&gt;595&amp;&amp;input-&gt;y&lt;595+60)</span>
+<span class="lineNum">     139 </span>            :         {
+<span class="lineNum">     140 </span><span class="lineCov">          2 :             input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     141 </span><span class="lineCov">          2 :             choixAction = SDL_TRUE;</span>
+<span class="lineNum">     142 </span><span class="lineCov">          2 :             if(boutonpassertourdispo)</span>
+<span class="lineNum">     143 </span>            :             {
+<span class="lineNum">     144 </span><span class="lineNoCov">          0 :                 input-&gt;nbpassesontour++;</span>
+<span class="lineNum">     145 </span>            : 
+<span class="lineNum">     146 </span>            :             }
+<span class="lineNum">     147 </span>            :             else
+<span class="lineNum">     148 </span>            :             {
+<span class="lineNum">     149 </span><span class="lineCov">          2 :                 action_piocher_tuiles(partie,renderer,input,&amp;xoffset,&amp;yoffset);</span>
+<span class="lineNum">     150 </span>            :             }
+<span class="lineNum">     151 </span>            : 
+<span class="lineNum">     152 </span>            : 
+<span class="lineNum">     153 </span>            :         }
+<span class="lineNum">     154 </span>            :         /*! GESTION DES FLECHES DE REDIMENSIONNEMENT DU PLATEAU   */
+<span class="lineNum">     155 </span><span class="lineCov">       3967 :         arrows_rezising_plateau(partie,renderer,input,&amp;xoffset,&amp;yoffset);</span>
+<span class="lineNum">     156 </span>            : 
+<span class="lineNum">     157 </span>            : 
+<span class="lineNum">     158 </span>            :     }
+<span class="lineNum">     159 </span>            :     /*! Si le plateau à été décalé, effacage du plateau de jeu*/
+<span class="lineNum">     160 </span><span class="lineCov">         13 :     if(xoffset!=0||yoffset!=0)</span>
+<span class="lineNum">     161 </span>            :     {
+<span class="lineNum">     162 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,xoffset,yoffset,SDL_TRUE);</span>
+<span class="lineNum">     163 </span>            :     }
+<span class="lineNum">     164 </span>            : 
+<span class="lineNum">     165 </span>            :     /*! Vérification si le joueur est sorti de la routine action via le bouton RETOUR CHOIX ACTION (n'a donc pas fini son tour) */
+<span class="lineNum">     166 </span>            : 
+<span class="lineNum">     167 </span><span class="lineCov">         13 :     if(input-&gt;retouraction==SDL_TRUE)</span>
+<span class="lineNum">     168 </span>            :     {
+<span class="lineNum">     169 </span><span class="lineNoCov">          0 :         input-&gt;retouraction=SDL_FALSE;</span>
+<span class="lineNum">     170 </span><span class="lineNoCov">          0 :         action_joueur(partie,renderer,input);</span>
+<span class="lineNum">     171 </span><span class="lineNoCov">          0 :         return;</span>
+<span class="lineNum">     172 </span>            : 
+<span class="lineNum">     173 </span>            : 
+<span class="lineNum">     174 </span>            :     }
+<span class="lineNum">     175 </span>            :     /*! Si le joueur a fini son tour :  */
+<span class="lineNum">     176 </span>            :     /*! Verifier si le joueur a encore des tuiles, sinon fin de partie */
+<span class="lineNum">     177 </span>            : 
+<span class="lineNum">     178 </span><span class="lineCov">         13 :     int vide = 0;</span>
+<span class="lineNum">     179 </span><span class="lineCov">         91 :     for(int i=0; i&lt;6; i++)</span>
+<span class="lineNum">     180 </span>            :     {
+<span class="lineNum">     181 </span><span class="lineCov">         78 :         if(getJoueurCourant(partie)-&gt;tuilesJoueur[i] == NULL)</span>
+<span class="lineNum">     182 </span><span class="lineNoCov">          0 :             vide++;</span>
+<span class="lineNum">     183 </span>            :     }
+<span class="lineNum">     184 </span><span class="lineCov">         13 :     if(vide == 6)</span>
+<span class="lineNum">     185 </span>            :     {
+<span class="lineNum">     186 </span><span class="lineNoCov">          0 :         getJoueurCourant(partie)-&gt;points += 6;</span>
+<span class="lineNum">     187 </span><span class="lineNoCov">          0 :         findepartie=1;</span>
+<span class="lineNum">     188 </span>            :     }
+<span class="lineNum">     189 </span>            :     /*! si tous les joueurs ont passer leur tour : fin de partie*/
+<span class="lineNum">     190 </span><span class="lineCov">         13 :     if(input-&gt;nbpassesontour==partie-&gt;NbJoueurs)</span>
+<span class="lineNum">     191 </span>            :     {
+<span class="lineNum">     192 </span><span class="lineNoCov">          0 :         findepartie=1;</span>
+<span class="lineNum">     193 </span>            :     }
+<span class="lineNum">     194 </span>            : 
+<span class="lineNum">     195 </span>            : 
+<span class="lineNum">     196 </span>            : 
+<span class="lineNum">     197 </span><span class="lineCov">         13 :     if(findepartie)</span>
+<span class="lineNum">     198 </span>            :     {
+<span class="lineNum">     199 </span>            : 
+<span class="lineNum">     200 </span>            :         /*! Affichage de fin de partie*/
+<span class="lineNum">     201 </span><span class="lineNoCov">          0 :         fin_partie(partie,renderer);</span>
+<span class="lineNum">     202 </span>            :     }
+<span class="lineNum">     203 </span>            :     else
+<span class="lineNum">     204 </span>            :     {
+<span class="lineNum">     205 </span><span class="lineCov">         13 :         affichageFinTour(renderer,partie);</span>
+<span class="lineNum">     206 </span><span class="lineCov">        867 :         while(!input-&gt;mouse[SDL_BUTTON_LEFT])</span>
+<span class="lineNum">     207 </span>            :         {
+<span class="lineNum">     208 </span><span class="lineCov">        841 :             updateEvent(input);</span>
+<span class="lineNum">     209 </span>            :         }
+<span class="lineNum">     210 </span><span class="lineCov">         13 :         input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     211 </span><span class="lineCov">         13 :         affichageEcran(renderer,&quot;res/main.bmp&quot;);</span>
+<span class="lineNum">     212 </span><span class="lineCov">         13 :         joueurSuivant(partie);</span>
+<span class="lineNum">     213 </span><span class="lineCov">         13 :         action_joueur(partie,renderer,input);</span>
+<span class="lineNum">     214 </span>            :     }
+<span class="lineNum">     215 </span>            : 
+<span class="lineNum">     216 </span>            : }
+<span class="lineNum">     217 </span>            : 
+<span class="lineNum">     218 </span>            : /**
+<span class="lineNum">     219 </span>            : * \fn void action_piocher_tuiles(Partie *partie, SDL_Renderer * renderer,Input *input,int *xoffset,int *yoffset)
+<span class="lineNum">     220 </span>            : * \brief
+<span class="lineNum">     221 </span>            : *
+<span class="lineNum">     222 </span>            : *
+<span class="lineNum">     223 </span>            : * \param[in] Partie *partie, SDL_Renderer * renderer,Input *input,int *xoffset,int *yoffset
+<span class="lineNum">     224 </span>            : *
+<a name="225"><span class="lineNum">     225 </span>            : */</a>
+<span class="lineNum">     226 </span>            : 
+<span class="lineNum">     227 </span><span class="lineCov">          2 : void action_piocher_tuiles(Partie *partie, SDL_Renderer * renderer,Input *input,int *xoffset,int *yoffset)</span>
+<span class="lineNum">     228 </span>            : {
+<span class="lineNum">     229 </span><span class="lineCov">          2 :     SDL_Rect textsheet=createFraming(250,24,915,50);</span>
+<span class="lineNum">     230 </span><span class="lineCov">          2 :     SDL_Color black= {0,0,0};</span>
+<span class="lineNum">     231 </span>            : 
+<span class="lineNum">     232 </span>            :     /*! Supression des boutons piocher et poser tuiles */
+<span class="lineNum">     233 </span><span class="lineCov">          2 :     supprime_poser(renderer);</span>
+<span class="lineNum">     234 </span><span class="lineCov">          2 :     supprime_piocher(renderer);</span>
+<span class="lineNum">     235 </span>            :     /*! Affichage du bouton RETOUR CHOIX ACTION*/
+<span class="lineNum">     236 </span><span class="lineCov">          2 :     affiche_bouton_retour(renderer);</span>
+<span class="lineNum">     237 </span>            : 
+<span class="lineNum">     238 </span>            :     /*! Affichage du message &quot;Selectionne les tuiles que tu veux echanger, puis appuie sur OK&quot;*/
+<span class="lineNum">     239 </span>            : 
+<span class="lineNum">     240 </span>            : 
+<span class="lineNum">     241 </span><span class="lineCov">          2 :     affichage_message(renderer,black,&amp;textsheet,&quot;Selectionne les tuiles a echanger, puis appuie sur OK&quot;);</span>
+<span class="lineNum">     242 </span>            :     /*! Gestion de la selection des tuiles (recuperer l'index des tuiles selectionnées) */
+<span class="lineNum">     243 </span><span class="lineCov">          2 :     int tabtuiles[6]= {0,0,0,0,0,0};</span>
+<span class="lineNum">     244 </span><span class="lineCov">          2 :     SDL_bool choixOK = SDL_FALSE;</span>
+<span class="lineNum">     245 </span><span class="lineCov">          2 :     SDL_bool fin = SDL_FALSE;</span>
+<span class="lineNum">     246 </span><span class="lineCov">          2 :     SDL_bool OK = SDL_FALSE;</span>
+<span class="lineNum">     247 </span><span class="lineCov">          2 :     int sac=partie-&gt;nbTuilesSac;</span>
+<span class="lineNum">     248 </span>            :     int j;
+<span class="lineNum">     249 </span><span class="lineCov">          2 :     int afficheOK=0;</span>
+<span class="lineNum">     250 </span><span class="lineCov">        293 :     while(!choixOK)</span>
+<span class="lineNum">     251 </span>            :     {
+<span class="lineNum">     252 </span><span class="lineCov">        289 :         updateEvent(input);</span>
+<span class="lineNum">     253 </span>            :         /*! Gestion de la selection des tuiles */
+<span class="lineNum">     254 </span>            : 
+<span class="lineNum">     255 </span>            : 
+<span class="lineNum">     256 </span><span class="lineCov">       2023 :         for(j=0; j&lt;6; j++)</span>
+<span class="lineNum">     257 </span>            :         {
+<span class="lineNum">     258 </span><span class="lineCov">       1734 :             if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;(140+j*100)&amp;&amp;input-&gt;x&lt;(140+j*100)+100&amp;&amp;input-&gt;y&gt;910&amp;&amp;input-&gt;y&lt;910+100)</span>
+<span class="lineNum">     259 </span>            :             {
+<span class="lineNum">     260 </span><span class="lineCov">          4 :                 input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     261 </span><span class="lineCov">          4 :                 if(tabtuiles[j]!=1)</span>
+<span class="lineNum">     262 </span>            :                 {
+<span class="lineNum">     263 </span><span class="lineCov">          4 :                     if(getJoueurCourant(partie)-&gt;tuilesJoueur[j]!=NULL&amp;&amp;sac&gt;0)</span>
+<span class="lineNum">     264 </span>            :                     {
+<span class="lineNum">     265 </span><span class="lineCov">          4 :                         tabtuiles[j]=1;</span>
+<span class="lineNum">     266 </span><span class="lineCov">          4 :                         affichage_selection_tuiles(renderer,j);</span>
+<span class="lineNum">     267 </span><span class="lineCov">          4 :                         sac--;</span>
+<span class="lineNum">     268 </span>            :                     }
+<span class="lineNum">     269 </span>            :                 }
+<span class="lineNum">     270 </span>            :                 else
+<span class="lineNum">     271 </span>            :                 {
+<span class="lineNum">     272 </span><span class="lineNoCov">          0 :                     tabtuiles[j]=0;</span>
+<span class="lineNum">     273 </span><span class="lineNoCov">          0 :                     supprime_selection_tuiles(renderer,j);</span>
+<span class="lineNum">     274 </span><span class="lineNoCov">          0 :                     sac++;</span>
+<span class="lineNum">     275 </span>            :                 }
+<span class="lineNum">     276 </span>            :             }
+<span class="lineNum">     277 </span>            :         }
+<span class="lineNum">     278 </span>            : 
+<span class="lineNum">     279 </span>            :         /*! Attendre que le bouton OK soit appuyé */
+<span class="lineNum">     280 </span><span class="lineCov">       2023 :         for(j=0; j&lt;6; j++)</span>
+<span class="lineNum">     281 </span>            :         {
+<span class="lineNum">     282 </span><span class="lineCov">       1734 :             if(tabtuiles[j]!=0)</span>
+<span class="lineNum">     283 </span><span class="lineCov">        320 :                 afficheOK=1;</span>
+<span class="lineNum">     284 </span>            :         }
+<span class="lineNum">     285 </span><span class="lineCov">        289 :         if((afficheOK==1))</span>
+<span class="lineNum">     286 </span>            :         {
+<span class="lineNum">     287 </span><span class="lineCov">        180 :             if(OK!=SDL_TRUE)</span>
+<span class="lineNum">     288 </span>            :             {
+<span class="lineNum">     289 </span><span class="lineCov">          2 :                 affiche_bouton_OK(renderer);</span>
+<span class="lineNum">     290 </span><span class="lineCov">          2 :                 OK=SDL_TRUE;</span>
+<span class="lineNum">     291 </span>            :             }
+<span class="lineNum">     292 </span><span class="lineCov">        180 :             if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;1050&amp;&amp;input-&gt;x&lt;1050+100&amp;&amp;input-&gt;y&gt;435&amp;&amp;input-&gt;y&lt;435+60)</span>
+<span class="lineNum">     293 </span>            :             {
+<span class="lineNum">     294 </span><span class="lineCov">          2 :                 input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     295 </span><span class="lineCov">          2 :                 choixOK = SDL_TRUE;</span>
+<span class="lineNum">     296 </span><span class="lineCov">          2 :                 supprime_zonemessage(renderer,&amp;textsheet);</span>
+<span class="lineNum">     297 </span>            : 
+<span class="lineNum">     298 </span>            :             }
+<span class="lineNum">     299 </span><span class="lineCov">        180 :             afficheOK=0;</span>
+<span class="lineNum">     300 </span>            :         }
+<span class="lineNum">     301 </span><span class="lineCov">        109 :         else if(afficheOK==0 &amp;&amp; OK==SDL_TRUE)</span>
+<span class="lineNum">     302 </span>            :         {
+<span class="lineNum">     303 </span><span class="lineNoCov">          0 :             supprime_bouton_OK(renderer);</span>
+<span class="lineNum">     304 </span><span class="lineNoCov">          0 :             OK=SDL_FALSE;</span>
+<span class="lineNum">     305 </span>            :         }
+<span class="lineNum">     306 </span>            :         /*! Gestion du bouton RETOUR CHOIX ACTION */
+<span class="lineNum">     307 </span><span class="lineCov">        289 :         if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;1155&amp;&amp;input-&gt;x&lt;1155+100&amp;&amp;input-&gt;y&gt;505&amp;&amp;input-&gt;y&lt;505+120)</span>
+<span class="lineNum">     308 </span>            :         {
+<span class="lineNum">     309 </span><span class="lineNoCov">          0 :             input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     310 </span><span class="lineNoCov">          0 :             supprime_bouton_retour(renderer);</span>
+<span class="lineNum">     311 </span><span class="lineNoCov">          0 :             supprime_zonemessage(renderer,&amp;textsheet);//! efface la zone de message classique en haut à gauche</span>
+<span class="lineNum">     312 </span>            : 
+<span class="lineNum">     313 </span><span class="lineNoCov">          0 :             supprime_bouton_OK(renderer); //! supprime le bouton OK</span>
+<span class="lineNum">     314 </span><span class="lineNoCov">          0 :             for(int i=0; i&lt;6; i++)</span>
+<span class="lineNum">     315 </span>            :             {
+<span class="lineNum">     316 </span><span class="lineNoCov">          0 :                 if(tabtuiles[i]==SDL_TRUE)</span>
+<span class="lineNum">     317 </span>            :                 {
+<span class="lineNum">     318 </span><span class="lineNoCov">          0 :                     supprime_selection_tuiles(renderer,i);</span>
+<span class="lineNum">     319 </span>            :                 }
+<span class="lineNum">     320 </span>            :             }
+<span class="lineNum">     321 </span><span class="lineNoCov">          0 :             input-&gt;retouraction=SDL_TRUE; //! Donne l'indication à action_joueur qu'il faut relancer le choix de l'action (et non passer au tour du joueur suivant)</span>
+<span class="lineNum">     322 </span><span class="lineNoCov">          0 :             return; //! arrêter la routine de action_piocher_tuiles</span>
+<span class="lineNum">     323 </span>            :         }
+<span class="lineNum">     324 </span>            : 
+<span class="lineNum">     325 </span>            :         /*! Action si on souhaite quitter le programme en appuyant sur la croix ou échap*/
+<span class="lineNum">     326 </span><span class="lineCov">        289 :         if(input-&gt;key[SDL_SCANCODE_ESCAPE]==SDL_TRUE || input-&gt;quit==SDL_TRUE)</span>
+<span class="lineNum">     327 </span>            :         {
+<span class="lineNum">     328 </span>            : 
+<span class="lineNum">     329 </span><span class="lineNoCov">          0 :             return;   /*! On sort de la fonction action_piocher_tuiles puis action_joueur pour ensuite libèrer la mémoire avant de quitter le programme */</span>
+<span class="lineNum">     330 </span>            :         }
+<span class="lineNum">     331 </span>            : 
+<span class="lineNum">     332 </span>            :         /*! GESTION DES FLECHES DE REDIMENSIONNEMENT DU PLATEAU   */
+<span class="lineNum">     333 </span><span class="lineCov">        289 :         arrows_rezising_plateau(partie,renderer,input,xoffset,yoffset);</span>
+<span class="lineNum">     334 </span>            : 
+<span class="lineNum">     335 </span>            : 
+<span class="lineNum">     336 </span>            :     }
+<span class="lineNum">     337 </span>            :     /*! Gestion lorsque les tuiles ont bien été échangées*/
+<span class="lineNum">     338 </span>            : 
+<span class="lineNum">     339 </span>            :     /*! Suppression du bouton RETOUR CHOIX ACTION */
+<span class="lineNum">     340 </span><span class="lineCov">          2 :     supprime_bouton_retour(renderer);</span>
+<span class="lineNum">     341 </span>            : 
+<span class="lineNum">     342 </span>            :     /*! Appeller la fonction piocher tuiles, melanger sac etc...*/
+<span class="lineNum">     343 </span><span class="lineCov">          2 :     action_piocher(partie,tabtuiles);</span>
+<span class="lineNum">     344 </span><span class="lineCov">         14 :     for(j=0; j&lt;6; j++)</span>
+<span class="lineNum">     345 </span>            :     {
+<span class="lineNum">     346 </span><span class="lineCov">         12 :         if(tabtuiles[j]!=0)</span>
+<span class="lineNum">     347 </span><span class="lineCov">          4 :             supprime_selection_tuiles(renderer,j);</span>
+<span class="lineNum">     348 </span>            :     }
+<span class="lineNum">     349 </span><span class="lineCov">          2 :     affiche_main_joueur_courant(renderer,partie);</span>
+<span class="lineNum">     350 </span><span class="lineCov">          2 :     affiche_bouton_fin_du_tour(renderer); //! affichage du bouton fin du tour à la place du bouton ok</span>
+<span class="lineNum">     351 </span><span class="lineCov">          2 :     affichage_message(renderer,black,&amp;textsheet,&quot;Voici votre main avec les nouvelles tuiles piochees&quot;);</span>
+<span class="lineNum">     352 </span>            : 
+<span class="lineNum">     353 </span><span class="lineCov">         11 :     while(!fin)</span>
+<span class="lineNum">     354 </span>            :     {
+<span class="lineNum">     355 </span><span class="lineCov">          7 :         updateEvent(input);</span>
+<span class="lineNum">     356 </span>            :         /*! Gestion du bouton fin de tour*/
+<span class="lineNum">     357 </span><span class="lineCov">          7 :         if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;1050&amp;&amp;input-&gt;x&lt;1050+100&amp;&amp;input-&gt;y&gt;435&amp;&amp;input-&gt;y&lt;435+60)</span>
+<span class="lineNum">     358 </span>            :         {
+<span class="lineNum">     359 </span><span class="lineCov">          2 :             input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     360 </span><span class="lineCov">          2 :             fin=SDL_TRUE;</span>
+<span class="lineNum">     361 </span><span class="lineCov">          2 :             supprime_bouton_fin_du_tour(renderer);//!suppression du bouton Fin Du Tour lorsque le joueur à cliquer dessus et à terminer de jouer</span>
+<span class="lineNum">     362 </span>            :         }
+<span class="lineNum">     363 </span>            :         /*! Action si on souhaite quitter le programme en appuyant sur la croix ou échap*/
+<span class="lineNum">     364 </span><span class="lineCov">          7 :         if(input-&gt;key[SDL_SCANCODE_ESCAPE]==SDL_TRUE || input-&gt;quit==SDL_TRUE)</span>
+<span class="lineNum">     365 </span>            :         {
+<span class="lineNum">     366 </span>            : 
+<span class="lineNum">     367 </span><span class="lineNoCov">          0 :             return;   /*! On sort de la fonction action_piocher_tuiles puis action_joueur pour ensuite libèrer la mémoire avant de quitter le programme */</span>
+<span class="lineNum">     368 </span>            :         }
+<span class="lineNum">     369 </span>            : 
+<span class="lineNum">     370 </span>            :         /*! GESTION DES FLECHES DE REDIMENSIONNEMENT DU PLATEAU   */
+<span class="lineNum">     371 </span><span class="lineCov">          7 :         arrows_rezising_plateau(partie,renderer,input,xoffset,yoffset);</span>
+<span class="lineNum">     372 </span>            : 
+<span class="lineNum">     373 </span>            :     }
+<span class="lineNum">     374 </span>            :     /*! Remise à zero du compteur sur le nombre de joueur qui passe leur tour*/
+<span class="lineNum">     375 </span><span class="lineCov">          2 :     input-&gt;nbpassesontour=0;</span>
+<span class="lineNum">     376 </span>            : 
+<span class="lineNum">     377 </span>            : }
+<span class="lineNum">     378 </span>            : 
+<span class="lineNum">     379 </span>            : /**
+<span class="lineNum">     380 </span>            : * \fn void action_poser_tuiles(Partie *partie, SDL_Renderer * renderer,Input *input,int *xoffset,int *yoffset);
+<span class="lineNum">     381 </span>            : * \brief
+<span class="lineNum">     382 </span>            : *
+<span class="lineNum">     383 </span>            : * \param[in] Partie *partie, SDL_Renderer * renderer,Input *input,int *xoffset,int *yoffset
+<span class="lineNum">     384 </span>            : *
+<a name="385"><span class="lineNum">     385 </span>            : */</a>
+<span class="lineNum">     386 </span>            : 
+<span class="lineNum">     387 </span><span class="lineCov">         11 : void action_poser_tuiles(Partie *partie, SDL_Renderer * renderer,Input *input,int *xoffset,int *yoffset)</span>
+<span class="lineNum">     388 </span>            : {
+<span class="lineNum">     389 </span><span class="lineCov">         11 :     SDL_Rect textsheet=createFraming(250,24,915,50);</span>
+<span class="lineNum">     390 </span><span class="lineCov">         11 :     SDL_Color black= {0,0,0};</span>
+<span class="lineNum">     391 </span>            : 
+<span class="lineNum">     392 </span>            : 
+<span class="lineNum">     393 </span>            :     /*! Supression des boutons piocher et poser tuiles*/
+<span class="lineNum">     394 </span><span class="lineCov">         11 :     supprime_poser(renderer);</span>
+<span class="lineNum">     395 </span><span class="lineCov">         11 :     supprime_piocher(renderer);</span>
+<span class="lineNum">     396 </span>            :     /*! Affichage du bouton RETOUR CHOIX ACTION*/
+<span class="lineNum">     397 </span><span class="lineCov">         11 :     affiche_bouton_retour(renderer);</span>
+<span class="lineNum">     398 </span>            : 
+<span class="lineNum">     399 </span>            :     /*! Gestion de la pose des tuiles */
+<span class="lineNum">     400 </span><span class="lineCov">         11 :     SDL_bool poseNouvelleTuile= SDL_FALSE; //!renseigne si le joueur est au cas 1 (SDL_FALSE) ou au cas 2 (SDL_TRUE)</span>
+<span class="lineNum">     401 </span><span class="lineCov">         11 :     int tabtuilesposees[6]= {0,0,0,0,0,0};</span>
+<span class="lineNum">     402 </span><span class="lineCov">         11 :     SDL_bool choixfinDuTour = SDL_FALSE;</span>
+<span class="lineNum">     403 </span><span class="lineCov">         11 :     SDL_bool boutonFinDuTourDispo = SDL_FALSE;</span>
+<span class="lineNum">     404 </span><span class="lineCov">         11 :     SDL_bool boutonFinDuTourPresent = SDL_FALSE;</span>
+<span class="lineNum">     405 </span><span class="lineCov">         11 :     SDL_bool boutonOKDispo = SDL_FALSE;</span>
+<span class="lineNum">     406 </span><span class="lineCov">         11 :     SDL_bool boutonOKPresent = SDL_FALSE;</span>
+<span class="lineNum">     407 </span><span class="lineCov">         11 :     SDL_bool ilyaunetuileprovisoire= SDL_FALSE;</span>
+<span class="lineNum">     408 </span><span class="lineCov">         11 :     SDL_bool message_cas1=SDL_FALSE;</span>
+<span class="lineNum">     409 </span><span class="lineCov">         11 :     SDL_bool message_cas2=SDL_FALSE;</span>
+<span class="lineNum">     410 </span><span class="lineCov">         11 :     SDL_bool changemessage_cas2=SDL_FALSE;</span>
+<span class="lineNum">     411 </span><span class="lineCov">         11 :     int indextuilecourante=0;</span>
+<span class="lineNum">     412 </span>            : 
+<span class="lineNum">     413 </span>            :     /*! LES VARIABLES POUR LES REGLES */
+<span class="lineNum">     414 </span><span class="lineCov">         11 :     int Tisok=0;   /*! RECUPERE CE QUE RETOURNE ISTUILECORRECT POUR AFFICHER LE MESSAGE D'ERREUR CORRESPONDANT  */</span>
+<span class="lineNum">     415 </span><span class="lineCov">         11 :     SDL_bool wordisOk = SDL_FALSE;   /*! POUR SAVOIR SI LES TUILES DU MOT SONT EPARPILLEES  */</span>
+<span class="lineNum">     416 </span><span class="lineCov">         11 :     SDL_bool regleok = SDL_FALSE;   /*! FLAG DES REGLES: POUR SAVOIR SI TUILEISOK ET WORDISOK SONT BONS.  */</span>
+<span class="lineNum">     417 </span><span class="lineCov">         11 :     SDL_bool fintourprioritaire = SDL_FALSE;</span>
+<span class="lineNum">     418 </span><span class="lineCov">         11 :     SDL_Rect background=createFraming(310,23,920,380);</span>
+<span class="lineNum">     419 </span>            : 
+<span class="lineNum">     420 </span>            : 
+<span class="lineNum">     421 </span><span class="lineCov">       3290 :     while(!choixfinDuTour)  /*! Tant qu'on n'appuie pas sur le bouton FIN DE TOUR */</span>
+<span class="lineNum">     422 </span>            :     {
+<span class="lineNum">     423 </span><span class="lineCov">       3268 :         updateEvent(input);</span>
+<span class="lineNum">     424 </span>            : 
+<span class="lineNum">     425 </span>            : 
+<span class="lineNum">     426 </span>            :         /*! Gestion du bouton RETOUR CHOIX ACTION */
+<span class="lineNum">     427 </span><span class="lineCov">       3268 :         if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;1155&amp;&amp;input-&gt;x&lt;1155+100&amp;&amp;input-&gt;y&gt;505&amp;&amp;input-&gt;y&lt;505+120)</span>
+<span class="lineNum">     428 </span>            :         {
+<span class="lineNum">     429 </span><span class="lineNoCov">          0 :             input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     430 </span><span class="lineNoCov">          0 :             supprime_bouton_retour(renderer);</span>
+<span class="lineNum">     431 </span><span class="lineNoCov">          0 :             affiche_tuiles_provisoires_17x17(renderer,partie,tabtuilesposees,*xoffset,*yoffset,SDL_TRUE); //!efface les tuiles provisoires</span>
+<span class="lineNum">     432 </span><span class="lineNoCov">          0 :             supprime_zonemessage(renderer,&amp;textsheet); //! efface la zone de message classique en haut à droite</span>
+<span class="lineNum">     433 </span><span class="lineNoCov">          0 :             affichage_trackingerror(renderer,wordisOk,SDL_FALSE);   //! enleve les messages d'erreur lié a une pose illicite de tuile</span>
+<span class="lineNum">     434 </span><span class="lineNoCov">          0 :             supprime_zonemessage(renderer,&amp;background); //! enleve les messages d'erreur lié a une pose illicite de tuile</span>
+<span class="lineNum">     435 </span>            : 
+<span class="lineNum">     436 </span>            : 
+<span class="lineNum">     437 </span>            : 
+<span class="lineNum">     438 </span><span class="lineNoCov">          0 :             supprime_bouton_OK(renderer); //! supprime le bouton OK ou findetour</span>
+<span class="lineNum">     439 </span><span class="lineNoCov">          0 :             for(int i=0; i&lt;6; i++)</span>
+<span class="lineNum">     440 </span>            :             {
+<span class="lineNum">     441 </span>            : 
+<span class="lineNum">     442 </span><span class="lineNoCov">          0 :                 supprime_selection_tuiles(renderer,i);</span>
+<span class="lineNum">     443 </span>            :             }
+<span class="lineNum">     444 </span><span class="lineNoCov">          0 :             input-&gt;retouraction=SDL_TRUE; //! Donne l'indication à action_joueur qu'il faut relancer le choix de l'action (et non passer au tour du joueur suivant)</span>
+<span class="lineNum">     445 </span><span class="lineNoCov">          0 :             return; //! arrêter la routine de action_poser_tuiles</span>
+<span class="lineNum">     446 </span>            :         }
+<span class="lineNum">     447 </span>            : 
+<span class="lineNum">     448 </span>            :         /*! Séparation des actions à effectuer en deux grands cas*/
+<span class="lineNum">     449 </span>            : 
+<span class="lineNum">     450 </span>            :         /*! Cas 1 : Le joueur doit selectionner une nouvelle tuile à poser ou deselectionner une tuile déja posée ou appuyer sur finDuTour */
+<span class="lineNum">     451 </span>            : 
+<span class="lineNum">     452 </span><span class="lineCov">       3268 :         if(poseNouvelleTuile==SDL_FALSE)</span>
+<span class="lineNum">     453 </span>            :         {
+<span class="lineNum">     454 </span>            :             /*! Gestion de la sélection/déselection d'une tuile*/
+<span class="lineNum">     455 </span>            : 
+<span class="lineNum">     456 </span><span class="lineCov">      10353 :             for(int j=0; j&lt;6; j++)</span>
+<span class="lineNum">     457 </span>            :             {
+<span class="lineNum">     458 </span><span class="lineCov">       8874 :                 if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;(140+j*100)&amp;&amp;input-&gt;x&lt;(140+j*100)+100&amp;&amp;input-&gt;y&gt;910&amp;&amp;input-&gt;y&lt;910+100)</span>
+<span class="lineNum">     459 </span>            :                 {
+<span class="lineNum">     460 </span>            : 
+<span class="lineNum">     461 </span><span class="lineCov">         14 :                     input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     462 </span><span class="lineCov">         14 :                     if(tabtuilesposees[j]==0)</span>
+<span class="lineNum">     463 </span>            :                     {
+<span class="lineNum">     464 </span><span class="lineCov">         14 :                         indextuilecourante=j;</span>
+<span class="lineNum">     465 </span><span class="lineCov">         14 :                         affichage_selection_tuiles(renderer,j);</span>
+<span class="lineNum">     466 </span><span class="lineCov">         14 :                         poseNouvelleTuile=SDL_TRUE;</span>
+<span class="lineNum">     467 </span>            : 
+<span class="lineNum">     468 </span>            : 
+<span class="lineNum">     469 </span>            : 
+<span class="lineNum">     470 </span>            : 
+<span class="lineNum">     471 </span>            :                     }
+<span class="lineNum">     472 </span>            :                     else
+<span class="lineNum">     473 </span>            :                     {
+<span class="lineNum">     474 </span><span class="lineNoCov">          0 :                         affiche_tuiles_provisoires_17x17(renderer,partie,tabtuilesposees,*xoffset,*yoffset,SDL_TRUE); //!Efface toutes les tuiles provisoires</span>
+<span class="lineNum">     475 </span><span class="lineNoCov">          0 :                         tabtuilesposees[j]=0;</span>
+<span class="lineNum">     476 </span><span class="lineNoCov">          0 :                         getJoueurCourant(partie)-&gt;tuilesJoueur[j]-&gt;x=-1;</span>
+<span class="lineNum">     477 </span><span class="lineNoCov">          0 :                         getJoueurCourant(partie)-&gt;tuilesJoueur[j]-&gt;y=-1;</span>
+<span class="lineNum">     478 </span><span class="lineNoCov">          0 :                         affiche_tuiles_provisoires_17x17(renderer,partie,tabtuilesposees,*xoffset,*yoffset,SDL_FALSE); //!Affiche les tuiles provisoires sans la tuile deselectionnée</span>
+<span class="lineNum">     479 </span><span class="lineNoCov">          0 :                         affiche_Tisok_message(renderer,Tisok,SDL_FALSE);</span>
+<span class="lineNum">     480 </span><span class="lineNoCov">          0 :                         indextuilecourante=-1;</span>
+<span class="lineNum">     481 </span>            : 
+<span class="lineNum">     482 </span>            :                         /*! La tuile est deselectionnee: on reverifie si les regles sont quand meme respectees avec les tuiles provisoires restantes)*/
+<span class="lineNum">     483 </span>            : 
+<span class="lineNum">     484 </span><span class="lineNoCov">          0 :                         indextuilecourante=-1;</span>
+<span class="lineNum">     485 </span><span class="lineNoCov">          0 :                         regleok=rules_check(partie,renderer,tabtuilesposees);</span>
+<span class="lineNum">     486 </span><span class="lineNoCov">          0 :                         if(regleok==SDL_TRUE)</span>
+<span class="lineNum">     487 </span>            :                         {
+<span class="lineNum">     488 </span><span class="lineNoCov">          0 :                             affiche_bouton_fin_du_tour(renderer);</span>
+<span class="lineNum">     489 </span>            :                         }
+<span class="lineNum">     490 </span><span class="lineNoCov">          0 :                         supprime_selection_tuiles(renderer,j);</span>
+<span class="lineNum">     491 </span>            :                     }
+<span class="lineNum">     492 </span>            :                 }
+<span class="lineNum">     493 </span>            :             }
+<span class="lineNum">     494 </span>            :             /*! Gestion de la disponibilité du bouton finDuTour (à compléter avec les règles)*/
+<span class="lineNum">     495 </span><span class="lineCov">       1479 :             boutonFinDuTourDispo=SDL_FALSE;</span>
+<span class="lineNum">     496 </span><span class="lineCov">      10353 :             for(int j=0; j&lt;6; j++)</span>
+<span class="lineNum">     497 </span>            :             {
+<span class="lineNum">     498 </span><span class="lineCov">       8874 :                 if(tabtuilesposees[j]==1 &amp;&amp; regleok==1)   //! AJOUTER LES CONDITIONS AVEC LES REGLES ICI//</span>
+<span class="lineNum">     499 </span>            :                 {
+<span class="lineNum">     500 </span><span class="lineCov">        485 :                     boutonFinDuTourDispo=SDL_TRUE;</span>
+<span class="lineNum">     501 </span>            :                 }
+<span class="lineNum">     502 </span>            :             }
+<span class="lineNum">     503 </span>            :             /*! Gestion de l'affichage du bouton finDuTour et d'un clic sur lui*/
+<span class="lineNum">     504 </span><span class="lineCov">       1479 :             if(boutonFinDuTourDispo==SDL_TRUE)</span>
+<span class="lineNum">     505 </span>            :             {
+<span class="lineNum">     506 </span><span class="lineCov">        342 :                 if(boutonFinDuTourPresent==SDL_FALSE)</span>
+<span class="lineNum">     507 </span>            :                 {
+<span class="lineNum">     508 </span><span class="lineCov">         11 :                     affiche_bouton_fin_du_tour(renderer);</span>
+<span class="lineNum">     509 </span><span class="lineCov">         11 :                     boutonFinDuTourPresent=SDL_TRUE;</span>
+<span class="lineNum">     510 </span>            :                 }
+<span class="lineNum">     511 </span><span class="lineCov">        342 :                 if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;1050&amp;&amp;input-&gt;x&lt;1050+100&amp;&amp;input-&gt;y&gt;435&amp;&amp;input-&gt;y&lt;435+60)</span>
+<span class="lineNum">     512 </span>            :                 {
+<span class="lineNum">     513 </span><span class="lineCov">         11 :                     input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     514 </span><span class="lineCov">         11 :                     choixfinDuTour = SDL_TRUE;</span>
+<span class="lineNum">     515 </span>            :                 }
+<span class="lineNum">     516 </span>            :             }
+<span class="lineNum">     517 </span>            : 
+<span class="lineNum">     518 </span>            :             else
+<span class="lineNum">     519 </span>            :             {
+<span class="lineNum">     520 </span><span class="lineCov">       1137 :                 if(boutonFinDuTourPresent==SDL_TRUE)</span>
+<span class="lineNum">     521 </span>            :                 {
+<span class="lineNum">     522 </span><span class="lineNoCov">          0 :                     supprime_bouton_fin_du_tour(renderer);</span>
+<span class="lineNum">     523 </span><span class="lineNoCov">          0 :                     boutonFinDuTourPresent=SDL_FALSE;</span>
+<span class="lineNum">     524 </span>            :                 }
+<span class="lineNum">     525 </span>            :             }
+<span class="lineNum">     526 </span>            :             /*! Affichage du message &quot;Clique sur la tuile que tu souhaite poser&quot;*/
+<span class="lineNum">     527 </span><span class="lineCov">       1479 :             if(message_cas1==SDL_FALSE)</span>
+<span class="lineNum">     528 </span>            :             {
+<span class="lineNum">     529 </span><span class="lineCov">         25 :                 message_cas2=SDL_FALSE;</span>
+<span class="lineNum">     530 </span><span class="lineCov">         25 :                 changemessage_cas2=SDL_FALSE;</span>
+<span class="lineNum">     531 </span><span class="lineCov">         25 :                 affichage_message(renderer,black,&amp;textsheet,&quot;Clique sur la tuile que tu souhaite poser&quot;);</span>
+<span class="lineNum">     532 </span><span class="lineCov">         25 :                 message_cas1=SDL_TRUE;</span>
+<span class="lineNum">     533 </span>            :             }
+<span class="lineNum">     534 </span>            :         }
+<span class="lineNum">     535 </span>            :         /*! Cas 2 : Le joueur doit selectionner un endroit sur le plateau ou deselectionner la tuile ou appuyer sur ok */
+<span class="lineNum">     536 </span>            : 
+<span class="lineNum">     537 </span><span class="lineCov">       3268 :         if(poseNouvelleTuile==SDL_TRUE)</span>
+<span class="lineNum">     538 </span>            :         {
+<span class="lineNum">     539 </span>            :             /*! Gestion de la selection de la tuile sur le plateau */
+<span class="lineNum">     540 </span>            : 
+<span class="lineNum">     541 </span><span class="lineCov">       1803 :             if(input-&gt;mouse[SDL_BUTTON_LEFT]) //! empeche à la boucle de s'activer au moindre événement</span>
+<span class="lineNum">     542 </span>            :             {
+<span class="lineNum">     543 </span><span class="lineCov">        408 :                 for(int i=0; i&lt;17; i++)</span>
+<span class="lineNum">     544 </span>            :                 {
+<span class="lineNum">     545 </span><span class="lineCov">       6700 :                     for(int j=0; j&lt;17; j++)</span>
+<span class="lineNum">     546 </span>            :                     {
+<span class="lineNum">     547 </span><span class="lineCov">       6321 :                         if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;(20+i*50)&amp;&amp;input-&gt;x&lt;(20+50+i*50)&amp;&amp;input-&gt;y&gt;(20+j*50)&amp;&amp;input-&gt;y&lt;(20+50+j*50))</span>
+<span class="lineNum">     548 </span>            :                         {
+<span class="lineNum">     549 </span><span class="lineCov">         15 :                             if(partie-&gt;plateau-&gt;tuiles[91+i+*xoffset][91+j+*yoffset] == NULL) //! verification qu'il n'y a pas deja une tuile posée à l'endroit souhaité</span>
+<span class="lineNum">     550 </span>            :                             {
+<span class="lineNum">     551 </span><span class="lineCov">         15 :                                 ilyaunetuileprovisoire=0;</span>
+<span class="lineNum">     552 </span><span class="lineCov">        105 :                                 for(int k=0; k&lt;6; k++) //! verification qu'il n'y a pas deja une tuile PROVISOIREMENT posée à l'endroit souhaité</span>
+<span class="lineNum">     553 </span>            :                                 {
+<span class="lineNum">     554 </span><span class="lineCov">         90 :                                     if(tabtuilesposees[k]==1 &amp;&amp; getJoueurCourant(partie)-&gt;tuilesJoueur[k]-&gt;x==91+i+*xoffset+1 &amp;&amp; getJoueurCourant(partie)-&gt;tuilesJoueur[k]-&gt;y==91+j+*yoffset+1)</span>
+<span class="lineNum">     555 </span>            :                                     {
+<span class="lineNum">     556 </span><span class="lineNoCov">          0 :                                         ilyaunetuileprovisoire=1; //! ici on empeche le joueur de poser provisoirement deux tuiles au meme endroit</span>
+<span class="lineNum">     557 </span>            :                                     }
+<span class="lineNum">     558 </span>            :                                 }
+<span class="lineNum">     559 </span>            : 
+<span class="lineNum">     560 </span><span class="lineCov">         15 :                                 if(!(ilyaunetuileprovisoire))</span>
+<span class="lineNum">     561 </span>            :                                 {
+<span class="lineNum">     562 </span><span class="lineCov">         15 :                                     input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     563 </span><span class="lineCov">         15 :                                     tabtuilesposees[indextuilecourante]=1;</span>
+<span class="lineNum">     564 </span><span class="lineCov">         15 :                                     affiche_tuiles_provisoires_17x17(renderer,partie,tabtuilesposees,*xoffset,*yoffset,SDL_TRUE);//! efface les tuiles provisoires (dont peut etre la tuile provisoire courante dont on souhaite modifier la position)</span>
+<span class="lineNum">     565 </span><span class="lineCov">         15 :                                     getJoueurCourant(partie)-&gt;tuilesJoueur[indextuilecourante]-&gt;x=91+*xoffset+i+1;</span>
+<span class="lineNum">     566 </span><span class="lineCov">         15 :                                     getJoueurCourant(partie)-&gt;tuilesJoueur[indextuilecourante]-&gt;y=91+*yoffset+j+1;</span>
+<span class="lineNum">     567 </span><span class="lineCov">         15 :                                     affiche_tuiles_provisoires_17x17(renderer,partie,tabtuilesposees,*xoffset,*yoffset,SDL_FALSE);//! affiche des tuiles provisoires</span>
+<span class="lineNum">     568 </span>            : 
+<span class="lineNum">     569 </span>            :                                     //!dis au joueur si la position de la tuile est bonne*/
+<span class="lineNum">     570 </span><span class="lineCov">         15 :                                     Tisok=isTuileCorrect(partie,tabtuilesposees,indextuilecourante);</span>
+<span class="lineNum">     571 </span><span class="lineCov">         15 :                                     affiche_Tisok_message(renderer,Tisok,SDL_TRUE);</span>
+<span class="lineNum">     572 </span>            : 
+<span class="lineNum">     573 </span><span class="lineCov">         15 :                                     boutonOKDispo=SDL_TRUE;</span>
+<span class="lineNum">     574 </span><span class="lineCov">         15 :                                     changemessage_cas2=SDL_TRUE;</span>
+<span class="lineNum">     575 </span><span class="lineCov">         15 :                                     i=17;</span>
+<span class="lineNum">     576 </span><span class="lineCov">         15 :                                     j=17; //!afin de quitter la boucle infernale plus vite</span>
+<span class="lineNum">     577 </span>            :                                 }
+<span class="lineNum">     578 </span>            :                             }
+<span class="lineNum">     579 </span>            :                         }
+<span class="lineNum">     580 </span>            :                     }
+<span class="lineNum">     581 </span>            :                 }
+<span class="lineNum">     582 </span>            :             }
+<span class="lineNum">     583 </span>            : 
+<span class="lineNum">     584 </span>            : 
+<span class="lineNum">     585 </span>            :             /*! Gestion de la déselection de la tuile actuelle*/
+<span class="lineNum">     586 </span><span class="lineCov">       1803 :             if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;(140+indextuilecourante*100)&amp;&amp;input-&gt;x&lt;(140+indextuilecourante*100)+100&amp;&amp;input-&gt;y&gt;910&amp;&amp;input-&gt;y&lt;910+100)</span>
+<span class="lineNum">     587 </span>            :             {
+<span class="lineNum">     588 </span><span class="lineNoCov">          0 :                 supprime_selection_tuiles(renderer,indextuilecourante);</span>
+<span class="lineNum">     589 </span><span class="lineNoCov">          0 :                 input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     590 </span><span class="lineNoCov">          0 :                 supprime_selection_tuiles(renderer,indextuilecourante);</span>
+<span class="lineNum">     591 </span><span class="lineNoCov">          0 :                 supprime_zonemessage(renderer,&amp;background);</span>
+<span class="lineNum">     592 </span><span class="lineNoCov">          0 :                 affiche_tuiles_provisoires_17x17(renderer,partie,tabtuilesposees,*xoffset,*yoffset,SDL_TRUE); //!Efface toutes les tuiles provisoires</span>
+<span class="lineNum">     593 </span><span class="lineNoCov">          0 :                 tabtuilesposees[indextuilecourante]=0;</span>
+<span class="lineNum">     594 </span><span class="lineNoCov">          0 :                 getJoueurCourant(partie)-&gt;tuilesJoueur[indextuilecourante]-&gt;x=-1;</span>
+<span class="lineNum">     595 </span><span class="lineNoCov">          0 :                 getJoueurCourant(partie)-&gt;tuilesJoueur[indextuilecourante]-&gt;y=-1;</span>
+<span class="lineNum">     596 </span><span class="lineNoCov">          0 :                 affiche_tuiles_provisoires_17x17(renderer,partie,tabtuilesposees,*xoffset,*yoffset,SDL_FALSE); //!Affiche les tuiles provisoires sans la tuile deselectionnée</span>
+<span class="lineNum">     597 </span><span class="lineNoCov">          0 :                 affichage_isregleok(renderer,regleok,SDL_FALSE);</span>
+<span class="lineNum">     598 </span>            : 
+<span class="lineNum">     599 </span><span class="lineNoCov">          0 :                 indextuilecourante=-1;</span>
+<span class="lineNum">     600 </span><span class="lineNoCov">          0 :                 regleok=rules_check(partie,renderer,tabtuilesposees);</span>
+<span class="lineNum">     601 </span><span class="lineNoCov">          0 :                 if(regleok==SDL_TRUE)</span>
+<span class="lineNum">     602 </span>            :                 {
+<span class="lineNum">     603 </span><span class="lineNoCov">          0 :                     fintourprioritaire=SDL_TRUE;</span>
+<span class="lineNum">     604 </span>            :                 }
+<span class="lineNum">     605 </span><span class="lineNoCov">          0 :                 boutonOKDispo=SDL_FALSE;</span>
+<span class="lineNum">     606 </span><span class="lineNoCov">          0 :                 poseNouvelleTuile=SDL_FALSE;</span>
+<span class="lineNum">     607 </span>            : 
+<span class="lineNum">     608 </span>            :             }
+<span class="lineNum">     609 </span>            :             /*! Gestion de l'affichage du bouton OK et d'un clic sur lui*/
+<span class="lineNum">     610 </span>            : 
+<span class="lineNum">     611 </span><span class="lineCov">       1803 :             if(boutonOKDispo==SDL_TRUE)</span>
+<span class="lineNum">     612 </span>            :             {
+<span class="lineNum">     613 </span><span class="lineCov">        920 :                 if(boutonOKPresent==SDL_FALSE)</span>
+<span class="lineNum">     614 </span>            :                 {
+<span class="lineNum">     615 </span><span class="lineCov">         14 :                     affiche_bouton_OK(renderer);</span>
+<span class="lineNum">     616 </span><span class="lineCov">         14 :                     boutonOKPresent=SDL_TRUE;</span>
+<span class="lineNum">     617 </span>            :                 }
+<span class="lineNum">     618 </span><span class="lineCov">        920 :                 if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;1050&amp;&amp;input-&gt;x&lt;1050+100&amp;&amp;input-&gt;y&gt;435&amp;&amp;input-&gt;y&lt;435+60)</span>
+<span class="lineNum">     619 </span>            :                 {
+<span class="lineNum">     620 </span><span class="lineCov">         14 :                     input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     621 </span><span class="lineCov">         14 :                     affichage_selection_tuiles_finales(renderer,indextuilecourante);</span>
+<span class="lineNum">     622 </span><span class="lineCov">         14 :                     tabtuilesposees[indextuilecourante]=1;</span>
+<span class="lineNum">     623 </span><span class="lineCov">         14 :                     poseNouvelleTuile=SDL_FALSE;</span>
+<span class="lineNum">     624 </span><span class="lineCov">         14 :                     supprime_bouton_OK(renderer);</span>
+<span class="lineNum">     625 </span><span class="lineCov">         14 :                     supprime_zonemessage(renderer,&amp;background);</span>
+<span class="lineNum">     626 </span>            :                     /*! Gestion des regles une fois que le joueur appuie sur le bouton OK*/
+<span class="lineNum">     627 </span><span class="lineCov">         14 :                     indextuilecourante=-1;</span>
+<span class="lineNum">     628 </span><span class="lineCov">         14 :                     regleok=rules_check(partie,renderer,tabtuilesposees);</span>
+<span class="lineNum">     629 </span><span class="lineCov">         14 :                     boutonFinDuTourDispo=SDL_FALSE;</span>
+<span class="lineNum">     630 </span><span class="lineCov">         14 :                     boutonOKPresent=SDL_FALSE;</span>
+<span class="lineNum">     631 </span><span class="lineCov">         14 :                     boutonOKDispo=SDL_FALSE;</span>
+<span class="lineNum">     632 </span>            :                 }
+<span class="lineNum">     633 </span>            :             }
+<span class="lineNum">     634 </span>            : 
+<span class="lineNum">     635 </span>            :             else
+<span class="lineNum">     636 </span>            :             {
+<span class="lineNum">     637 </span><span class="lineCov">        883 :                 if(boutonOKPresent==SDL_TRUE &amp;&amp; fintourprioritaire==SDL_FALSE)</span>
+<span class="lineNum">     638 </span>            :                 {
+<span class="lineNum">     639 </span><span class="lineNoCov">          0 :                     supprime_bouton_OK(renderer);</span>
+<span class="lineNum">     640 </span><span class="lineNoCov">          0 :                     boutonOKPresent=SDL_FALSE;</span>
+<span class="lineNum">     641 </span>            :                 }
+<span class="lineNum">     642 </span>            :                 else
+<span class="lineNum">     643 </span>            :                 {
+<span class="lineNum">     644 </span><span class="lineCov">        883 :                     fintourprioritaire=SDL_FALSE;</span>
+<span class="lineNum">     645 </span>            :                 }
+<span class="lineNum">     646 </span>            :             }
+<span class="lineNum">     647 </span>            :             /*! Affichage du 1er message &quot;Clique sur le plateau pour poser la tuile&quot;*/
+<span class="lineNum">     648 </span><span class="lineCov">       1803 :             if(message_cas2==SDL_FALSE&amp;&amp;changemessage_cas2==SDL_FALSE)</span>
+<span class="lineNum">     649 </span>            :             {
+<span class="lineNum">     650 </span><span class="lineCov">         14 :                 message_cas1=SDL_FALSE;</span>
+<span class="lineNum">     651 </span><span class="lineCov">         14 :                 affichage_message(renderer,black,&amp;textsheet,&quot;Clique sur le plateau pour poser la tuile&quot;);</span>
+<span class="lineNum">     652 </span><span class="lineCov">         14 :                 message_cas2=SDL_TRUE;</span>
+<span class="lineNum">     653 </span>            :             }
+<span class="lineNum">     654 </span>            :             /*! Affichage du 2eme message &quot;Appuie sur OK quand c'est bon&quot;*/
+<span class="lineNum">     655 </span><span class="lineCov">       1803 :             if(message_cas2==SDL_TRUE&amp;&amp;changemessage_cas2==SDL_TRUE)</span>
+<span class="lineNum">     656 </span>            :             {
+<span class="lineNum">     657 </span><span class="lineCov">         14 :                 message_cas2=SDL_FALSE;</span>
+<span class="lineNum">     658 </span><span class="lineCov">         14 :                 affichage_message(renderer,black,&amp;textsheet,&quot;Appuie sur OK quand c'est bon&quot;);</span>
+<span class="lineNum">     659 </span>            : 
+<span class="lineNum">     660 </span>            :             }
+<span class="lineNum">     661 </span><span class="lineCov">       1803 :             boutonFinDuTourDispo=SDL_FALSE;</span>
+<span class="lineNum">     662 </span>            :         }
+<span class="lineNum">     663 </span>            : 
+<span class="lineNum">     664 </span>            : 
+<span class="lineNum">     665 </span>            :         /*! Action si on souhaite quitter le programme en appuyant sur la croix ou échap*/
+<span class="lineNum">     666 </span><span class="lineCov">       3268 :         if(input-&gt;key[SDL_SCANCODE_ESCAPE]==SDL_TRUE || input-&gt;quit==SDL_TRUE)</span>
+<span class="lineNum">     667 </span>            :         {
+<span class="lineNum">     668 </span><span class="lineNoCov">          0 :             return;   /*! On sort de la fonction action_piocher_tuiles puis action_joueur pour ensuite libèrer la mémoire avant de quitter le programme */</span>
+<span class="lineNum">     669 </span>            :         }
+<span class="lineNum">     670 </span>            : 
+<span class="lineNum">     671 </span>            : 
+<span class="lineNum">     672 </span>            :         /*! GESTION DES FLECHES DE REDIMENSIONNEMENT DU PLATEAU   */
+<span class="lineNum">     673 </span>            : 
+<span class="lineNum">     674 </span><span class="lineCov">       3268 :         arrows_rezising_posertuiles(partie,renderer,input,tabtuilesposees,xoffset,yoffset);</span>
+<span class="lineNum">     675 </span>            : 
+<span class="lineNum">     676 </span>            :     }
+<span class="lineNum">     677 </span>            :     /*! APRES APPUI SUR BOUTON FIN DE TOUR */
+<span class="lineNum">     678 </span>            : 
+<span class="lineNum">     679 </span>            :     /*! Suppression du bouton RETOUR CHOIX ACTION */
+<span class="lineNum">     680 </span><span class="lineCov">         11 :     supprime_bouton_retour(renderer);</span>
+<span class="lineNum">     681 </span>            :     /*! Remise à zero du compteur sur le nombre de joueur qui passe leur tour*/
+<span class="lineNum">     682 </span><span class="lineCov">         11 :     input-&gt;nbpassesontour=0;</span>
+<span class="lineNum">     683 </span>            : 
+<span class="lineNum">     684 </span>            : 
+<span class="lineNum">     685 </span>            : 
+<span class="lineNum">     686 </span>            :     /*! Appeller la fonction poser tuiles, piocherTuiles  etc...*/
+<span class="lineNum">     687 </span><span class="lineCov">         11 :     majPoints(partie,tabtuilesposees);</span>
+<span class="lineNum">     688 </span><span class="lineCov">         77 :     for(int i=0; i&lt;6; i++)</span>
+<span class="lineNum">     689 </span>            :     {
+<span class="lineNum">     690 </span><span class="lineCov">         66 :         if(tabtuilesposees[i]==SDL_TRUE)</span>
+<span class="lineNum">     691 </span>            :         {
+<span class="lineNum">     692 </span><span class="lineCov">         14 :             poserTuile(partie-&gt;plateau,getJoueurCourant(partie)-&gt;tuilesJoueur[i],getJoueurCourant(partie)-&gt;tuilesJoueur[i]-&gt;x,getJoueurCourant(partie)-&gt;tuilesJoueur[i]-&gt;y);</span>
+<span class="lineNum">     693 </span><span class="lineCov">         14 :             getJoueurCourant(partie)-&gt;tuilesJoueur[i] = NULL;</span>
+<span class="lineNum">     694 </span>            :         }
+<span class="lineNum">     695 </span><span class="lineCov">         66 :         piocherTuiles(partie);</span>
+<span class="lineNum">     696 </span>            : 
+<span class="lineNum">     697 </span>            :     }
+<span class="lineNum">     698 </span>            : 
+<span class="lineNum">     699 </span>            :     /*! ne pas oublier d'effacer la zone de message ,les tuiles provisoires, le bouton FinDuTour et les fleches de selection des tuiles */
+<span class="lineNum">     700 </span><span class="lineCov">         11 :     supprime_zonemessage(renderer,&amp;textsheet);</span>
+<span class="lineNum">     701 </span><span class="lineCov">         11 :     supprime_zonemessage(renderer,&amp;background);</span>
+<span class="lineNum">     702 </span><span class="lineCov">         11 :     affichage_isregleok(renderer,regleok,SDL_FALSE);</span>
+<span class="lineNum">     703 </span><span class="lineCov">         11 :     affichage_trackingerror(renderer,wordisOk,SDL_FALSE);</span>
+<span class="lineNum">     704 </span>            : 
+<span class="lineNum">     705 </span><span class="lineCov">         11 :     supprime_bouton_fin_du_tour(renderer);</span>
+<span class="lineNum">     706 </span><span class="lineCov">         77 :     for(int i=0; i&lt;6; i++)</span>
+<span class="lineNum">     707 </span>            :     {
+<span class="lineNum">     708 </span><span class="lineCov">         66 :         if(tabtuilesposees[i]==SDL_TRUE)</span>
+<span class="lineNum">     709 </span>            :         {
+<span class="lineNum">     710 </span><span class="lineCov">         14 :             supprime_selection_tuiles(renderer,i);</span>
+<span class="lineNum">     711 </span>            :         }
+<span class="lineNum">     712 </span>            :     }
+<span class="lineNum">     713 </span>            : 
+<span class="lineNum">     714 </span>            :     /*! Remise à zero du compteur sur le nombre de joueur qui passe leur tour*/
+<span class="lineNum">     715 </span><span class="lineCov">         11 :     input-&gt;nbpassesontour=0;</span>
+<span class="lineNum">     716 </span>            : }
+<span class="lineNum">     717 </span>            : 
+<span class="lineNum">     718 </span>            : 
+<span class="lineNum">     719 </span>            : /**
+<span class="lineNum">     720 </span>            : * \fn void action_quitter_partie(Partie *partie, SDL_Window *window, SDL_Renderer *renderer)
+<span class="lineNum">     721 </span>            : * \brief
+<span class="lineNum">     722 </span>            : *
+<span class="lineNum">     723 </span>            : * \param[in] Partie *partie, SDL_Window *window, SDL_Renderer *renderer
+<span class="lineNum">     724 </span>            : *
+<span class="lineNum">     725 </span>            : */
+<a name="726"><span class="lineNum">     726 </span>            : </a>
+<span class="lineNum">     727 </span>            : 
+<span class="lineNum">     728 </span><span class="lineCov">          2 : void action_quitter_partie(Partie *partie, SDL_Window *window, SDL_Renderer *renderer)</span>
+<span class="lineNum">     729 </span>            : {
+<span class="lineNum">     730 </span>            : 
+<span class="lineNum">     731 </span>            : 
+<span class="lineNum">     732 </span>            : 
+<span class="lineNum">     733 </span>            :     /*! Tout les free*/
+<span class="lineNum">     734 </span><span class="lineCov">          2 :     TTF_Quit();</span>
+<span class="lineNum">     735 </span><span class="lineCov">          2 :     if(NULL != renderer)</span>
+<span class="lineNum">     736 </span><span class="lineCov">          2 :         SDL_DestroyRenderer(renderer);</span>
+<span class="lineNum">     737 </span><span class="lineCov">          2 :     if(NULL != window)</span>
+<span class="lineNum">     738 </span><span class="lineCov">          2 :         SDL_DestroyWindow(window);</span>
+<span class="lineNum">     739 </span><span class="lineCov">          2 :     SDL_Quit();</span>
+<span class="lineNum">     740 </span><span class="lineCov">          2 :     freePartie(partie);</span>
+<span class="lineNum">     741 </span>            : 
+<span class="lineNum">     742 </span>            :     /*! A completer*/
+<span class="lineNum">     743 </span>            : 
+<span class="lineNum">     744 </span><span class="lineCov">          2 : }</span>
+<span class="lineNum">     745 </span>            : 
+<span class="lineNum">     746 </span>            : 
+<span class="lineNum">     747 </span>            : /**
+<span class="lineNum">     748 </span>            : * \fn Input init_input()
+<span class="lineNum">     749 </span>            : * \brief
+<span class="lineNum">     750 </span>            : * Fonction qui permet d'initialiser Input
+<span class="lineNum">     751 </span>            : *
+<span class="lineNum">     752 </span>            : * \param[out] Input input : une instance d'Input avec ses attributs initialisés à SDL_FALSE
+<span class="lineNum">     753 </span>            : *
+<a name="754"><span class="lineNum">     754 </span>            : */</a>
+<span class="lineNum">     755 </span>            : 
+<span class="lineNum">     756 </span><span class="lineCov">          2 : Input init_input()</span>
+<span class="lineNum">     757 </span>            : {
+<span class="lineNum">     758 </span>            :     Input input;
+<span class="lineNum">     759 </span><span class="lineCov">       1026 :     for(int i=0; i&lt;SDL_NUM_SCANCODES; i++)</span>
+<span class="lineNum">     760 </span>            :     {
+<span class="lineNum">     761 </span><span class="lineCov">       1024 :         input.key[i]=SDL_FALSE;</span>
+<span class="lineNum">     762 </span>            :     }
+<span class="lineNum">     763 </span><span class="lineCov">          2 :     input.quit=0;</span>
+<span class="lineNum">     764 </span><span class="lineCov">          2 :     input.nbpassesontour=0;</span>
+<span class="lineNum">     765 </span><span class="lineCov">          2 :     input.retouraction=0;</span>
+<span class="lineNum">     766 </span><span class="lineCov">          2 :     input.x=0;</span>
+<span class="lineNum">     767 </span><span class="lineCov">          2 :     input.y=0;</span>
+<span class="lineNum">     768 </span><span class="lineCov">          2 :     input.xrel=0;</span>
+<span class="lineNum">     769 </span><span class="lineCov">          2 :     input.yrel=0;</span>
+<span class="lineNum">     770 </span><span class="lineCov">          2 :     input.xwheel=0;</span>
+<span class="lineNum">     771 </span><span class="lineCov">          2 :     input.ywheel=0;</span>
+<span class="lineNum">     772 </span>            : 
+<span class="lineNum">     773 </span><span class="lineCov">         14 :     for(int i=0; i&lt;6; i++)</span>
+<span class="lineNum">     774 </span>            :     {
+<span class="lineNum">     775 </span><span class="lineCov">         12 :         input.mouse[i]=SDL_FALSE;</span>
+<span class="lineNum">     776 </span>            :     }
+<span class="lineNum">     777 </span>            : 
+<span class="lineNum">     778 </span><span class="lineCov">          2 :     input.mouse[SDL_BUTTON_LEFT]=SDL_FALSE; //</span>
+<span class="lineNum">     779 </span>            : 
+<span class="lineNum">     780 </span><span class="lineCov">          2 :     return input;</span>
+<span class="lineNum">     781 </span>            : }
+<span class="lineNum">     782 </span>            : 
+<span class="lineNum">     783 </span>            : /**
+<span class="lineNum">     784 </span>            : * \fn void arrows_rezising_plateau(Partie *partie, SDL_Renderer * renderer,Input *input,int *xoffset,int *yoffset)
+<span class="lineNum">     785 </span>            : * \brief permet de redimensionner le plateau de jeu grace aux fleches (seulement les tuiles réellement posées sur le plateau)
+<span class="lineNum">     786 </span>            : 
+<span class="lineNum">     787 </span>            : * \param[in] Partie *partie, SDL_Renderer * renderer,Input *input,int *xoffset,int *yoffset
+<a name="788"><span class="lineNum">     788 </span>            : *\param[out]  none</a>
+<span class="lineNum">     789 </span>            : */
+<span class="lineNum">     790 </span><span class="lineCov">       4263 : void arrows_rezising_plateau(Partie *partie, SDL_Renderer * renderer,Input *input,int *xoffset,int *yoffset)</span>
+<span class="lineNum">     791 </span>            : {
+<span class="lineNum">     792 </span>            : 
+<span class="lineNum">     793 </span>            : 
+<span class="lineNum">     794 </span>            :     /*! Deplacement du plateau avec la fleche du haut situé en (980,510) de taille(38,58) */
+<span class="lineNum">     795 </span>            : 
+<span class="lineNum">     796 </span><span class="lineCov">       4263 :     if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;980&amp;&amp;input-&gt;x&lt;980+38&amp;&amp;input-&gt;y&gt;510&amp;&amp;input-&gt;y&lt;510+58)</span>
+<span class="lineNum">     797 </span>            :     {
+<span class="lineNum">     798 </span><span class="lineNoCov">          0 :         input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     799 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_TRUE); //! efface le plateau existant</span>
+<span class="lineNum">     800 </span><span class="lineNoCov">          0 :         (*yoffset)--;</span>
+<span class="lineNum">     801 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_FALSE);//! affiche le plateau décalé</span>
+<span class="lineNum">     802 </span>            :     }
+<span class="lineNum">     803 </span>            : 
+<span class="lineNum">     804 </span>            :     /*! Deplacement du plateau avec la fleche du bas situé en (980,590) de taille(38,58) */
+<span class="lineNum">     805 </span>            : 
+<span class="lineNum">     806 </span><span class="lineCov">       4263 :     if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;980&amp;&amp;input-&gt;x&lt;980+38&amp;&amp;input-&gt;y&gt;590&amp;&amp;input-&gt;y&lt;590+58)</span>
+<span class="lineNum">     807 </span>            :     {
+<span class="lineNum">     808 </span><span class="lineNoCov">          0 :         input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     809 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_TRUE); //! efface le plateau existant</span>
+<span class="lineNum">     810 </span><span class="lineNoCov">          0 :         (*yoffset)++;</span>
+<span class="lineNum">     811 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_FALSE);//! affiche le plateau décalé</span>
+<span class="lineNum">     812 </span>            :     }
+<span class="lineNum">     813 </span>            :     /*! Deplacement du plateau avec la fleche de gauche situé en (930,560) de taille(58,38) */
+<span class="lineNum">     814 </span>            : 
+<span class="lineNum">     815 </span><span class="lineCov">       4263 :     if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;930&amp;&amp;input-&gt;x&lt;930+58&amp;&amp;input-&gt;y&gt;560&amp;&amp;input-&gt;y&lt;560+38)</span>
+<span class="lineNum">     816 </span>            :     {
+<span class="lineNum">     817 </span><span class="lineNoCov">          0 :         input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     818 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_TRUE); //! efface le plateau existant</span>
+<span class="lineNum">     819 </span><span class="lineNoCov">          0 :         (*xoffset)--;</span>
+<span class="lineNum">     820 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_FALSE);//! affiche le plateau décalé</span>
+<span class="lineNum">     821 </span>            : 
+<span class="lineNum">     822 </span>            :     }
+<span class="lineNum">     823 </span>            :     /*! Deplacement du plateau avec la fleche de droite situé en (1010,560) de taille(58,38) */
+<span class="lineNum">     824 </span>            : 
+<span class="lineNum">     825 </span><span class="lineCov">       4263 :     if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;1010&amp;&amp;input-&gt;x&lt;1010+58&amp;&amp;input-&gt;y&gt;560&amp;&amp;input-&gt;y&lt;560+38)</span>
+<span class="lineNum">     826 </span>            :     {
+<span class="lineNum">     827 </span><span class="lineNoCov">          0 :         input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     828 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_TRUE); //! efface le plateau existant</span>
+<span class="lineNum">     829 </span><span class="lineNoCov">          0 :         (*xoffset)++;</span>
+<span class="lineNum">     830 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_FALSE);//! affiche le plateau décalé</span>
+<span class="lineNum">     831 </span>            :     }
+<span class="lineNum">     832 </span>            : 
+<span class="lineNum">     833 </span>            : 
+<span class="lineNum">     834 </span><span class="lineCov">       4263 : }</span>
+<span class="lineNum">     835 </span>            : 
+<span class="lineNum">     836 </span>            : 
+<span class="lineNum">     837 </span>            : /**
+<span class="lineNum">     838 </span>            : * \fn void arrows_rezising_posertuiles(Partie *partie, SDL_Renderer * renderer,Input *input,int tabtuilesposees[6],int *xoffset,int *yoffset)
+<span class="lineNum">     839 </span>            : * \brief permet de redimensionner le plateau grace aux fleches lorsque le joueur decide de poser ses tuiles
+<span class="lineNum">     840 </span>            : * La fonction deplace à la fois les tuiles du plateau ET les tuiles provisoirement posées
+<span class="lineNum">     841 </span>            : 
+<span class="lineNum">     842 </span>            : * \param[in] Partie *partie, SDL_Renderer * renderer,Input *input,int tabtuilesposees[6],int *xoffset,int *yoffset
+<a name="843"><span class="lineNum">     843 </span>            : *\param[out]  none</a>
+<span class="lineNum">     844 </span>            : */
+<span class="lineNum">     845 </span><span class="lineCov">       3268 : void arrows_rezising_posertuiles(Partie *partie, SDL_Renderer * renderer,Input *input,int tabtuilesposees[6],int *xoffset,int *yoffset)</span>
+<span class="lineNum">     846 </span>            : {
+<span class="lineNum">     847 </span>            :     /*! Deplacement du plateau avec la fleche du haut situé en (980,510) de taille(38,58) */
+<span class="lineNum">     848 </span>            : 
+<span class="lineNum">     849 </span><span class="lineCov">       3268 :     if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;980&amp;&amp;input-&gt;x&lt;980+38&amp;&amp;input-&gt;y&gt;510&amp;&amp;input-&gt;y&lt;510+58)</span>
+<span class="lineNum">     850 </span>            :     {
+<span class="lineNum">     851 </span><span class="lineNoCov">          0 :         input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     852 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_TRUE); //! efface le plateau existant</span>
+<span class="lineNum">     853 </span><span class="lineNoCov">          0 :         affiche_tuiles_provisoires_17x17(renderer,partie,tabtuilesposees,*xoffset,*yoffset,SDL_TRUE); //! efface les tuiles provisoires</span>
+<span class="lineNum">     854 </span><span class="lineNoCov">          0 :         (*yoffset)--;</span>
+<span class="lineNum">     855 </span><span class="lineNoCov">          0 :         affiche_tuiles_provisoires_17x17(renderer,partie,tabtuilesposees,*xoffset,*yoffset,SDL_FALSE); //! affiche les tuiles provisoires</span>
+<span class="lineNum">     856 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_FALSE);//! affiche le plateau décalé</span>
+<span class="lineNum">     857 </span>            :     }
+<span class="lineNum">     858 </span>            : 
+<span class="lineNum">     859 </span>            :     /*! Deplacement du plateau avec la fleche du bas situé en (980,590) de taille(38,58) */
+<span class="lineNum">     860 </span>            : 
+<span class="lineNum">     861 </span><span class="lineCov">       3268 :     if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;980&amp;&amp;input-&gt;x&lt;980+38&amp;&amp;input-&gt;y&gt;590&amp;&amp;input-&gt;y&lt;590+58)</span>
+<span class="lineNum">     862 </span>            :     {
+<span class="lineNum">     863 </span><span class="lineNoCov">          0 :         input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     864 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_TRUE); //! efface le plateau existant</span>
+<span class="lineNum">     865 </span><span class="lineNoCov">          0 :         affiche_tuiles_provisoires_17x17(renderer,partie,tabtuilesposees,*xoffset,*yoffset,SDL_TRUE); //! efface les tuiles provisoires</span>
+<span class="lineNum">     866 </span><span class="lineNoCov">          0 :         (*yoffset)++;</span>
+<span class="lineNum">     867 </span><span class="lineNoCov">          0 :         affiche_tuiles_provisoires_17x17(renderer,partie,tabtuilesposees,*xoffset,*yoffset,SDL_FALSE); //! affiche les tuiles provisoires</span>
+<span class="lineNum">     868 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_FALSE);//! affiche le plateau décalé</span>
+<span class="lineNum">     869 </span>            :     }
+<span class="lineNum">     870 </span>            : 
+<span class="lineNum">     871 </span>            :     /*! Deplacement du plateau avec la fleche de gauche situé en (930,560) de taille(58,38) */
+<span class="lineNum">     872 </span>            : 
+<span class="lineNum">     873 </span><span class="lineCov">       3268 :     if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;930&amp;&amp;input-&gt;x&lt;930+58&amp;&amp;input-&gt;y&gt;560&amp;&amp;input-&gt;y&lt;560+38)</span>
+<span class="lineNum">     874 </span>            :     {
+<span class="lineNum">     875 </span><span class="lineNoCov">          0 :         input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     876 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_TRUE); //! efface le plateau existant</span>
+<span class="lineNum">     877 </span><span class="lineNoCov">          0 :         affiche_tuiles_provisoires_17x17(renderer,partie,tabtuilesposees,*xoffset,*yoffset,SDL_TRUE); //! efface les tuiles provisoires</span>
+<span class="lineNum">     878 </span><span class="lineNoCov">          0 :         (*xoffset)--;</span>
+<span class="lineNum">     879 </span><span class="lineNoCov">          0 :         affiche_tuiles_provisoires_17x17(renderer,partie,tabtuilesposees,*xoffset,*yoffset,SDL_FALSE); //! affiche les tuiles provisoires</span>
+<span class="lineNum">     880 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_FALSE);//! affiche le plateau décalé</span>
+<span class="lineNum">     881 </span>            : 
+<span class="lineNum">     882 </span>            :     }
+<span class="lineNum">     883 </span>            : 
+<span class="lineNum">     884 </span>            :     /*! Deplacement du plateau avec la fleche de droite situé en (1010,560) de taille(58,38) */
+<span class="lineNum">     885 </span>            : 
+<span class="lineNum">     886 </span><span class="lineCov">       3268 :     if(input-&gt;mouse[SDL_BUTTON_LEFT]&amp;&amp;input-&gt;x&gt;1010&amp;&amp;input-&gt;x&lt;1010+58&amp;&amp;input-&gt;y&gt;560&amp;&amp;input-&gt;y&lt;560+38)</span>
+<span class="lineNum">     887 </span>            :     {
+<span class="lineNum">     888 </span><span class="lineNoCov">          0 :         input-&gt;mouse[SDL_BUTTON_LEFT]=SDL_FALSE;</span>
+<span class="lineNum">     889 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_TRUE); //! efface le plateau existant</span>
+<span class="lineNum">     890 </span><span class="lineNoCov">          0 :         affiche_tuiles_provisoires_17x17(renderer,partie,tabtuilesposees,*xoffset,*yoffset,SDL_TRUE); //! efface les tuiles provisoires</span>
+<span class="lineNum">     891 </span><span class="lineNoCov">          0 :         (*xoffset)++;</span>
+<span class="lineNum">     892 </span><span class="lineNoCov">          0 :         affiche_tuiles_provisoires_17x17(renderer,partie,tabtuilesposees,*xoffset,*yoffset,SDL_FALSE); //! affiche les tuiles provisoires</span>
+<span class="lineNum">     893 </span><span class="lineNoCov">          0 :         affiche_plateau_17x17(renderer,partie,*xoffset,*yoffset,SDL_FALSE);//! affiche le plateau décalé</span>
+<span class="lineNum">     894 </span>            :     }
+<span class="lineNum">     895 </span>            : 
+<span class="lineNum">     896 </span>            : 
+<span class="lineNum">     897 </span><span class="lineCov">       3268 : }</span>
+<span class="lineNum">     898 </span>            : 
+<span class="lineNum">     899 </span>            : /**
+<span class="lineNum">     900 </span>            : * \fn SDL_bool rules_check(Partie *partie, SDL_Renderer * renderer,int tabtuilesposees[6])
+<span class="lineNum">     901 </span>            : 
+<span class="lineNum">     902 </span>            : * \brief verifie si les regles sont respectées lorsque le joueur fait une action dans action posertuiles
+<span class="lineNum">     903 </span>            : *
+<span class="lineNum">     904 </span>            : * \param[in] Partie *partie, SDL_Renderer * renderer,int tabtuilesposees[6]
+<span class="lineNum">     905 </span>            : *\param[out]  regleok=1 si les regles sont respectées ,0 sinon
+<span class="lineNum">     906 </span>            : */
+<a name="907"><span class="lineNum">     907 </span>            : </a>
+<span class="lineNum">     908 </span>            : 
+<span class="lineNum">     909 </span><span class="lineCov">         14 : SDL_bool rules_check(Partie *partie, SDL_Renderer * renderer,int tabtuilesposees[6])</span>
+<span class="lineNum">     910 </span>            : {
+<span class="lineNum">     911 </span>            :     int Tisok,Wok;
+<span class="lineNum">     912 </span><span class="lineCov">         14 :     SDL_bool wordisOk=SDL_FALSE, tuileisOk=SDL_FALSE, regleok=SDL_FALSE;</span>
+<span class="lineNum">     913 </span>            : 
+<span class="lineNum">     914 </span>            : 
+<span class="lineNum">     915 </span><span class="lineCov">         14 :     Tisok=isTuileCorrect2(partie,tabtuilesposees);</span>
+<span class="lineNum">     916 </span><span class="lineCov">         14 :     if(Tisok==0)</span>
+<span class="lineNum">     917 </span>            :     {
+<span class="lineNum">     918 </span><span class="lineCov">         14 :         tuileisOk=SDL_TRUE;</span>
+<span class="lineNum">     919 </span>            :     }
+<span class="lineNum">     920 </span>            :     else
+<span class="lineNum">     921 </span>            :     {
+<span class="lineNum">     922 </span><span class="lineNoCov">          0 :         tuileisOk=SDL_FALSE;</span>
+<span class="lineNum">     923 </span>            :     }
+<span class="lineNum">     924 </span>            : 
+<span class="lineNum">     925 </span>            : 
+<span class="lineNum">     926 </span><span class="lineCov">         14 :     Wok=isWordCorrect(partie,tabtuilesposees);</span>
+<span class="lineNum">     927 </span><span class="lineCov">         14 :     if(Wok==1)</span>
+<span class="lineNum">     928 </span>            :     {
+<span class="lineNum">     929 </span><span class="lineCov">         14 :         wordisOk=SDL_TRUE;</span>
+<span class="lineNum">     930 </span><span class="lineCov">         14 :         affichage_trackingerror(renderer,wordisOk,SDL_FALSE);</span>
+<span class="lineNum">     931 </span>            :     }
+<span class="lineNum">     932 </span>            :     else
+<span class="lineNum">     933 </span>            :     {
+<span class="lineNum">     934 </span><span class="lineNoCov">          0 :         wordisOk=SDL_FALSE;</span>
+<span class="lineNum">     935 </span><span class="lineNoCov">          0 :         if(Wok==0)</span>
+<span class="lineNum">     936 </span>            :         {
+<span class="lineNum">     937 </span><span class="lineNoCov">          0 :             affichage_trackingerror(renderer,wordisOk,SDL_TRUE);</span>
+<span class="lineNum">     938 </span>            :         }
+<span class="lineNum">     939 </span>            :     }
+<span class="lineNum">     940 </span>            : 
+<span class="lineNum">     941 </span><span class="lineCov">         14 :     if(wordisOk==SDL_TRUE &amp;&amp;  tuileisOk==SDL_TRUE)</span>
+<span class="lineNum">     942 </span>            :     {
+<span class="lineNum">     943 </span><span class="lineCov">         14 :         regleok=SDL_TRUE;</span>
+<span class="lineNum">     944 </span><span class="lineCov">         14 :         affiche_bouton_fin_du_tour(renderer);</span>
+<span class="lineNum">     945 </span>            :     }
+<span class="lineNum">     946 </span>            :     else
+<span class="lineNum">     947 </span>            :     {
+<span class="lineNum">     948 </span><span class="lineNoCov">          0 :         regleok = SDL_FALSE;</span>
+<span class="lineNum">     949 </span>            :     }
+<span class="lineNum">     950 </span>            : 
+<span class="lineNum">     951 </span><span class="lineCov">         14 :     if(istabtuilesVide(tabtuilesposees)==1)</span>
+<span class="lineNum">     952 </span>            :     {
+<span class="lineNum">     953 </span><span class="lineNoCov">          0 :         affichage_isregleok(renderer,regleok,SDL_FALSE);</span>
+<span class="lineNum">     954 </span><span class="lineNoCov">          0 :         supprime_bouton_fin_du_tour(renderer);</span>
+<span class="lineNum">     955 </span>            :     }
+<span class="lineNum">     956 </span>            :     else
+<span class="lineNum">     957 </span>            :     {
+<span class="lineNum">     958 </span><span class="lineCov">         14 :         affichage_isregleok(renderer,regleok,SDL_TRUE);</span>
+<span class="lineNum">     959 </span>            :     }
+<span class="lineNum">     960 </span>            : 
+<span class="lineNum">     961 </span>            : 
+<span class="lineNum">     962 </span><span class="lineCov">         14 :     return regleok;</span>
+<span class="lineNum">     963 </span>            : }
+<span class="lineNum">     964 </span>            : 
+<span class="lineNum">     965 </span>            : 
+<span class="lineNum">     966 </span>            : 
+<span class="lineNum">     967 </span>            : 
+<span class="lineNum">     968 </span>            : 
+<span class="lineNum">     969 </span>            : 
+<span class="lineNum">     970 </span>            : /**
+<span class="lineNum">     971 </span>            : * \fn void updateEvent(Input *input)
+<span class="lineNum">     972 </span>            : * \brief
+<span class="lineNum">     973 </span>            : *
+<span class="lineNum">     974 </span>            : * \param[in] Input *input : un pointeur sur la structure input où l'on va stocker les informations sur les périphériques
+<span class="lineNum">     975 </span>            : *
+<span class="lineNum">     976 </span>            : */
+<a name="977"><span class="lineNum">     977 </span>            : </a>
+<span class="lineNum">     978 </span>            : 
+<span class="lineNum">     979 </span><span class="lineCov">       8374 : void updateEvent(Input *input)</span>
+<span class="lineNum">     980 </span>            : {
+<span class="lineNum">     981 </span>            :     SDL_Event event;
+<span class="lineNum">     982 </span><span class="lineCov">       8374 :     SDL_WaitEvent(&amp;event);</span>
+<span class="lineNum">     983 </span>            : 
+<span class="lineNum">     984 </span><span class="lineCov">       8374 :     if(event.type == SDL_QUIT)</span>
+<span class="lineNum">     985 </span><span class="lineCov">          1 :         input-&gt;quit = SDL_TRUE;</span>
+<span class="lineNum">     986 </span><span class="lineCov">       8374 :     if(event.type == SDL_KEYDOWN)</span>
+<span class="lineNum">     987 </span><span class="lineCov">          3 :         input-&gt;key[event.key.keysym.scancode] = SDL_TRUE;</span>
+<span class="lineNum">     988 </span><span class="lineCov">       8374 :     if(event.type == SDL_KEYUP&amp;&amp;event.key.keysym.scancode!=SDL_SCANCODE_ESCAPE) //! Condition faite pour conserver la touche echap préssée virtuellement meme apres passage dans cette fonction</span>
+<span class="lineNum">     989 </span><span class="lineCov">          2 :         input-&gt;key[event.key.keysym.scancode] = SDL_FALSE;</span>
+<span class="lineNum">     990 </span><span class="lineCov">       8374 :     if(event.type == SDL_MOUSEMOTION)</span>
+<span class="lineNum">     991 </span>            :     {
+<span class="lineNum">     992 </span><span class="lineCov">       8038 :         input-&gt;x = event.motion.x;</span>
+<span class="lineNum">     993 </span><span class="lineCov">       8038 :         input-&gt;y = event.motion.y;</span>
+<span class="lineNum">     994 </span><span class="lineCov">       8038 :         input-&gt;xrel = event.motion.xrel;</span>
+<span class="lineNum">     995 </span><span class="lineCov">       8038 :         input-&gt;yrel = event.motion.yrel;</span>
+<span class="lineNum">     996 </span>            :     }
+<span class="lineNum">     997 </span><span class="lineCov">       8374 :     if(event.type == SDL_MOUSEWHEEL)</span>
+<span class="lineNum">     998 </span>            :     {
+<span class="lineNum">     999 </span><span class="lineNoCov">          0 :         input-&gt;xwheel = event.wheel.x;</span>
+<span class="lineNum">    1000 </span><span class="lineNoCov">          0 :         input-&gt;ywheel = event.wheel.y;</span>
+<span class="lineNum">    1001 </span>            :     }
+<span class="lineNum">    1002 </span><span class="lineCov">       8374 :     if(event.type == SDL_MOUSEBUTTONDOWN)</span>
+<span class="lineNum">    1003 </span><span class="lineCov">         92 :         input-&gt;mouse[event.button.button] = SDL_TRUE;</span>
+<span class="lineNum">    1004 </span><span class="lineCov">       8374 :     if(event.type == SDL_MOUSEBUTTONUP)</span>
+<span class="lineNum">    1005 </span><span class="lineCov">         92 :         input-&gt;mouse[event.button.button] = SDL_FALSE;</span>
+<span class="lineNum">    1006 </span><span class="lineCov">       8374 : }</span>
+<span class="lineNum">    1007 </span>            : 
+<span class="lineNum">    1008 </span>            : /**
+<span class="lineNum">    1009 </span>            : * \fn void fin_partie(Partie *partie, SDL_Renderer * renderer)
+<span class="lineNum">    1010 </span>            : * \brief Gère la fin de partie
+<span class="lineNum">    1011 </span>            : *
+<span class="lineNum">    1012 </span>            : * \param[in] Partie *partie, SDL_Renderer * renderer
+<span class="lineNum">    1013 </span>            : *
+<a name="1014"><span class="lineNum">    1014 </span>            : */</a>
+<span class="lineNum">    1015 </span>            : 
+<span class="lineNum">    1016 </span><span class="lineNoCov">          0 : void fin_partie(Partie *partie, SDL_Renderer * renderer)</span>
+<span class="lineNum">    1017 </span>            : {
+<span class="lineNum">    1018 </span>            : 
+<span class="lineNum">    1019 </span>            :     //! Affichage de l'écran des scores
+<span class="lineNum">    1020 </span>            : 
+<span class="lineNum">    1021 </span><span class="lineNoCov">          0 :     affichageFin(renderer,partie);</span>
+<span class="lineNum">    1022 </span><span class="lineNoCov">          0 :     SDL_Delay(5000);</span>
+<span class="lineNum">    1023 </span>            : 
+<span class="lineNum">    1024 </span><span class="lineNoCov">          0 : }</span>
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.13</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>
